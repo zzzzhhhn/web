@@ -1,0 +1,10 @@
+.tab-container .tab-item:not(:last-child) {
+    margin-right: calc((100% - 530px) / 4);
+}
+
+.search-lang .searchbar, .search-lang .lang,  .search-lang .lang .lang-select {
+    display: inline-block!important;
+}
+.search-lang .lang .lang-select {
+    transform: translateY(10px);
+}
