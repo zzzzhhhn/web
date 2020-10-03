@@ -9,3 +9,22 @@
 }
 $W: vw(1920);
 $pa: (100vw - $W) / 2;
+
+@font-face {
+  font-family: 'Aileron';
+  src: url("~@assets/font/Aileron-Regular-10.eot") format("embedded-opentype"),
+  url("~@assets/font/Aileron-Regular-10.woff") format("woff"),
+  url("~@assets/font/Aileron-Regular-10.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Cormorant-Bold';
+  src: url("~@assets/font/Cormorant-Bold.eot") format("embedded-opentype"),
+  url("~@assets/font/Cormorant-Bold.woff") format("woff"),
+  url("~@assets/font/Cormorant-Bold.otf") format("truetype");
+}
+@font-face {
+  font-family: 'Cormorant-Medium';
+  src: url("~@assets/font/Cormorant-Medium.eot") format("embedded-opentype"),
+  url("~@assets/font/Cormorant-Medium.woff") format("woff"),
+  url("~@assets/font/Cormorant-Medium.otf") format("truetype");
+}

@@ -55,6 +55,7 @@ $skewW: $h / 452 * 273 / 2;
   left: $pa;
   width: $W;
   font-size: vw(24);
+  height: 1px;
 }
 .left {
   width: vw(273);
@@ -111,7 +112,7 @@ $skewW: $h / 452 * 273 / 2;
       width: 0;
       height: 4px;
       background: #000000;
-      transition: all .6s;
+      transition: all 0.6s;
     }
     &.active {
       font-weight: bold;

@@ -1,83 +1,414 @@
 <template>
   <div class="home">
     <nav-header />
-    <div class="redio-container">
-      <img src="@assets/img/vdieo1-bg.png" alt="">
-      <img class="img-player" src="@assets/img/play.png" alt="">
-    </div>
-    <div class="img1-container">
-      <img src="@assets/img/img1.png" alt="">
-    </div>
-    <div class="img2-container">
-      <div class="text1">
-        The existing leading products include: heavy, medium, light and mini trucks, multi-functional commercial vehicle, MPV, SUV, passenger car, bus & coach, special-purposed chassis, gearbox, engine, axle and other core components. Now JAC owns several well-known brands, for example, Refine, JAC iEV, Shuailing, Junling, Kangling, Gallop, Heyue, Sunray and GreenJet.
+    <div class="home-content">
+      <div class="redio-container">
+        <img src="@assets/img/vdieo1-bg.png" alt="" />
+        <img class="img-player" src="@assets/img/play.png" alt="" />
       </div>
-      <img class="img1" src="@assets/img/img2-1.png" alt="">
-      <img class="img2" src="@assets/img/img2-2.png" alt="">
-      <div class="text2">
-        JAC is equipped with a high-level R&D team of nearly 5,000 people, adheres to the key technology R&D route of "energy saving, environmental protection, safety, intelligence, network connection and comfort". The complete positive R&D system is established, which is capable to achieve the development, test and verification, and calibration for whole vehicles and key components such as core power train, automatic transmission and the software system. There are comprehensive breakthroughs in energy saving and emission reduction technology, intelligent safety technology, noise technology, lightweight technology, new energy technology and manufacturing process technology, etc., which contributes to the further improvement of company core competitiveness.
+      <div class="img1-container por">
+        <img src="@assets/img/img1.png" alt="" />
+        <div class="text">
+          <p>Anhui Jianghuai Automobile Group Co., Ltd. (abbreviated as</p>
+          <p>JAC Motors or JAC) is a comprehensive automobile enter-</p>
+          <p>prise that integrates R&D, production and sales of a full</p>
+          <p>range of commercial vehicle, passenger vehicle and power-</p>
+          <p>train, and covers many fields such as ride hailing/sharing</p>
+          <p>and financial services. JAC develops simultaneously on "ad-</p>
+          <p>vanced energy-saving vehicles, new energy vehicles, and</p>
+          <p>intelligent connected vehicles". JAC is awarded as the Nat-</p>
+          <p>ional Torch Program's key high-tech enterprise, the top 500</p>
+          <p>Chinese companies, and the top five Chinese independent</p>
+          <p>vehicle brands.</p>
+        </div>
       </div>
+      <div class="img2-container">
+        <div class="text1">
+          <p>The existing leading products include: heavy,</p>
+          <p>medium, light and mini trucks, multi-functional</p>
+          <p>commercial vehicle, MPV, SUV, passenger car,</p>
+          <p>bus & coach, special-purposed chassis, gear-</p>
+          <p>box, engine, axle and other core components.</p>
+          <p>Now JAC owns several well-known brands, for</p>
+          <p>example, Refine, JAC iEV, Shuailing, Junling,</p>
+          <p>Kangling, Gallop, Heyue, Sunray and Green-</p>
+          <p>Jet.</p>
+        </div>
+        <img class="img1" src="@assets/img/img2-1.png" alt="" />
+        <img class="img2" src="@assets/img/img2-2.png" alt="" />
+        <div class="text2">
+          <p>
+            JAC is equipped with a high-level R&D team of nearly 5,000 people,
+            adheres
+          </p>
+          <p>
+            to the key technology R&D route of "energy saving, environmental
+            protection,
+          </p>
+          <p>
+            safety, intelligence, network connection and comfort". The complete
+            positive
+          </p>
+          <p>
+            R&D system is established, which is capable to achieve the
+            development, test
+          </p>
+          <p>
+            and verification, and calibration for whole vehicles and key
+            components such
+          </p>
+          <p>
+            as core power train, automatic transmission and the software system.
+            There
+          </p>
+          <p>
+            are comprehensive breakthroughs in energy saving and emission
+            reduction
+          </p>
+          <p>
+            technology, intelligent safety technology, noise technology,
+            lightweight tech-
+          </p>
+          <p>
+            nology, new energy technology and manufacturing process technology,
+            etc.,
+          </p>
+          <p>
+            which contributes to the further improvement of company core
+            competitive-
+          </p>
+          <p>ness.</p>
+        </div>
+      </div>
+      <div class="img3-container clearfix">
+        <img src="@assets/img/img3-1.png" alt="" />
+        <img src="@assets/img/img3-2.png" class="img2" />
+        <div class="text">
+          <p>As of 2020, JAC has accumulated a total of 14,456 pat-</p>
+          <p>ents, becoming the first domestic auto company with</p>
+          <p>over 10,000 patents. Since 2009, a total of 10 JAC</p>
+          <p>self-developed engines have been awarded the “China</p>
+          <p>Heart" 10 BEST ENGINES. The 6DCT automatic transmis-</p>
+          <p>sion, a key project of the National 863 Program (National</p>
+          <p>High-tech R&D Program), achieves complete indepen</p>
+          <p>dence of TCU upper software development and breaks</p>
+          <p>the international monopoly.</p>
+        </div>
+      </div>
+      <img class="img4-container" src="@assets/img/img4.png" alt="" />
+      <div class="img5-container clearfix">
+        <img src="@assets/img/img5.png" alt="" />
+        <div class="text">
+          <p>Until March 2020, as a pioneer in China new energy vehi-</p>
+          <p>cle industry, JAC has demonstrated and promoted more</p>
+          <p>than 160,000 new energy vehicles, with a total mileage of</p>
+          <p>3.2 billion kilometers. The new energy business covers</p>
+          <p>passenger cars, light commercial vehicles, multi-function-</p>
+          <p>al commercial vehicles, buses and other products. JAC</p>
+          <p>has achieved important breakthroughs in battery thermal</p>
+          <p>management technology and intrinsic safety manage-</p>
+          <p>ment technology. The battery liquid cooling technology</p>
+          <p>is world-leading and unique in China.</p>
+        </div>
+      </div>
+      <img class="img6-container" src="@assets/img/img6.png" alt="" />
+      <div class="text7-container clearfix">
+        <div class="text1">
+          <p>JAC established joint ventures with well-known enterprises,</p>
+          <p>for instance, Volkswagen of Germany, Cummins Engine, and</p>
+          <p>Santander Bank of Spain, and has built cooperative relations</p>
+          <p>with more than 130 countries and regions in the world such</p>
+          <p>as South America, Europe, Africa, Middle East, and South-</p>
+          <p>east Asia. JAC owns two overseas R&D centers in Japan and</p>
+          <p>Italy, and subsidiaries in Russia, Vietnam and Kenya. There</p>
+          <p>are also 19 international industrial bases in Mexico, Kazakh-</p>
+          <p>stan and other areas. By the end of 2019, JAC had exported</p>
+          <p>more than 640,000 vehicles. Medium and high-end light</p>
+          <p>trucks have been the No. 1 exporter in the industry for many</p>
+          <p>consecutive years.</p>
+        </div>
+        <div class="text2">
+          <p>JAC actively responds to the national “Belt and Road” initia-</p>
+          <p>tive. Currently, the export market covers 80 countries along</p>
+          <p>the “Belt and Road”. The export volume of these countries is</p>
+          <p>approximately 150,000 units in the past three years, ac-</p>
+          <p>counts for about 75% of JAC total exports. In 2019, the “Belt</p>
+          <p>and Road” initiative advanced to a new stage, and JAC suc-</p>
+          <p>cessfully participated in the acquisition of Kazakhstan’s larg-</p>
+          <p>est automobile industry group, Allur Group, becoming an im-</p>
+          <p>portant starting point of JAC on the development of the cus-</p>
+          <p>toms union market and the internationalization strategy of</p>
+          <p>the Central Asian market.</p>
+        </div>
+      </div>
+      <img class="img8-container" src="@assets/img/img8.png" alt="" />
+      <div class="text9-container">
+        <p>
+          JAC fully implements the core values of
+          <span class="red-text">
+          "customer-oriented, quali-
+        </span>
+        </p>
+        <p>
+          <span class="red-text">
+            ty-based, truth-seeking and pragmatic"
+          </span>
+          , and is determined to
+        </p>
+        <p>
+          create better products for global customers and create a world-renowned auto-
+        </p>
+        <p>
+          mobile brand.
+        </p>
+
+      </div>
+      <div class="img10-container por">
+        <img src="@assets/img/img10.png" alt="">
+        <div class="text1">
+          <p class="title1">Contact us</p>
+          <p class="title2">COMPANY</p>
+          <p>ANHUI JIANGHUAI AUTOMOBILE</p>
+          <p>GROUP CORP.,LTD</p>
+          <p class="title2">ADDRESS</p>
+          <p>176# DONGLIU ROAD, HEFEI, ANHUI</p>
+          <p>PROVINCE, P.R.CHINA  P.C: 230022</p>
+          <p class="title2">SHANGHAI OFFICE</p>
+          <p class="title2">ADDRESS</p>
+          <p>ROOM 804, ROOM 807, YU AN BUILD-</p>
+          <p>ING, NO.738 DONG FANG ROAD, PU</p>
+          <p>DONG NEW DISTRICT, SHANGHAI CITY,</p>
+          <p>P.R. CHINA</p>
+        </div>
+        <div class="text2">
+          <p class="title2">BEIJING OFFICE</p>
+          <p class="title2">ADDRESS</p>
+          <p>NO. 0-9-I, YAYUNHAOTING C BUILD-</p>
+          <p>ING, NO. 9 XIAOYING ROAD, CHAOY-</p>
+          <p>ANG DISTRICT, BEIJING</p>
+        </div>
+        <div class="text3">
+          <p class="title2">RUSSIA OFFICE</p>
+          <p class="title2">ADDRESS</p>
+          <p>Moscow state, Country Hillside</p>
+          <p>Lenin Promzone Pykovichno, Lo-</p>
+          <p>cation 8</p>
+        </div>
+      </div>
+
     </div>
+    <footer-bar />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import NavHeader from "@comp/layout/NavHeader";
 
 export default {
-  name: "Home",
-  components: {
-    NavHeader
-  }
+  name: "Home"
 };
 </script>
 <style lang="scss">
-  @import "~@assets/scss/func.scss";
-  .home {
-    width: $W;
-    margin: auto;
-    .redio-container {
-      position: relative;
-      margin-bottom: vw(98);
-      .img-player {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: vw(101);
-        cursor: pointer;
-      }
-    }
-    .img1-container {
-      margin-bottom: vw(169);
-    }
-    .img2-container {
-      padding: 0 vw(110);
-      font-size: vw(30);
-      font-family: Aileron;
-      color: #000000;
-      .text1 {
-        float: left;
-        width: vw(619);
-        height: vw(444);
-        margin-right: vw(31);
-      }
-      .img1 {
-        width: vw(1049);
-        height: vw(549);
-      }
-      .img2 {
-        width: vw(628);
-        height: vw(557);
-        margin-right: vw(23);
-        margin-top: vw(23);
-      }
-      .text2 {
-        float: right;
-        width: vw(1037);
-        height: vw(549);
-        margin-top: vw(31);
-      }
+@import "~@assets/scss/func.scss";
+.home {
+  width: $W;
+  margin: auto;
+  .home-content {
+    font-size: vw(30);
+    font-family: Aileron;
+    color: #000000;
+    p {
+      margin-bottom: 0;
+      white-space: nowrap;
+      line-height: vw(51);
     }
   }
+  .redio-container {
+    position: relative;
+    margin-bottom: vw(98);
+    .img-player {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: vw(101);
+      cursor: pointer;
+    }
+  }
+  .img1-container {
+    margin-bottom: vw(169);
+    .text {
+      width: vw(888);
+      height: vw(622);
+      padding: vw(35) vw(43) vw(37) vw(41);
+      background: #cc000c;
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      right: vw(109);
+    }
+  }
+  .img2-container,
+  .img3-container {
+    padding: 0 vw(110);
+    margin-bottom: vw(170);
+  }
+  .img2-container {
+    .text1 {
+      padding-top: vw(34);
+      float: left;
+      width: vw(619);
+      height: vw(444);
+      line-height: vw(48);
+      margin-right: vw(31);
+    }
+    .img1 {
+      width: vw(1049);
+      height: vw(549);
+    }
+    .img2 {
+      width: vw(628);
+      height: vw(557);
+      margin-right: vw(23);
+      margin-top: vw(23);
+    }
+    .text2 {
+      float: right;
+      width: vw(1037);
+      height: vw(549);
+      margin-top: vw(31);
+    }
+  }
+  .img3-container {
+    .img2 {
+      margin-top: vw(23);
+      width: vw(850);
+      height: vw(583);
+      float: left;
+    }
+    .text {
+      width: vw(754);
+      height: vw(450);
+      margin-top: vw(84);
+      margin-left: vw(83);
+      float: left;
+    }
+  }
+  .img4-container {
+    margin-bottom: vw(170);
+  }
+  .img5-container {
+    margin-bottom: vw(57);
+    img {
+      width: 50%;
+      float: left;
+    }
+    .text {
+      float: left;
+      background: #3d4045;
+      width: 50%;
+      height: vw(552);
+      padding: vw(31) vw(111) vw(19) vw(83);
+      color: #fff;
+    }
+  }
+  .img6-container {
+    margin-bottom: vw(56);
+  }
+  .text7-container {
+    padding-left: vw(110);
+    padding-right: vw(113);
+    margin-bottom: vw(88);
+    .text1 {
+      width: vw(803);
+      height: vw(608);
+      float: left;
+    }
+    .text2 {
+      float: left;
+      width: vw(807);
+      height: vw(549);
+      margin-left: vw(87);
+    }
+  }
+  .img8-container {
+    width: vw(1700);
+    margin: 0 auto vw(45);
+  }
+  .text9-container {
+    width: vw(1686);
+    height: vw(336);
+    margin: 0 auto vw(176);
+    font-size: vw(48);
+    p {
+      line-height: vw(85);
+      text-align: center;
+    }
+    .red-text {
+      color: #CC000C;
+      font-size: vw(72);
+      font-family: Cormorant-Bold;
+      font-weight: bold;
+    }
+  }
+  .img10-container {
+    margin-bottom: vw(242);
+    p {
+      font-family: Helvetica-Light;
+      line-height: 1;
+      margin-bottom: vw(20);
+      color: #fff;
+    }
+    p.title1 {
+      font-family: Cormorant-Bold;
+      font-size: vw(60);
+    }
+    p.title2 {
+      font-family: Cormorant-Medium;
+      font-size: vw(60);
+    }
+    .text1 {
+      position: absolute;
+      top: vw(63);
+      left: vw(109);
+      width: vw(557);
+      height: vw(964);
+
+      p.title1 {
+        margin-bottom: vw(50);
+      }
+      p.title2 {
+        margin-bottom: vw(25);
+      }
+      p:nth-child(4) {
+        margin-bottom: vw(70);
+      }
+      p:nth-child(7) {
+        margin-bottom: vw(110);
+      }
+    }
+    .text2 {
+      width: vw(589);
+      height: vw(363);
+      bottom: vw(75);
+      right: vw(616);
+      position: absolute;
+      padding-left: vw(28);
+      padding-right: vw(37);
+      padding-bottom: vw(363 - 285);
+      border-right: 1px dashed #fff;
+      border-left: 1px dashed #fff;
+      p.title2 {
+        margin-bottom: vw(20);
+      }
+    }
+    .text3 {
+      width: vw(439);
+      height: vw(363);
+      position: absolute;
+      right: vw(142);
+      bottom: vw(75);
+    }
+  }
+
+}
 </style>
