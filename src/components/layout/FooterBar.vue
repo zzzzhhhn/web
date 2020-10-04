@@ -1,7 +1,7 @@
 <template>
   <div class="footer-bar">
     <div class="img-logo">
-      <img src="@assets/img/logo.png" />
+      <img src="@assets/img/layout/logo.png" />
     </div>
     <div class="links">
       <div class="col1">
@@ -34,10 +34,10 @@
         <div class="text">Book A Car</div>
       </div>
       <div class="imgs">
-        <img src="@assets/img/facebook.svg" class="facebook" />
-        <img src="@assets/img/youtube.svg" class="youtube" />
-        <img src="@assets/img/instagram.svg" class="instagram" />
-        <img src="@assets/img/twitter.svg" class="twitter" />
+        <img src="@assets/img/layout/facebook.svg" class="facebook" />
+        <img src="@assets/img/layout/youtube.svg" class="youtube" />
+        <img src="@assets/img/layout/instagram.svg" class="instagram" />
+        <img src="@assets/img/layout/twitter.svg" class="twitter" />
       </div>
     </div>
     <div class="copyright">

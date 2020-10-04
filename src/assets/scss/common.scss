@@ -1,3 +1,4 @@
+@import "~@assets/scss/func.scss";
 $blue: #137EFF;
 $red: #FE4D62;
 
@@ -664,8 +665,21 @@ $red: #FE4D62;
   flex-direction: column;
 }
 
+.app-container {
+  width: $W;
+  margin: auto;
+}
 
-
-
+.img-player {
+  --widthA: 101px;
+  --widthB: calc(var(--widthA) * 1700 / 1920 / 2);
+  --widthc: calc(50% - var(--widthB));
+  width: vw(101);
+  height: vw(101);
+  position: absolute;
+  left: var(--widthc);
+  top: var(--widthc);
+  cursor: pointer;
+}
 
 
