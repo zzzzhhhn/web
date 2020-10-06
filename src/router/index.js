@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Showroom from "@views/Showroom.vue";
+import Showroom from "@views/BrandCompany.vue";
 
 Vue.use(VueRouter);
 
@@ -11,9 +11,24 @@ const routes = [
     component: Showroom
   },
   {
-    path: "/crs",
+    path: "/brand",
     name: "Brand",
     component: () => import("@views/BrandCRS.vue")
+  },
+  {
+    path: "/news&events",
+    name: "News&Events",
+    component: () => import("@views/BrandService.vue")
+  },
+  {
+    path: "/lifestyle",
+    name: "Lifestyle",
+    component: () => import("@views/BrandRnD.vue")
+  },
+  {
+    path: "/worldwide",
+    name: "Worldwide",
+    component: () => import("@views/BrandPhilosohy.vue")
   }
 ];
 
