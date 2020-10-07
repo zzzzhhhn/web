@@ -314,7 +314,7 @@ export default {
       margin-bottom: vw(78);
     }
     p {
-      font-family: Aileron;
+      font-family: Aileron-Regular;
       font-size: vw(30);
       &.red {
         color: #cc000d;
@@ -403,7 +403,7 @@ export default {
         font-size: vw(36);
       }
       .text-area {
-        font-family: Aileron;
+        font-family: Aileron-Regular;
         font-size: vw(31);
         p:not(:last-of-type) {
           margin-bottom: vw(17);
@@ -511,7 +511,7 @@ export default {
           margin-bottom: vw(26);
         }
         .text {
-          font-family: Aileron;
+          font-family: Aileron-Regular;
           font-size: vw(31);
           p:first-child {
             white-space: nowrap;
@@ -554,7 +554,7 @@ export default {
           margin-left: vw(103);
         }
         .text {
-          font-family: Aileron;
+          font-family: Aileron-Regular;
           font-size: vw(30);
           line-height: 1;
           margin-top: vw(33);
@@ -564,7 +564,7 @@ export default {
   }
   .img10-container,
   .img11-container {
-    font-family: Aileron;
+    font-family: Aileron-Regular;
     font-size: vw(30);
     line-height: 1;
     padding-left: vw(113);

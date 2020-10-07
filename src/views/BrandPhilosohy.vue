@@ -134,7 +134,7 @@ export default {
     }
     .text {
       white-space: nowrap;
-      font-family: Aileron;
+      font-family: Aileron-Regular;
       font-size: vw(30);
       height: vw(240);
       width: vw(1680);
@@ -156,7 +156,7 @@ export default {
     }
     p {
       font-size: vw(30);
-      font-family: Aileron;
+      font-family: Aileron-Regular;
       &:not(:last-child) {
         margin-bottom: vw(20);
       }
@@ -213,7 +213,7 @@ export default {
       margin-bottom: vw(35);
     }
     p {
-      font-family: Aileron;
+      font-family: Aileron-Regular;
       font-size: vw(30);
       &:not(:last-child) {
         margin-bottom: vw(25);

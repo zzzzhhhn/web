@@ -259,7 +259,7 @@ export default {
 
 .crs-container {
   .text {
-    font-family: Aileron;
+    font-family: Aileron-Regular;
     font-size: vw(30);
     line-height: 1;
 
@@ -332,7 +332,7 @@ export default {
     padding-top: vw(101);
     padding-left: vw(113);
     padding-bottom: vw(123);
-    font-family: Aileron;
+    font-family: Aileron-Regular;
     font-size: vw(30);
     line-height: vw(50);
     .area1 {

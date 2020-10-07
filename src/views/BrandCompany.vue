@@ -207,7 +207,7 @@ export default {
 @import "~@assets/scss/func.scss";
 .company-container {
   font-size: vw(30);
-  font-family: Aileron;
+  font-family: Aileron-Regular;
   color: #000000;
   p {
     margin-bottom: 0;

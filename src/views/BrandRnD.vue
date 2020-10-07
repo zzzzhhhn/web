@@ -366,7 +366,7 @@ export default {
       font-size: vw(30);
     }
     p {
-      font-family: Aileron;
+      font-family: Aileron-Regular;
       font-size: vw(30);
       &:not(:last-child) {
         margin-bottom: vw(23);
@@ -426,7 +426,7 @@ export default {
       width: vw(832);
       height: vw(654);
       font-size: vw(30);
-      font-family: Aileron;
+      font-family: Aileron-Regular;
       line-height: vw(52);
     }
     .imgs {

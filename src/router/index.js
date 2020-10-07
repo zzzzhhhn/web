@@ -1,34 +1,43 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Showroom from "@views/BrandCompany.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Showroom",
-    component: Showroom
+    name: "home",
+    redirect: { path: "brand1" }
   },
   {
-    path: "/brand",
-    name: "Brand",
+    path: "/brand1",
+    name: "brand1",
+    component: () => import("@views/BrandCompany.vue")
+  },
+  {
+    path: "/brand2",
+    name: "brand2",
     component: () => import("@views/BrandCRS.vue")
   },
   {
-    path: "/news&events",
-    name: "News&Events",
+    path: "/brand3",
+    name: "brand3",
     component: () => import("@views/BrandService.vue")
   },
   {
-    path: "/lifestyle",
-    name: "Lifestyle",
+    path: "/brand4",
+    name: "brand4",
     component: () => import("@views/BrandRnD.vue")
   },
   {
-    path: "/worldwide",
-    name: "Worldwide",
+    path: "/brand5",
+    name: "brand5",
     component: () => import("@views/BrandPhilosohy.vue")
+  },
+  {
+    path: "/brand6",
+    name: "brand6",
+    component: () => import("@views/BrandHistory.vue")
   }
 ];
 
