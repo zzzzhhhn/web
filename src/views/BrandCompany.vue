@@ -1,11 +1,13 @@
 <template>
   <div class="company-container">
-    <div class="redio-container">
+    <div class="redio-container anitmate-container animate-img">
       <img src="@assets/img/company/vdieo1-bg.png" alt="" />
       <img class="img-player" src="@assets/img/company/play.png" alt="" />
     </div>
-    <div class="img1-container por">
-      <img src="@assets/img/company/img1.png" alt="" />
+    <div class="img1-container anitmate-container por">
+      <div class="img1 animate-img">
+        <img src="@assets/img/company/img1.png" alt="" />
+      </div>
       <div class="text">
         <p>Anhui Jianghuai Automobile Group Co., Ltd. (abbreviated as</p>
         <p>JAC Motors or JAC) is a comprehensive automobile enter-</p>
@@ -20,7 +22,7 @@
         <p>vehicle brands.</p>
       </div>
     </div>
-    <div class="img2-container">
+    <div class="img2-container anitmate-container">
       <div class="text1">
         <p>The existing leading products include: heavy,</p>
         <p>medium, light and mini trucks, multi-functional</p>
@@ -32,8 +34,12 @@
         <p>Kangling, Gallop, Heyue, Sunray and Green-</p>
         <p>Jet.</p>
       </div>
-      <img class="img1" src="@assets/img/company/img2-1.png" alt="" />
-      <img class="img2" src="@assets/img/company/img2-2.png" alt="" />
+      <div class="img1 animate-img">
+        <img src="@assets/img/company/img2-1.png" alt="" />
+      </div>
+      <div class="img2 animate-img">
+        <img src="@assets/img/company/img2-2.png" alt="" />
+      </div>
       <div class="text2">
         <p>
           JAC is equipped with a high-level R&D team of nearly 5,000 people,
@@ -78,9 +84,13 @@
         <p>ness.</p>
       </div>
     </div>
-    <div class="img3-container clearfix">
-      <img src="@assets/img/company/img3-1.png" alt="" />
-      <img src="@assets/img/company/img3-2.png" class="img2" />
+    <div class="img3-container anitmate-container clearfix">
+      <div class="img1 animate-img">
+        <img src="@assets/img/company/img3-1.png" />
+      </div>
+      <div class="img2 animate-img">
+        <img src="@assets/img/company/img3-2.png" />
+      </div>
       <div class="text">
         <p>As of 2020, JAC has accumulated a total of 14,456 pat-</p>
         <p>ents, becoming the first domestic auto company with</p>
@@ -93,9 +103,13 @@
         <p>the international monopoly.</p>
       </div>
     </div>
-    <img class="img4-container" src="@assets/img/company/img4.png" alt="" />
-    <div class="img5-container clearfix">
-      <img src="@assets/img/company/img5.png" alt="" />
+    <div class="img4-container anitmate-container animate-img">
+      <img src="@assets/img/company/img4.png" />
+    </div>
+    <div class="img5-container anitmate-container clearfix">
+      <div class="img5 animate-img">
+        <img src="@assets/img/company/img5.png" />
+      </div>
       <div class="text">
         <p>Until March 2020, as a pioneer in China new energy vehi-</p>
         <p>cle industry, JAC has demonstrated and promoted more</p>
@@ -109,8 +123,11 @@
         <p>is world-leading and unique in China.</p>
       </div>
     </div>
-    <img class="img6-container" src="@assets/img/company/img6.png" alt="" />
-    <div class="text7-container clearfix">
+    <div class="img6-container anitmate-container animate-img">
+      <img src="@assets/img/company/img6.png" />
+    </div>
+
+    <div class="text7-container anitmate-container clearfix">
       <div class="text1">
         <p>JAC established joint ventures with well-known enterprises,</p>
         <p>for instance, Volkswagen of Germany, Cummins Engine, and</p>
@@ -139,8 +156,11 @@
         <p>the Central Asian market.</p>
       </div>
     </div>
-    <img class="img8-container" src="@assets/img/company/img8.png" alt="" />
-    <div class="text9-container">
+    <div class="img8-container anitmate-container animate-img">
+      <img src="@assets/img/company/img8.png" />
+    </div>
+
+    <div class="text9-container anitmate-container">
       <p>
         JAC fully implements the core values of
         <span class="red-text">
@@ -161,8 +181,11 @@
         mobile brand.
       </p>
     </div>
-    <div class="img10-container por">
-      <img src="@assets/img/company/img10.png" alt="" />
+    <div class="img10-container anitmate-container por">
+      <div class="img10 animate-img">
+        <img src="@assets/img/company/img10.png" alt="" />
+      </div>
+
       <div class="text1">
         <p class="title1">Contact us</p>
         <p class="title2">COMPANY</p>
@@ -198,9 +221,11 @@
 
 <script>
 // @ is an alias to /src
+import mix from "@mixins/mixin";
 
 export default {
-  name: "BrandCompany"
+  name: "BrandCompany",
+  mixins: [mix]
 };
 </script>
 <style lang="scss">
@@ -229,6 +254,10 @@ export default {
       position: absolute;
       bottom: 0;
       right: vw(109);
+    }
+    .img1 {
+      width: vw(1920);
+      height: vw(1080);
     }
   }
   .img2-container,
@@ -263,6 +292,10 @@ export default {
     }
   }
   .img3-container {
+    .img1 {
+      width: vw(1920);
+      height: vw(579);
+    }
     .img2 {
       margin-top: vw(23);
       width: vw(850);
@@ -282,7 +315,7 @@ export default {
   }
   .img5-container {
     margin-bottom: vw(57);
-    img {
+    .img5 {
       width: 50%;
       float: left;
     }

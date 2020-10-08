@@ -1,10 +1,10 @@
 <template>
   <div class="philosohy-container">
-    <div class="img1-container por">
+    <div class="img1-container por animate-img">
       <img src="@assets/img/phi/img1.png" />
       <img class="img-player" src="@assets/img/company/play.png" />
     </div>
-    <div class="text2-container">
+    <div class="text2-container anitmate-container">
       <div class="title1">Brand Vision</div>
       <div class="title2">Better Drive,Better Life</div>
       <div class="text">
@@ -30,8 +30,10 @@
         </p>
       </div>
     </div>
-    <img src="@assets/img/phi/img3.png" alt="" class="img3-container" />
-    <div class="img4-container">
+    <div class="img3-container anitmate-container animate-img">
+      <img src="@assets/img/phi/img3.png" />
+    </div>
+    <div class="img4-container anitmate-container">
       <div class="title">Brand Mission</div>
       <p>
         Provide customers with the optimal transportation solutions and driving
@@ -39,8 +41,12 @@
       </p>
       <p>world.</p>
       <div class="img">
-        <img src="@assets/img/phi/img4-1.png" class="img1" />
-        <img src="@assets/img/phi/img4-2.png" class="img2" />
+        <div class="img1 animate-img">
+          <img src="@assets/img/phi/img4-1.png" />
+        </div>
+        <div class="img2 animate-img">
+          <img src="@assets/img/phi/img4-2.png" />
+        </div>
       </div>
       <div class="clearfix">
         <div class="text1 pull-left">
@@ -62,13 +68,21 @@
         </div>
       </div>
     </div>
-    <div class="img6-container">
-      <img src="@assets/img/phi/img6-1.png" alt="" class="img1" />
-      <img src="@assets/img/phi/img6-2.png" alt="" class="img2" />
-      <img src="@assets/img/phi/img6-3.png" alt="" class="img3" />
-      <img src="@assets/img/phi/img6-4.png" alt="" class="img4" />
+    <div class="img6-container anitmate-container">
+      <div class="img1 animate-img">
+        <img src="@assets/img/phi/img6-1.png" />
+      </div>
+      <div class="img2 animate-img">
+        <img src="@assets/img/phi/img6-2.png" />
+      </div>
+      <div class="img3 animate-img">
+        <img src="@assets/img/phi/img6-3.png" />
+      </div>
+      <div class="img4 animate-img">
+        <img src="@assets/img/phi/img6-4.png" />
+      </div>
     </div>
-    <div class="img7-container clearfix">
+    <div class="img7-container clearfix anitmate-container">
       <div class="text-area pull-left">
         <div class="title1">Brand Characteristics</div>
         <div class="content">
@@ -99,16 +113,23 @@
         </div>
       </div>
       <div class="img pull-left">
-        <img src="@assets/img/phi/img7-1.png" alt="" class="img1" />
-        <img src="@assets/img/phi/img7-2.png" alt="" class="img2" />
+        <div class="img1 animate-img">
+          <img src="@assets/img/phi/img7-1.png" />
+        </div>
+        <div class="img2 animate-img">
+          <img src="@assets/img/phi/img7-2.png" />
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import mix from "@mixins/mixin";
+
 export default {
-  name: "BrandPhilosohy"
+  name: "BrandPhilosohy",
+  mixins: [mix]
 };
 </script>
 
@@ -233,11 +254,11 @@ export default {
       width: vw(807);
       margin-top: vw(169);
       margin-left: vw(84);
-      img:first-child {
+      .img1 {
         height: vw(409);
         margin-bottom: vw(39);
       }
-      img:nth-child(2) {
+      .img2 {
         height: vw(755);
       }
     }

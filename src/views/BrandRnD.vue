@@ -1,7 +1,9 @@
 <template>
   <div class="rnd-container">
-    <img src="@assets/img/rnd/img1.png" class="img1-container" />
-    <div class="img2-container clearfix">
+    <div class="img1-container animate-img">
+      <img src="@assets/img/rnd/img1.png" />
+    </div>
+    <div class="img2-container anitmate-container clearfix">
       <div class="pull-left text1">
         <div class="title1">First-Class R&D Center</div>
         <div class="title2">JAC Hefei R&D Center</div>
@@ -23,10 +25,10 @@
           <p>China.</p>
         </div>
       </div>
-      <div class="pull-right img1">
+      <div class="pull-right img1 animate-img">
         <img src="@assets/img/rnd/img2-1.png" />
       </div>
-      <div class="pull-left img2">
+      <div class="pull-left img2 animate-img">
         <img src="@assets/img/rnd/img2-2.png" />
       </div>
       <div class="img3 pull-right">
@@ -35,7 +37,9 @@
         <p>Through dozens of years’development, it owns more than 100</p>
         <p>senior technical talents from 15 different countries and re-</p>
         <p>gions.</p>
-        <img src="@assets/img/rnd/img2-3.png" />
+        <div class="animate-img img">
+          <img src="@assets/img/rnd/img2-3.png" />
+        </div>
         <p>
           With an office area of more than 7,000<span>m<sup>2</sup></span
           >, it has an internation-
@@ -44,11 +48,11 @@
         <p>takes 80% of the R&D and design tasks of JAC new models.</p>
       </div>
     </div>
-    <div class="img3-container por">
+    <div class="img3-container anitmate-container por animate-img">
       <img src="@assets/img/rnd/img3.png" />
       <img class="img-player" src="@assets/img/company/play.png" />
     </div>
-    <div class="img4-container clearfix">
+    <div class="img4-container anitmate-container clearfix">
       <div class="text pull-left">
         <p>In 2006, JAC Italy design Center won the Best Chinese Enter-</p>
         <p>prise Award of The Italian-China Foundation Association and</p>
@@ -65,20 +69,28 @@
         <p>mission.</p>
       </div>
       <div class="imgs pull-right">
-        <img src="@assets/img/rnd/img4-1.png" class="img1" />
-        <img src="@assets/img/rnd/img4-2.png" class="img2" />
-        <img src="@assets/img/rnd/img4-3.png" class="img3" />
+        <div class="img1 animate-img">
+          <img src="@assets/img/rnd/img4-1.png" />
+        </div>
+        <div class="img2 animate-img">
+          <img src="@assets/img/rnd/img4-2.png" />
+        </div>
+        <div class="img3 animate-img">
+          <img src="@assets/img/rnd/img4-3.png" />
+        </div>
       </div>
     </div>
-    <div class="img5-container">
+    <div class="img5-container anitmate-container">
       <div class="title2">JAC Japan R&D Center</div>
-      <div class="por">
+      <div class="por animate-img">
         <img src="@assets/img/rnd/img5.png" />
         <img class="img-player" src="@assets/img/company/play.png" />
       </div>
     </div>
-    <img src="@assets/img/rnd/img6.png" class="img6-container" />
-    <div class="text7-container">
+    <div class="img6-container anitmate-container animate-img">
+      <img src="@assets/img/rnd/img6.png" />
+    </div>
+    <div class="text7-container anitmate-container">
       <p>
         JAC Japan Design Center, established on November 5th,2006,is an
         independent design center invested by JAC in Tokyo.Ja-
@@ -109,7 +121,7 @@
         JAC DNA that make people proud in our country.
       </p>
     </div>
-    <div class="img8-container">
+    <div class="img8-container anitmate-container">
       <div class="title1">Manufacturing Capability</div>
       <div class="title2">
         JAC Smart Factory - Passenger Car Production Base
@@ -162,16 +174,16 @@
           </p>
           <p>proud in our country.</p>
         </div>
-        <div class="img pull-right">
+        <div class="img pull-right animate-img">
           <img src="@assets/img/rnd/img8.png" />
         </div>
       </div>
     </div>
-    <div class="img9-container por">
+    <div class="img9-container anitmate-container por animate-img">
       <img src="@assets/img/rnd/img9.png" />
       <img class="img-player" src="@assets/img/company/play.png" />
     </div>
-    <div class="img10-container">
+    <div class="img10-container anitmate-container">
       <div class="title">JAC Xingang Factory - Light Truck Production Base</div>
       <div class="clearfix">
         <div class="text1 pull-left">
@@ -198,11 +210,11 @@
         </div>
       </div>
     </div>
-    <div class="img11-container por">
+    <div class="img11-container anitmate-container por animate-img">
       <img src="@assets/img/rnd/img11.png" />
       <img class="img-player" src="@assets/img/company/play.png" />
     </div>
-    <div class="img12-container">
+    <div class="img12-container anitmate-container">
       <div class="title1">Technical Achievements</div>
       <div class="clearfix">
         <div class="text pull-left">
@@ -226,13 +238,15 @@
             <p>that connects to the world.</p>
           </div>
         </div>
-        <div class="img pull-left">
+        <div class="img pull-left animate-img">
           <img src="@assets/img/rnd/img12.png" />
         </div>
       </div>
     </div>
-    <img src="@assets/img/rnd/img13.png" class="img13-container" />
-    <div class="text14-container">
+    <div class="img13-container anitmate-container animate-img">
+      <img src="@assets/img/rnd/img13.png" />
+    </div>
+    <div class="text14-container anitmate-container">
       <div class="title2">Intelligent driving system</div>
       <div class="text">
         <p>
@@ -250,9 +264,9 @@
         <p>in performance.</p>
       </div>
     </div>
-    <div class="img15-container">
+    <div class="img15-container anitmate-container">
       <div class="title2">Test verification</div>
-      <div class="img por">
+      <div class="img por animate-img">
         <img src="@assets/img/rnd/img15.png" />
         <img class="img-player" src="@assets/img/company/play.png" />
       </div>
@@ -279,7 +293,7 @@
         </div>
       </div>
     </div>
-    <div class="img16-container">
+    <div class="img16-container anitmate-container">
       <div class="title1">New Energy Technology</div>
       <div class="text-area1">
         <div class="title3">Electric Technology Platform</div>
@@ -293,7 +307,9 @@
         </p>
         <p>forefront of the industry.</p>
       </div>
-      <img src="@assets/img/rnd/img16.png" />
+      <div class="animate-img">
+        <img src="@assets/img/rnd/img16.png" />
+      </div>
       <div class="text-area2">
         <div class="title3">New Energy Vehicles</div>
         <p>
@@ -333,8 +349,11 @@
 </template>
 
 <script>
+import mix from "@mixins/mixin";
+
 export default {
-  name: "BrandRnD"
+  name: "BrandRnD",
+  mixins: [mix]
 };
 </script>
 
@@ -408,7 +427,8 @@ export default {
       .title2 {
         margin-bottom: vw(46);
       }
-      img {
+      .img {
+        width: 100%;
         margin-top: vw(87);
         margin-bottom: vw(50);
       }

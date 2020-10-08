@@ -680,6 +680,28 @@ $red: #FE4D62;
   left: var(--widthc);
   top: var(--widthc);
   cursor: pointer;
+  z-index: 99;
 }
 
 
+.anitmate-container {
+  width: 100%;
+  opacity: 0;
+  transform: translateY(vw(50));
+  transition: all 0.5s ease-in-out;
+  &.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-img {
+  overflow: hidden;
+  display: inline-block;
+  img {
+    transition: all .5s ease-in-out;
+    &:hover {
+      transform: scale(1.2, 1.2);
+    }
+  }
+}

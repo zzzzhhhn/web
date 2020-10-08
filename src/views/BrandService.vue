@@ -1,7 +1,13 @@
 <template>
   <div class="service-container">
-    <img src="@assets/img/service/img1.png" alt="" class="img1-container" />
-    <div class="img2-container text-center">
+    <div class="img1-container animate-img">
+      <img src="@assets/img/service/img1.png" />
+    </div>
+
+    <div class="img2-container anitmate-container text-center por">
+      <div class="animate-img poa l0 t0" style="z-index: -1">
+        <img src="@assets/img/service/img2.png" alt="" />
+      </div>
       <div class="title">Overseas Spare Parts Dealer Recruit</div>
       <img src="@assets/img/service/logo.png" alt="" class="logo" />
       <p>
@@ -14,10 +20,16 @@
       </p>
       <p class="red">https://jacparts.en.alibaba.com/</p>
     </div>
-    <img src="@assets/img/service/img3.png" alt="" class="img3-container" />
-    <div class="img4-container clearfix">
+    <div class="img3-container anitmate-container animate-img">
+      <img src="@assets/img/service/img3.png" />
+    </div>
+
+    <div class="img4-container clearfix anitmate-container">
       <div class="title">JAC Spare Parts Team Introduction</div>
-      <img src="@assets/img/service/img4.png" />
+      <div class="animate-img w100 img">
+        <img src="@assets/img/service/img4.png" />
+      </div>
+
       <div class="text">
         <p class="title pl5">-Asia and Gulf sales Section</p>
         <p>Contact:jacparts3@jac.com.cn</p>
@@ -30,7 +42,7 @@
         <p>Contact:jacparts1@jac.com.cn</p>
       </div>
     </div>
-    <div class="img5-container">
+    <div class="img5-container anitmate-container">
       <div class="title1">Three-level Spare Parts Guarantee System</div>
       <div class="title2">
         <p>
@@ -90,7 +102,7 @@
         </div>
       </div>
     </div>
-    <div class="img6-container">
+    <div class="img6-container anitmate-container">
       <div class="title1">
         Infrastructure
       </div>
@@ -100,7 +112,9 @@
       </div>
       <div class="img-content clearfix">
         <div class="item">
-          <img src="@assets/img/service/img5-1.png" />
+          <div class="img animate-img">
+            <img src="@assets/img/service/img5-1.png" />
+          </div>
           <div class="text">
             <p>
               LDT spare parts central warehouse:16000m<sup>2</sup>, 26000 items
@@ -109,7 +123,9 @@
           </div>
         </div>
         <div class="item">
-          <img src="@assets/img/service/img5-2.png" />
+          <div class="img animate-img">
+            <img src="@assets/img/service/img5-2.png" />
+          </div>
           <div class="text">
             <p>
               HDT spare parts central warehouse:6650m<sup>2</sup>, 13000 items
@@ -119,7 +135,9 @@
           </div>
         </div>
         <div class="item">
-          <img src="@assets/img/service/img5-3.png" />
+          <div class="img animate-img">
+            <img src="@assets/img/service/img5-3.png" />
+          </div>
           <div class="text">
             <p>
               PV spare parts central warehouse:22000m<sup>2</sup>32000 items
@@ -128,33 +146,39 @@
           </div>
         </div>
         <div class="item">
-          <img src="@assets/img/service/img5-4.png" />
+          <div class="img animate-img">
+            <img src="@assets/img/service/img5-4.png" />
+          </div>
           <div class="text">
             <p>overseas market spare parts warehouse</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="img7-container">
+    <div class="img7-container anitmate-container">
       <div class="title1">Our Products</div>
       <div class="title2">Genuine Spare parts</div>
-      <img src="@assets/img/service/img6.png" alt="" />
+      <div class="animate-img">
+        <img src="@assets/img/service/img6.png" alt="" />
+      </div>
     </div>
-    <div class="img8-container">
+    <div class="img8-container anitmate-container">
       <div class="title2">Genuine Accessories</div>
-      <img src="@assets/img/service/img7.png" alt="" />
+      <div class="animate-img">
+        <img src="@assets/img/service/img7.png" alt="" />
+      </div>
     </div>
-    <div class="img9-container">
+    <div class="img9-container anitmate-container">
       <div class="title1">Our Products</div>
       <div class="title2">Genuine Spare parts</div>
       <div class="img-content clearfix">
-        <div class="item">
+        <div class="item animate-img">
           <img src="@assets/img/service/img8-1.png" />
           <div class="text">
             Passenger Vehicle spare parts package
           </div>
         </div>
-        <div class="item">
+        <div class="item animate-img">
           <img src="@assets/img/service/img8-2.png" />
           <div class="text">
             Commercial vehicle spare parts package
@@ -162,7 +186,7 @@
         </div>
       </div>
     </div>
-    <div class="img10-container">
+    <div class="img10-container anitmate-container">
       <div class="title">
         Genuine spare parts anti-fake enquiry
       </div>
@@ -170,7 +194,9 @@
         JAC genuine spare parts can be verified through following three ways
         (support any mobile phone QR code scanner).
       </p>
-      <img src="@assets/img/service/img9.png" alt="" />
+      <div class="animate-img">
+        <img src="@assets/img/service/img9.png" alt="" />
+      </div>
       <div class="clearfix">
         <div class="text1 pull-left">
           <p>Verifying by scanning the QR code on an-</p>
@@ -190,7 +216,7 @@
         </div>
       </div>
     </div>
-    <div class="img11-container">
+    <div class="img11-container anitmate-container">
       <div class="title">
         Enquire result indication
       </div>
@@ -209,7 +235,9 @@
         will get you result with slight difference.
       </div>
       <div class="clearfix">
-        <img src="@assets/img/service/img10.png" class="pull-left" />
+        <div class="animate-img pull-left">
+          <img src="@assets/img/service/img10.png" />
+        </div>
         <div class="text-area pull-left">
           <div class="text">
             <p>
@@ -283,8 +311,11 @@
 </template>
 
 <script>
+import mix from "@mixins/mixin";
+
 export default {
-  name: "BrandService"
+  name: "BrandService",
+  mixins: [mix]
 };
 </script>
 
@@ -297,8 +328,6 @@ export default {
   }
   .img2-container {
     height: vw(927);
-    background: url("~@assets/img/service/img2.png") no-repeat;
-    background-size: cover;
     margin-bottom: vw(128);
     padding-top: vw(130);
     color: #fff;
@@ -337,7 +366,7 @@ export default {
       line-height: 1;
       padding-left: vw(108);
     }
-    img {
+    .img {
       width: vw(951);
       height: vw(815);
       float: left;
@@ -507,7 +536,7 @@ export default {
       .item {
         width: vw(818);
         float: left;
-        img {
+        .img {
           margin-bottom: vw(26);
         }
         .text {

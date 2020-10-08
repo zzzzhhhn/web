@@ -1,6 +1,9 @@
 <template>
   <div class="crs-container">
-    <img src="@assets/img/crs/img1.png" class="img1-container" />
+    <div class="img1-container animate-img">
+      <img src="@assets/img/crs/img1.png" />
+    </div>
+
     <div class="text2-container">
       <div class="area1">
         <div class="text1 title">Social Responsibility</div>
@@ -30,8 +33,11 @@
         “Hand-in-Hand·Refine Action- Let Children Not be Alone”
       </div>
     </div>
-    <img src="@assets/img/crs/img2.png" />
-    <div class="text3-container clearfix">
+    <div class="anitmate-container animate-img">
+      <img src="@assets/img/crs/img2.png" />
+    </div>
+
+    <div class="text3-container clearfix anitmate-container">
       <div class="area1 pull-left">
         <p>Since 2013, Anhui Radio and TELEVISION Station and JAC</p>
         <p>have jointly launched a public benefit activity named</p>
@@ -53,12 +59,18 @@
         <p>of every left-behind child and illuminates their way forward.</p>
       </div>
     </div>
-    <div class="img4-container">
-      <img src="@assets/img/crs/img4-1.png" class="left" />
-      <img src="@assets/img/crs/img4-1.png" class="mid" />
-      <img src="@assets/img/crs/img4-3.png" class="right" />
+    <div class="img4-container anitmate-container">
+      <div class="left animate-img">
+        <img src="@assets/img/crs/img4-1.png" />
+      </div>
+      <div class="mid animate-img">
+        <img src="@assets/img/crs/img4-1.png" />
+      </div>
+      <div class="right animate-img">
+        <img src="@assets/img/crs/img4-3.png" />
+      </div>
     </div>
-    <div class="img5-container clearfix">
+    <div class="img5-container anitmate-container clearfix">
       <div class="title-common">
         JAC Makes Contribution by Offering Assistance Proactively
       </div>
@@ -83,15 +95,15 @@
         <p>Europe, Latin America, Africa and Asia to assist</p>
         <p>overseas distributors in joint anti-epidemic.</p>
       </div>
-      <div class="img pull-right">
+      <div class="img pull-right animate-img">
         <img src="@assets/img/crs/img5.png" />
       </div>
     </div>
-    <div class="img6-container clearfix">
+    <div class="img6-container anitmate-container clearfix">
       <div class="title-common">
         Fight against Epidemic with Concrete Actions
       </div>
-      <div class="img pull-left">
+      <div class="img pull-left animate-img">
         <img src="@assets/img/crs/img6.png" />
       </div>
       <div class="text pull-right">
@@ -118,12 +130,12 @@
         <p>the field of education.</p>
       </div>
     </div>
-    <div class="img7-container clearfix">
+    <div class="img7-container anitmate-container clearfix">
       <div class="title-common">
         <p>JAC and its’ Global Distributors Joint Together</p>
         <p>Strongly to Fight the Pandemic</p>
       </div>
-      <div class="img pull-left">
+      <div class="img pull-left animate-img">
         <img src="@assets/img/crs/img7.png" alt="" />
       </div>
       <div class="text pull-right">
@@ -147,23 +159,29 @@
         <p>are together.</p>
       </div>
     </div>
-    <div class="img8-container text-center">
-      <img src="@assets/img/crs/img8-2.png" class="img1" />
-      <img src="@assets/img/crs/img8-2.png" class="img2" />
-      <img src="@assets/img/crs/img8-3.png" class="img3" />
+    <div class="img8-container anitmate-container text-center">
+      <div class="img1 animate-img">
+        <img src="@assets/img/crs/img8-2.png" />
+      </div>
+      <div class="img2 animate-img">
+        <img src="@assets/img/crs/img8-2.png" />
+      </div>
+      <div class="img3 animate-img">
+        <img src="@assets/img/crs/img8-3.png" />
+      </div>
     </div>
-    <div class="img9-container clearfix">
+    <div class="img9-container anitmate-container clearfix">
       <div class="text text1 pull-left">
         <div class="text-title">JAC moves in Columbia</div>
         <p>I am one of you! We thank for those JAC trucks</p>
         <p>who are committed to carittng for and supporting</p>
         <p>the country.</p>
       </div>
-      <div class="img1 pull-right por">
+      <div class="img1 pull-right por animate-img">
         <img src="@assets/img/crs/img9-1.png" alt="" />
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
       </div>
-      <div class="img2 pull-left por">
+      <div class="img2 pull-left por animate-img">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-2.png" alt="" />
       </div>
@@ -177,7 +195,7 @@
         </p>
         <p>take the responsibility for our country and our people.</p>
       </div>
-      <div class="img3 pull-right por">
+      <div class="img3 pull-right por animate-img">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-3.png" alt="" />
       </div>
@@ -187,11 +205,11 @@
         <p>We thank all truck drivers who are still working</p>
         <p>during the outbreak.</p>
       </div>
-      <div class="img4 pull-left por">
+      <div class="img4 pull-left por animate-img">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-4.png" alt="" />
       </div>
-      <div class="img5 pull-right por">
+      <div class="img5 pull-right por animate-img">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-5.png" alt="" />
       </div>
@@ -202,11 +220,11 @@
         <p>may present us. We are proud of being the name</p>
         <p>of JAC.</p>
       </div>
-      <div class="img6 pull-right por">
+      <div class="img6 pull-right por animate-img">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-6.png" alt="" />
       </div>
-      <div class="img7 pull-left por">
+      <div class="img7 pull-left por animate-img">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-7.png" alt="" />
       </div>
@@ -220,11 +238,11 @@
         <p>the world to launch a "Salute to Heroes" campaign to send</p>
         <p>warm gifts and cheer on for their actions.</p>
       </div>
-      <div class="img8 pull-left por">
+      <div class="img8 pull-left por animate-img">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-8.png" alt="" />
       </div>
-      <div class="img9 pull-right por">
+      <div class="img9 pull-right por animate-img">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-9.png" alt="" />
       </div>
@@ -244,13 +262,18 @@
         <p>the epidemic.</p>
       </div>
     </div>
-    <img src="@assets/img/crs/img10.png" alt="" class="img10-container" />
+    <div class="img10-container anitmate-container animate-img">
+      <img src="@assets/img/crs/img10.png" />
+    </div>
   </div>
 </template>
 
 <script>
+import mix from "@mixins/mixin";
+
 export default {
-  name: "BrandCRS"
+  name: "BrandCRS",
+  mixins: [mix]
 };
 </script>
 
@@ -352,16 +375,16 @@ export default {
     height: vw(595);
     .left {
       width: vw(584);
-      height: 100%;
+      height: vw(595);
       margin-right: vw(23);
     }
     .mid {
       width: vw(392);
-      height: 100%;
+      height: vw(595);
       margin-right: vw(23);
     }
     .right {
-      height: 100%;
+      height: vw(595);
       width: vw(676);
     }
   }
