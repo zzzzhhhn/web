@@ -1,7 +1,7 @@
 <template>
   <div class="company-container">
     <div class="redio-container anitmate-container animate-img">
-      <img src="@assets/img/company/vdieo1-bg.png" alt="" />
+      <img src="@assets/img/company/vdieo1-bg.png" class="img" />
       <img class="img-player" src="@assets/img/company/play.png" alt="" />
     </div>
     <div class="img1-container anitmate-container por">
@@ -9,17 +9,13 @@
         <img src="@assets/img/company/img1.png" alt="" />
       </div>
       <div class="text">
-        <p>Anhui Jianghuai Automobile Group Co., Ltd. (abbreviated as</p>
-        <p>JAC Motors or JAC) is a comprehensive automobile enter-</p>
-        <p>prise that integrates R&D, production and sales of a full</p>
-        <p>range of commercial vehicle, passenger vehicle and power-</p>
-        <p>train, and covers many fields such as ride hailing/sharing</p>
-        <p>and financial services. JAC develops simultaneously on "ad-</p>
-        <p>vanced energy-saving vehicles, new energy vehicles, and</p>
-        <p>intelligent connected vehicles". JAC is awarded as the Na-</p>
-        <p>tional Torch Program's key high-tech enterprise, the top 500</p>
-        <p>Chinese companies, and the top five Chinese independent</p>
-        <p>vehicle brands.</p>
+        Anhui Jianghuai Automobile Group Co., Ltd. (abbreviated as
+        JAC Motors or JAC) is a comprehensive automobile enterprise that integrates R&D, production and sales of a full
+        range of commercial vehicle, passenger vehicle and powertrain, and covers many fields such as ride hailing/sharing
+        and financial services. JAC develops simultaneously on "advanced energy-saving vehicles, new energy vehicles, and
+        intelligent connected vehicles". JAC is awarded as the National Torch Program's key high-tech enterprise, the top 500
+        Chinese companies, and the top five Chinese independent
+        vehicle brands.
       </div>
     </div>
     <div class="img2-container anitmate-container">
@@ -234,11 +230,6 @@ export default {
   font-size: vw(30);
   font-family: Aileron-Regular;
   color: #000000;
-  p {
-    margin-bottom: 0;
-    white-space: nowrap;
-    line-height: vw(51);
-  }
   .redio-container {
     position: relative;
     margin-bottom: vw(98);
@@ -254,6 +245,7 @@ export default {
       position: absolute;
       bottom: 0;
       right: vw(109);
+      line-height: vw(50);
     }
     .img1 {
       width: vw(1920);
@@ -427,4 +419,35 @@ export default {
     }
   }
 }
+  @media screen and (max-width: 767px) {
+    .company-container {
+      .redio-container {
+        width: wp(750);
+        height: wp(1077);
+
+        .img {
+          height: 100%;
+        }
+      }
+
+      .img1-container {
+        padding: wp(48) wp(40);
+        .img1 {
+          width: 100%;
+          display: block;
+        }
+        .text {
+          display: block;
+          position: static;
+          width: 100%;
+          right: 0;
+          margin-top: -1px;
+          height: wp(683);
+          padding: wp(34) wp(27) wp(34) wp(20);
+          font-size: wp(28);
+          line-height: wp(48);
+        }
+      }
+    }
+  }
 </style>

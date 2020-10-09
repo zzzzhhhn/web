@@ -16,7 +16,9 @@ module.exports = {
     }
   },
   devServer: {
-    open: true
+    open: true,
+    port: 2844,
+    disableHostCheck: true
   },
 };
 function resolve(dir) {

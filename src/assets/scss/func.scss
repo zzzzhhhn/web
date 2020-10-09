@@ -9,7 +9,9 @@
 }
 $W: vw(1920);
 $pa: (100vw - $W) / 2;
-
+@function wp($w) {
+  @return $w / 750 * 100 + vw;
+}
 @font-face {
   font-family: 'Aileron-Regular';
   src: url("~@assets/font/Aileron-Regular-10.eot") format("embedded-opentype"),
