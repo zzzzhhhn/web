@@ -1,6 +1,6 @@
 <template>
   <div class="history-container">
-    <div class="img1-container animate-img">
+    <div class="img1-container">
       <img src="@assets/img/history/img1.png" alt="" />
     </div>
 
@@ -16,10 +16,9 @@
           <div class="line-left line"></div>
           <div class="title">May,21,2019</div>
           <div class="text">
-            <p>JAC successfully participated in the acquisi-</p>
-            <p>tion on Kazakhstan Allur Automobile Industry</p>
-            <p>Group,marking the co-construction of “One</p>
-            <p>Belt and One Road”entered a new stage</p>
+            JAC successfully participated in the acquisition on Kazakhstan Allur
+            Automobile Industry Group,marking the co-construction of “One
+            Belt and One Road”entered a new stage
           </div>
           <div class="left-img1 animate-img">
             <img src="@assets/img/history/left1.png" />
@@ -28,7 +27,7 @@
         <div class="left2 anitmate-container">
           <div class="title">December,2019</div>
           <div class="text">
-            <p>Anhui Cummins Power Co.,Ltd was founded</p>
+            Anhui Cummins Power Co.,Ltd was founded
           </div>
           <div class="left-img2 animate-img">
             <img src="@assets/img/history/left2.png" />
@@ -44,9 +43,7 @@
           <div class="line-left line"></div>
           <div class="title">April,19,2017</div>
           <div class="text">
-            <p>JAC World-class Truck launched into the</p>
-            <p>market,defining the new standard for</p>
-            <p>world-class truck</p>
+            JAC World-class Truck launched into the market,defining the new standard for world-class truck
           </div>
         </div>
         <div class="left4 anitmate-container">
@@ -59,15 +56,13 @@
           <div class="line-left line"></div>
           <div class="title">April,8,2016</div>
           <div class="text">
-            <p>JAC and NIO signed a strategic cooperation</p>
-            <p>framework agreement</p>
+            JAC and NIO signed a strategic cooperation framework agreement
           </div>
         </div>
         <div class="left5 anitmate-container">
           <div class="title">August,27,2014</div>
           <div class="text">
-            <p>Refine S3 launched into the market,with</p>
-            <p>orders up to 70,000 units within 4 months</p>
+            Refine S3 launched into the market,with orders up to 70,000 units within 4 months
           </div>
           <div class="left-img3 animate-img">
             <img src="@assets/img/history/left3.png" />
@@ -83,7 +78,7 @@
           <div class="line-left line"></div>
           <div class="title">November,27,2013</div>
           <div class="text">
-            <p>The 1 millionth</p>
+            The 1 millionth
           </div>
           <div class="left-img4 animate-img">
             <img src="@assets/img/history/left4.png" />
@@ -98,8 +93,7 @@
           </div>
           <div class="line-left line"></div>
           <div class="text">
-            <p>Russian subsidiary,the first wholly-owned</p>
-            <p>subsidiary,was established</p>
+            Russian subsidiary,the first wholly-owned subsidiary,was established
           </div>
         </div>
         <div class="left8 anitmate-container">
@@ -112,8 +106,7 @@
           <div class="line-left line"></div>
           <div class="title">March,18,2011</div>
           <div class="text">
-            <p>JAC motors launched into Brazil,with great</p>
-            <p>export performance</p>
+            JAC motors launched into Brazil,with great export performance
           </div>
           <div class="left-img5 animate-img">
             <img src="@assets/img/history/left5.png" />
@@ -122,16 +115,14 @@
         <div class="left9 anitmate-container">
           <div class="title">October,2010</div>
           <div class="text">
-            <p>The cumulative sales of JAC light trucks ex-</p>
-            <p>ceeded 1 million units</p>
+            The cumulative sales of JAC light trucks exceeded 1 million units
           </div>
         </div>
         <div class="left10 anitmate-container">
           <div class="title">October,21,2010</div>
           <div class="text">
-            <p>JAC won the National Quality Award,the</p>
-            <p>highest award of quality management in</p>
-            <p>China</p>
+            JAC won the National Quality Award,the
+            highest award of quality management in China
           </div>
           <div class="left-img6 animate-img">
             <img src="@assets/img/history/left6.png" />
@@ -147,8 +138,7 @@
           <div class="line-left line"></div>
           <div class="title">January,17,2008</div>
           <div class="text">
-            <p>JAC first sedan-Bingyue off the line,marking</p>
-            <p>JAC’s full entering into passenger car field</p>
+            JAC first sedan-Bingyue off the line,marking JAC’s full entering into passenger car field
           </div>
           <div class="left-img7 animate-img">
             <img src="@assets/img/history/left7.png" />
@@ -157,7 +147,7 @@
         <div class="left12 anitmate-container">
           <div class="title">May,18,2006</div>
           <div class="text">
-            <p>The first off-road SUV Reying off the line</p>
+            The first off-road SUV Reying off the line
           </div>
           <div class="left-img8 animate-img">
             <img src="@assets/img/history/left8.png" />
@@ -173,10 +163,10 @@
           <div class="line-left line"></div>
           <div class="title">October,28,2003</div>
           <div class="text">
-            <p>JAC heavy truck successfully rolled off the</p>
-            <p>line,marking that JAC has formed a full series</p>
-            <p>of commercial vehicle product line including</p>
-            <p>heavy, medium and light truck</p>
+            JAC heavy truck successfully rolled off the
+            line,marking that JAC has formed a full series
+            of commercial vehicle product line including
+            heavy, medium and light truck
           </div>
           <div class="left-img9 animate-img">
             <img src="@assets/img/history/left9.png" />
@@ -192,8 +182,8 @@
           <div class="line-left line"></div>
           <div class="title">August,24,2001</div>
           <div class="text">
-            <p>“JAC Motors”listed on the Shanghai Stock</p>
-            <p>Exchange, stock code “600418”</p>
+            “JAC Motors”listed on the Shanghai Stock
+            Exchange, stock code “600418”
           </div>
           <div class="left-img10 animate-img">
             <img src="@assets/img/history/left10.png" />
@@ -209,8 +199,8 @@
           <div class="line-left line"></div>
           <div class="title">June,1990</div>
           <div class="text">
-            <p>China's first truly special chassis for bus was</p>
-            <p>born in JAC Automobile Company</p>
+            China's first truly special chassis for bus was
+            born in JAC Automobile Company
           </div>
           <div class="left-img11 animate-img">
             <img src="@assets/img/history/left11.png" />
@@ -226,7 +216,7 @@
           <div class="line-left line"></div>
           <div class="title">May,20,1964</div>
           <div class="text">
-            <p>Hefei JAC automobile factory was founded</p>
+            Hefei JAC automobile factory was founded
           </div>
           <div class="left-img12 animate-img">
             <img src="@assets/img/history/left12.png" />
@@ -248,9 +238,9 @@
           <div class="line-right line"></div>
           <div class="title">June,11,2020</div>
           <div class="text">
-            <p>JAC and Germany Volkswagen group</p>
-            <p>signed an investment agreement related to</p>
-            <p>strategic cooperation</p>
+            JAC and Germany Volkswagen group
+            signed an investment agreement related to
+            strategic cooperation
           </div>
           <div class="right-img1 animate-img">
             <img src="@assets/img/history/right1.png" />
@@ -266,9 +256,9 @@
           <div class="line-right line"></div>
           <div class="title">December,9,2018</div>
           <div class="text">
-            <p>JAC won China Industry Award,becoming</p>
-            <p>the first domestic comprehensive automobile</p>
-            <p>company to win this award</p>
+            JAC won China Industry Award,becoming
+            the first domestic comprehensive automobile
+            company to win this award
           </div>
           <div class="right-img-cup poa">
             <img src="@assets/img/history/cup.png" />
@@ -277,22 +267,20 @@
         <div class="right3 anitmate-container">
           <div class="title">July,9,2018</div>
           <div class="text">
-            <p>JAC signed MOU with Volkswagen and Seat-</p>
-            <p>tle,and jointly built NEV R&D center and de-</p>
-            <p>velop NEV platform</p>
+            JAC signed MOU with Volkswagen and Seattle,and jointly built NEV R&D center and develop NEV platform
           </div>
         </div>
         <div class="right4 anitmate-container">
           <div class="title">April,24,2018</div>
           <div class="text">
-            <p>JAC Volkswagen released a new brand-SOL</p>
+            JAC Volkswagen released a new brand-SOL
           </div>
         </div>
         <div class="right5 anitmate-container">
           <div class="title">December,22,2017</div>
           <div class="text">
-            <p>JAC Volkswagen Automobile Co.,Ltd was</p>
-            <p>founded</p>
+            JAC Volkswagen Automobile Co.,Ltd was
+            founded
           </div>
           <div class="right-img2 animate-img">
             <img src="@assets/img/history/right2.png" />
@@ -301,8 +289,8 @@
         <div class="right6 anitmate-container">
           <div class="title">September,8,2016</div>
           <div class="text">
-            <p>JAC and Volkswagen(China) signed the</p>
-            <p>MOU for Joint venture cooperation</p>
+            JAC and Volkswagen(China) signed the
+            MOU for Joint venture cooperation
           </div>
         </div>
         <div class="right7 anitmate-container">
@@ -315,8 +303,8 @@
           <div class="line-right line"></div>
           <div class="title">July,21,2014</div>
           <div class="text">
-            <p>JAC obtained 5,239 units order of heavy duty</p>
-            <p>trucks from Venezuela</p>
+            JAC obtained 5,239 units order of heavy duty
+            trucks from Venezuela
           </div>
           <div class="right-img3 animate-img">
             <img src="@assets/img/history/right3.png" />
@@ -325,10 +313,9 @@
         <div class="right8 anitmate-container">
           <div class="title">December,28,2014</div>
           <div class="text">
-            <p>JAC Yangzhou new base with annual capaci-</p>
-            <p>ty of 100,000 units was complete and put into</p>
-            <p>production and the new generation of pickup</p>
-            <p>T6 rolled off the line</p>
+            JAC Yangzhou new base with annual capacity of 100,000 units was complete and put into
+            production and the new generation of pickup
+            T6 rolled off the line
           </div>
           <div class="right-img4 animate-img">
             <img src="@assets/img/history/right4.png" />
@@ -337,7 +324,7 @@
         <div class="right9 anitmate-container">
           <div class="title">October,15,2013</div>
           <div class="text">
-            <p>JAC won“Asian Quality Excellence Award”</p>
+            JAC won“Asian Quality Excellence Award”
           </div>
           <div class="right-img5 animate-img">
             <img src="@assets/img/history/right5.png" />
@@ -346,8 +333,8 @@
         <div class="right10 anitmate-container">
           <div class="title">June,29,2012</div>
           <div class="text">
-            <p>Joint venture between JAC and Navistar to</p>
-            <p>produce diesel engines was approved</p>
+            Joint venture between JAC and Navistar to
+            produce diesel engines was approved
           </div>
         </div>
         <div class="right11 anitmate-container">
@@ -360,16 +347,16 @@
           <div class="line-right line"></div>
           <div class="title">December,17,2010</div>
           <div class="text">
-            <p>The 2 millionth vehicle of JAC rolled off the</p>
-            <p>production line</p>
+            The 2 millionth vehicle of JAC rolled off the
+            production line
           </div>
           <div class="right-img6 animate-img">
             <img src="@assets/img/history/right6.png" />
           </div>
 
           <div class="text">
-            <p>JAC Vietnam joint-stock company,the first</p>
-            <p>joint-stock company,was founded</p>
+            JAC Vietnam joint-stock company,the first
+            joint-stock company,was founded
           </div>
         </div>
         <div class="right12 anitmate-container">
@@ -382,9 +369,8 @@
           <div class="line-right line"></div>
           <div class="title">November,2009</div>
           <div class="text">
-            <p>JAC won the title of “Export Inspection Ex-</p>
-            <p>emption Enterprise”,symbolizing the "Golden</p>
-            <p>Pass" to the international market</p>
+            JAC won the title of “Export Inspection Exemption Enterprise”,symbolizing the "Golden
+            Pass" to the international market
           </div>
           <div class="right-img7 animate-img">
             <img src="@assets/img/history/right7.png" />
@@ -400,7 +386,7 @@
           <div class="line-right line"></div>
           <div class="title">November,5,2006</div>
           <div class="text">
-            <p>“JAC-Japan Design Center”was founded</p>
+            “JAC-Japan Design Center”was founded
           </div>
           <div class="right-img8 animate-img">
             <img src="@assets/img/history/right8.png" />
@@ -416,7 +402,7 @@
           <div class="line-right line"></div>
           <div class="title">June,15,2005</div>
           <div class="text">
-            <p>“JAC-Italy Design Center”was founded</p>
+            “JAC-Italy Design Center”was founded
           </div>
           <div class="right-img9 animate-img">
             <img src="@assets/img/history/right9.png" />
@@ -432,9 +418,8 @@
           <div class="line-right line"></div>
           <div class="title">March,18,2002</div>
           <div class="text">
-            <p>JAC MPV officially rolled off the line,laying a</p>
-            <p>good foundation for JAC entering into Pas-</p>
-            <p>senger car field</p>
+            JAC MPV officially rolled off the line,laying a
+            good foundation for JAC entering into Passenger car field
           </div>
           <div class="right-img10 animate-img">
             <img src="@assets/img/history/right10.png" />
@@ -450,8 +435,8 @@
           <div class="line-right line"></div>
           <div class="title">April,18,1996</div>
           <div class="text">
-            <p>The first light truck HFC1061 rolled off the</p>
-            <p>line,creating car trend for China’s light truck</p>
+            The first light truck HFC1061 rolled off the
+            line,creating car trend for China’s light truck
           </div>
           <div class="right-img11 animate-img">
             <img src="@assets/img/history/right11.png" />
@@ -467,9 +452,7 @@
           <div class="line-right line"></div>
           <div class="title">April,1968</div>
           <div class="text">
-            <p>The trial-production of first JAC truck suc-</p>
-            <p>ceeded, filling the blank of Anhui automobile</p>
-            <p>industry</p>
+            The trial-production of first JAC truck succeeded, filling the blank of Anhui automobile industry
           </div>
           <div class="right-img12 animate-img">
             <img src="@assets/img/history/right12.png" />
@@ -511,11 +494,7 @@ export default {
       11811
     ],
     currentTop: 0,
-    originTop: 0,
     maxTop: 0,
-    running: false,
-    diff: 0,
-    targetTop: 0,
     timer: "",
     left1: false,
     left2: false,
@@ -552,11 +531,6 @@ export default {
     right17: false
   }),
   mounted() {
-    this.targetTop = this.originTop = parseInt(
-      $(".car")
-        .css("top")
-        .replace("px", "")
-    );
     this.maxTop = parseInt($(".left16 .line").offset().top);
     $("body").scroll(e => {
       clearTimeout(this.timer);
@@ -564,28 +538,20 @@ export default {
         this.omMove($(e.target).scrollTop());
       }, 500);
     });
-    setTimeout(() => {
-      this.left1 = true;
-    }, 1000);
   },
   methods: {
     omMove(top) {
-      if (top === this.currentTop) return;
-      if (
-        parseInt(
-          $(".car")
-            .css("top")
-            .replace("px", "")
-        ) === this.targetTop
-      ) {
-        this.diff = 0;
-      }
-      this.diff += top - this.currentTop;
+      let diff = top - this.currentTop;
       this.currentTop = top;
-      this.targetTop += this.diff - 50;
-      if (this.targetTop < this.originTop) this.targetTop = this.originTop;
-      if (this.targetTop > this.maxTop) this.targetTop = this.maxTop;
-      $(".car").css("top", this.targetTop + "px");
+			if (top < 300) {
+				diff = 0;
+			} else if (top < 500) {
+				diff = diff / 3;
+      }
+     let targetTop = parseInt($(".car").css("top").replace("px", "")) + diff;
+      if (targetTop < 0) targetTop = 0;
+      if (targetTop > this.maxTop) targetTop = this.maxTop;
+      $(".car").css("top", targetTop + "px");
     }
   }
 };
@@ -616,15 +582,12 @@ export default {
     .title {
       font-family: Cormorant-Bold;
       font-size: vw(60);
-      margin-bottom: vw(25);
+      margin-bottom: vw(15);
     }
     .text {
       font-family: Aileron-Regular;
       font-size: vw(36);
-      margin-bottom: vw(20);
-      p:not(:last-child) {
-        margin-bottom: vw(20);
-      }
+      line-height: vw(52);
     }
     .left {
       width: vw(870);
@@ -634,15 +597,14 @@ export default {
         transform: translateX(vw(120));
 
         &:before {
-          content: "<";
-          color: #fff;
+          content: "";
           position: absolute;
-          font-weight: bold;
           top: vw(-30);
           right: vw(38);
-          font-size: vw(30);
           width: vw(18);
           height: vw(19);
+          background: url("~@assets/img/history/arrow-left.png") no-repeat;
+          background-size: contain;
         }
       }
       .animate-img {
@@ -666,6 +628,7 @@ export default {
         }
       }
       .left1 {
+        padding-left: vw(90);
         margin-top: vw(462);
         margin-bottom: vw(270);
         .left-img1 {
@@ -681,18 +644,21 @@ export default {
         }
       }
       .left3 {
+        padding-left: vw(190);
         margin-bottom: vw(276);
         .line-left {
           width: vw(494);
         }
       }
       .left4 {
+        padding-left: vw(138);
         margin-bottom: vw(529);
         .line-left {
           width: vw(494);
         }
       }
       .left5 {
+        padding-left: vw(170);
         margin-bottom: vw(383);
         .left-img3 {
           width: vw(481);
@@ -716,6 +682,7 @@ export default {
         }
       }
       .left8 {
+        padding-left: vw(162);
         margin-bottom: vw(93);
         .left-img5 {
           width: vw(480);
@@ -726,9 +693,11 @@ export default {
         }
       }
       .left9 {
+        padding-left: vw(143);
         margin-bottom: vw(86);
       }
       .left10 {
+        padding-left: vw(200);
         margin-bottom: vw(463);
         .left-img6 {
           width: vw(479);
@@ -736,6 +705,7 @@ export default {
         }
       }
       .left11 {
+        padding-left: vw(120);
         margin-bottom: vw(191);
         .line-left {
           width: vw(574);
@@ -753,6 +723,7 @@ export default {
         }
       }
       .left13 {
+        padding-left: vw(123);
         margin-bottom: vw(146);
         .line-left {
           width: vw(584);
@@ -773,6 +744,7 @@ export default {
         }
       }
       .left15 {
+        padding-left: vw(135);
         margin-bottom: vw(161);
         .line-left {
           width: vw(424);
@@ -803,7 +775,7 @@ export default {
         width: vw(119);
         height: vw(280);
         left: vw(886);
-        top: vw(128);
+        top: 0;
         transition: all 0.5s ease-in-out;
         z-index: 9;
       }
@@ -815,15 +787,14 @@ export default {
       .year {
         transform: translateX(vw(-120));
         &:before {
-          content: ">";
-          color: #fff;
+          content: "";
           position: absolute;
-          font-weight: bold;
           top: vw(-30);
           left: vw(38);
-          font-size: vw(30);
           width: vw(18);
           height: vw(19);
+          background: url("~@assets/img/history/arrow-right.png") no-repeat;
+          background-size: contain;
         }
       }
       .line-right {
@@ -845,6 +816,7 @@ export default {
         }
       }
       .right1 {
+        padding-right: vw(150);
         margin-top: vw(55);
         margin-bottom: vw(322);
         .line-right {
@@ -856,6 +828,7 @@ export default {
         }
       }
       .right2 {
+        padding-right: vw(116);
         margin-bottom: vw(230);
         .line-right {
           width: vw(584);
@@ -868,12 +841,14 @@ export default {
         }
       }
       .right3 {
+        padding-right: vw(121);
         margin-bottom: vw(52);
       }
       .right4 {
         margin-bottom: vw(293);
       }
       .right5 {
+        padding-right: vw(175);
         margin-bottom: vw(118);
         .text {
           margin-bottom: vw(5);
@@ -884,9 +859,11 @@ export default {
         }
       }
       .right6 {
+        padding-right: vw(200);
         margin-bottom: vw(106);
       }
       .right7 {
+        padding-right: vw(113);
         margin-bottom: vw(125);
         .line-right {
           width: vw(480);
@@ -897,6 +874,7 @@ export default {
         }
       }
       .right8 {
+        padding-right: vw(113);
         margin-bottom: vw(73);
         .right-img4 {
           width: vw(524);
@@ -911,9 +889,11 @@ export default {
         }
       }
       .right10 {
+        padding-right: vw(152);
         margin-bottom: vw(504);
       }
       .right11 {
+        padding-right: vw(100);
         margin-bottom: vw(391);
         .line-right {
           width: vw(610);
@@ -925,6 +905,7 @@ export default {
         }
       }
       .right12 {
+        padding-right: vw(100);
         margin-bottom: vw(137);
         .line-right {
           width: vw(570);
@@ -955,6 +936,7 @@ export default {
         }
       }
       .right15 {
+        padding-right: vw(120);
         margin-bottom: vw(182);
         .line-right {
           width: vw(540);
@@ -975,6 +957,7 @@ export default {
         }
       }
       .right17 {
+        padding-right: vw(120);
         .line-right {
           width: vw(440);
         }

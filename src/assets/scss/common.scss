@@ -671,14 +671,11 @@ $red: #FE4D62;
 }
 
 .img-player {
-  --widthA: 101px;
-  --widthB: calc(var(--widthA) * 1700 / 1920 / 2);
-  --widthc: calc(50% - var(--widthB));
-  width: vw(101);
-  height: vw(101);
+  width: 5.26vw;
+  height: 5.26vw;
   position: absolute;
-  left: var(--widthc);
-  top: var(--widthc);
+  left: calc(50% - 2.63vw);
+  top: calc(50% - 2.63vw);
   cursor: pointer;
   z-index: 99;
 }
@@ -712,11 +709,11 @@ $red: #FE4D62;
     margin: 0;
   }
   .img-player {
-    width: wp(109);
-    height: wp(109);
+    width: 14.5vw;
+    height: 14.5vw;
     position: absolute;
-    left: wp(320);
-    top: wp((1077 - 109) / 2);
+    left: calc(50% - 7.25vw);
+    top: calc(50% - 7.25vw);
     cursor: pointer;
     z-index: 99;
   }

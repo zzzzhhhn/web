@@ -1,26 +1,24 @@
 <template>
   <div class="service-container">
-    <div class="img1-container animate-img">
+    <div class="img1-container">
       <img src="@assets/img/service/img1.png" />
     </div>
 
     <div class="img2-container anitmate-container text-center por">
-      <div class="animate-img poa l0 t0" style="z-index: -1">
+      <div class="poa l0 t0" style="z-index: -1">
         <img src="@assets/img/service/img2.png" alt="" />
       </div>
       <div class="title">Overseas Spare Parts Dealer Recruit</div>
       <img src="@assets/img/service/logo.png" alt="" class="logo" />
-      <p>
+      <div class="text">
         If you are interested in JAC genuine spare parts, accessories or oils
-        and want to be a part of JAC spare parts family, don't hesi-
-      </p>
-      <p>
-        tate to send your company introduction and qualification to
+        and want to be a part of JAC spare parts family, don't hesitate to send your company introduction and qualification to
         jacparts3@jac.com.cn or go to our alibaba on-line shop:
-      </p>
-      <p class="red">https://jacparts.en.alibaba.com/</p>
+      </div>
+
+      <div class="red">https://jacparts.en.alibaba.com/</div>
     </div>
-    <div class="img3-container anitmate-container animate-img">
+    <div class="img3-container anitmate-container">
       <img src="@assets/img/service/img3.png" />
     </div>
 
@@ -45,25 +43,22 @@
     <div class="img5-container anitmate-container">
       <div class="title1">Three-level Spare Parts Guarantee System</div>
       <div class="title2">
-        <p>
           In order to guarantee that every customer could be well serviced with
           correct spare parts on time, JAC has setup
-        </p>
-        <p>three-level spare parts guarantee system.</p>
+        three-level spare parts guarantee system.
       </div>
       <div class="por text-container clearfix">
-        <div class="line1"></div>
-        <div class="line2"></div>
+        <div class="line1">
+          <img src="@assets/img/service/line.png" alt="">
+        </div>
         <div class="area1 pull-left">
           <div class="text-center num-content">
             <div class="num">1</div>
             <div class="num-text">First level</div>
           </div>
           <div class="text-area">
-            <p class="bold">JAC Headquarter</p>
-            <p class="bold">Central Warehouse</p>
-            <p>JAC central warehouses, locat</p>
-            <p>ed in Hefei, China</p>
+            <p class="bold">JAC Headquarter Central Warehouse</p>
+            JAC central warehouses, located in Hefei, China
           </div>
         </div>
         <div class="area2 pull-left">
@@ -72,17 +67,16 @@
             <div class="num-text">Second level</div>
           </div>
           <div class="text-area">
-            <p class="bold">JAC Regional Spare Parts</p>
-            <p class="bold">Distribution Center</p>
-            <p>Regional spare parts distribution</p>
-            <p>center that JAC established at</p>
-            <p>overseas.</p>
-            <p>Panama Sparte parts center has</p>
-            <p>been built at Colon free zone and</p>
-            <p>opened in 2015 to service all Amer-</p>
-            <p>ica markets. Second overseas</p>
-            <p>spare parts center is considered to</p>
-            <p>be built in Middle East.</p>
+            <p class="bold">JAC Regional Spare Parts Distribution Center</p>
+            <div>
+              Regional spare parts distribution
+              center that JAC established at overseas.
+            </div>
+            Panama Sparte parts center has
+            been built at Colon free zone and
+            opened in 2015 to service all America markets. Second overseas
+            spare parts center is considered to
+            be built in Middle East.
           </div>
         </div>
         <div class="area3 pull-left">
@@ -91,13 +85,11 @@
             <div class="num-text">Third level</div>
           </div>
           <div class="text-area">
-            <p class="bold">Distributor Central</p>
-            <p class="bold">Warehousev at its Distribu-</p>
-            <p class="bold">tion Territory</p>
-            <p>National spare parts</p>
-            <p>warehouse that owned and</p>
-            <p>operated by each distributor</p>
-            <p>at its territory.</p>
+            <p class="bold">Distributor Central Warehousev at its Distribution Territory</p>
+            National spare parts
+            warehouse that owned and
+            operated by each distributor
+            at its territory.
           </div>
         </div>
       </div>
@@ -116,10 +108,7 @@
             <img src="@assets/img/service/img5-1.png" />
           </div>
           <div class="text">
-            <p>
-              LDT spare parts central warehouse:16000m<sup>2</sup>, 26000 items
-            </p>
-            <p>inventory.</p>
+            LDT spare parts central warehouse:16000m<sup>2</sup>, 26000 items inventory.
           </div>
         </div>
         <div class="item">
@@ -127,11 +116,7 @@
             <img src="@assets/img/service/img5-2.png" />
           </div>
           <div class="text">
-            <p>
-              HDT spare parts central warehouse:6650m<sup>2</sup>, 13000 items
-              in-
-            </p>
-            <p>ventory.</p>
+            HDT spare parts central warehouse:6650m<sup>2</sup>, 13000 items inventory.
           </div>
         </div>
         <div class="item">
@@ -139,10 +124,7 @@
             <img src="@assets/img/service/img5-3.png" />
           </div>
           <div class="text">
-            <p>
-              PV spare parts central warehouse:22000m<sup>2</sup>32000 items
-            </p>
-            <p>inventory.</p>
+            PV spare parts central warehouse:22000m<sup>2</sup>32000 items inventory.
           </div>
         </div>
         <div class="item">
@@ -150,7 +132,7 @@
             <img src="@assets/img/service/img5-4.png" />
           </div>
           <div class="text">
-            <p>overseas market spare parts warehouse</p>
+            overseas market spare parts warehouse
           </div>
         </div>
       </div>
@@ -158,15 +140,11 @@
     <div class="img7-container anitmate-container">
       <div class="title1">Our Products</div>
       <div class="title2">Genuine Spare parts</div>
-      <div class="animate-img">
-        <img src="@assets/img/service/img6.png" alt="" />
-      </div>
+      <img src="@assets/img/service/img6.png" alt="" />
     </div>
     <div class="img8-container anitmate-container">
       <div class="title2">Genuine Accessories</div>
-      <div class="animate-img">
-        <img src="@assets/img/service/img7.png" alt="" />
-      </div>
+      <img src="@assets/img/service/img7.png" alt="" />
     </div>
     <div class="img9-container anitmate-container">
       <div class="title1">Our Products</div>
@@ -190,29 +168,23 @@
       <div class="title">
         Genuine spare parts anti-fake enquiry
       </div>
-      <p>
+      <div class="text">
         JAC genuine spare parts can be verified through following three ways
         (support any mobile phone QR code scanner).
-      </p>
-      <div class="animate-img">
-        <img src="@assets/img/service/img9.png" alt="" />
       </div>
+      <img src="@assets/img/service/img9.png" alt="" />
       <div class="clearfix">
         <div class="text1 pull-left">
-          <p>Verifying by scanning the QR code on an-</p>
-          <p>ti-counterfeit label, it will lead you to the</p>
-          <p>enquiring result.</p>
+          Verifying by scanning the QR code on anti-counterfeit label, it will lead you to the enquiring result.
         </div>
         <div class="text2 pull-left">
-          <p>Uncover the QR code on anti-counterfeit</p>
-          <p>label and you will see another QR code</p>
-          <p>and digital code. Scanning the bottom</p>
-          <p>QR code, it will lead you to the same en-</p>
-          <p>quiring result as your first enquiry.</p>
+          Uncover the QR code on anti-counterfeit
+          label and you will see another QR code
+          and digital code. Scanning the bottom
+          QR code, it will lead you to the same enquiring result as your first enquiry.
         </div>
         <div class="text3 pull-left">
-          <p>Please type in the 16</p>
-          <p>bit verification code.</p>
+          Please type in the 16 bit verification code.
         </div>
       </div>
     </div>
@@ -221,14 +193,9 @@
         Enquire result indication
       </div>
       <div class="text">
-        <p>
           The verification result by scanning QR code is displayed as this
           picture. There are five sections and the
-        </p>
-        <p>
-          result by verifying with digital code only displays the first two
-          ones.
-        </p>
+          result by verifying with digital code only displays the first two ones.
       </div>
       <div class="title">
         System has been setup to verify by totally 4 times. Different enquiry
@@ -240,69 +207,40 @@
         </div>
         <div class="text-area pull-left">
           <div class="text">
-            <p>
               <span>First inquiry</span>: the code you searched is for JAC
-              international genuine parts, please
-            </p>
-            <p>ensure using. t</p>
+              international genuine parts, please ensure using. t
           </div>
           <div class="text">
-            <p>
               <span>Second inquiry</span>: the code you searched is for JAC
               international genuine parts. This
-            </p>
-            <p>
               is 2 inquiry. The first inquiry time is at ….. If the time is
               different with your real inquiry
-            </p>
-            <p>
               time, be attention whether the parts is faked. Any question,
               please feel free to contact
-            </p>
-            <p>
               JAC dealer there or contact JAC directly for further information.
-            </p>
           </div>
           <div class="text">
-            <p>
               <span>Third inquiry</span>: the code you searched is for JAC
               international genuine parts. This is 3
-            </p>
-            <p>
               inquiry. The first inquiry time is at ….. If the time is different
               with your real inquiry time,
-            </p>
-            <p>
               be attention whether the parts is faked. Any question, please feel
               free to contact JAC
-            </p>
-            <p>dealer there or contact JAC directly for further information.</p>
+            dealer there or contact JAC directly for further information.
           </div>
           <div class="text">
-            <p>
               <span>Fourth inquiry</span>: the code you searched is for JAC
               international genuine parts. This is
-            </p>
-            <p>
               4 inquiry. The first inquiry time is at ….. If the time is
               different with your real inquiry time,
-            </p>
-            <p>
               be attention whether the parts is faked. Any question, please feel
               free to contact JAC
-            </p>
-            <p>dealer there or contact JAC directly for further information.</p>
+            dealer there or contact JAC directly for further information.
           </div>
           <div class="text">
-            <p>
               <span>Fifth or more inquiry</span>: you have exceeded to the
-              stated inquiry times. Please be at-
-            </p>
-            <p>
-              tention whether the parts are faked. Any question, please feel
-              free to contact JAC
-            </p>
-            <p>dealer there or contact JAC directly for further information.</p>
+              stated inquiry times. Please be attention whether the parts are faked. Any question, please feel
+              free to contact JAC dealer there or contact JAC directly for further information.
           </div>
         </div>
       </div>
@@ -331,6 +269,7 @@ export default {
     margin-bottom: vw(128);
     padding-top: vw(130);
     color: #fff;
+
     .title {
       font-family: Cormorant-Bold;
       font-size: vw(90);
@@ -342,14 +281,17 @@ export default {
       height: vw(190);
       margin-bottom: vw(78);
     }
-    p {
+    .text {
       font-family: Aileron-Regular;
       font-size: vw(30);
-      &.red {
-        color: #cc000d;
-        font-family: Aileron-Heavy;
-        font-size: vw(36);
-      }
+      line-height: vw(43);
+      width: vw(1660);
+      margin: auto;
+    }
+    .red {
+      color: #cc000d;
+      font-family: Aileron-Heavy;
+      font-size: vw(36);
     }
   }
   .img3-container {
@@ -364,7 +306,6 @@ export default {
       font-family: Cormorant-Bold;
       font-size: vw(61);
       line-height: 1;
-      padding-left: vw(108);
     }
     .img {
       width: vw(951);
@@ -391,20 +332,11 @@ export default {
     line-height: 1;
     margin-bottom: vw(167);
     .line1 {
-      width: vw(564);
-      height: vw(198);
-      border: 1px solid #cc000c;
+      width: vw(1192);
+      height: vw(205);
       position: absolute;
-      top: vw(112);
+      top: vw(105);
       left: vw(251);
-    }
-    .line2 {
-      width: vw(628);
-      height: vw(198);
-      border: 1px solid #cc000c;
-      position: absolute;
-      top: vw(56);
-      left: vw(838);
     }
     .title1 {
       font-family: Cormorant-Bold;
@@ -416,41 +348,39 @@ export default {
       font-family: Aileron-Bold;
       font-size: vw(30);
       height: vw(82);
+      width: vw(1580);
       padding-left: vw(112);
-      p:first-child {
-        margin-bottom: vw(20);
-      }
     }
     .text-container {
       .num {
         font-family: Helvetica-Bold;
         font-size: vw(180);
         opacity: 0.08;
+        font-weight: bold;
       }
       .num-text {
         font-family: Aileron-Bold;
         font-size: vw(36);
+        font-weight: bold;
       }
       .text-area {
         font-family: Aileron-Regular;
         font-size: vw(31);
-        p:not(:last-of-type) {
-          margin-bottom: vw(17);
-        }
+        border-top: 1px solid #cc000c;
+        line-height: vw(52);
         .bold {
           font-family: Aileron-Bold;
           font-size: vw(31);
+          font-weight: bold;
         }
-      }
-      .text-area {
-        border-top: 1px solid #cc000c;
-        white-space: nowrap;
+
+
       }
       .area1 {
         margin-left: vw(107);
         margin-top: vw(188);
         .num-content {
-          width: vw(172);
+          width: vw(190);
           margin-left: vw(65);
           .num {
             margin-bottom: vw(25);
@@ -462,7 +392,6 @@ export default {
         .text-area {
           width: vw(411);
           height: vw(183);
-          padding-top: vw(16);
           padding-left: vw(6);
         }
       }
@@ -480,7 +409,7 @@ export default {
           }
         }
         .text-area {
-          width: vw(470);
+          width: vw(500);
           height: vw(548);
           padding-top: vw(31);
         }
@@ -542,10 +471,7 @@ export default {
         .text {
           font-family: Aileron-Regular;
           font-size: vw(31);
-          p:first-child {
-            white-space: nowrap;
-            margin-bottom: vw(20);
-          }
+          line-height: vw(43);
         }
         &:nth-child(2),
         &:nth-child(4) {
@@ -597,7 +523,6 @@ export default {
     font-size: vw(30);
     line-height: 1;
     padding-left: vw(113);
-    white-space: nowrap;
     margin-bottom: vw(168);
     .title {
       font-family: Aileron-Bold;
@@ -605,14 +530,17 @@ export default {
       font-size: vw(30);
       margin-bottom: vw(56);
     }
-    p {
-      margin-bottom: vw(10);
-    }
+
   }
   .img10-container {
     img {
       margin-top: vw(46);
       margin-bottom: vw(63);
+    }
+    .text1,
+    .text2,
+    .text3 {
+      line-height: vw(35);
     }
     .text1 {
       width: vw(552);
@@ -623,7 +551,8 @@ export default {
       margin-left: vw(149);
     }
     .text3 {
-      width: vw(75);
+      width: vw(290);
+      height: vw(60);
       margin-left: vw(128);
     }
   }
@@ -633,6 +562,8 @@ export default {
     }
     .text {
       margin-bottom: vw(56);
+      line-height: vw(33);
+      max-width: vw(1359);
     }
     img {
       width: vw(526);
@@ -641,11 +572,13 @@ export default {
       margin-left: vw(23);
       margin-top: vw(168);
       height: vw(749);
+      width: vw(1142);
       span {
         font-family: Aileron-Heavy;
         color: #cc000d;
       }
       .text {
+        line-height: vw(36);
         margin-bottom: vw(32);
       }
     }

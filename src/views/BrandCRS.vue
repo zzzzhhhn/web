@@ -1,6 +1,6 @@
 <template>
   <div class="crs-container">
-    <div class="img1-container animate-img">
+    <div class="img1-container">
       <img src="@assets/img/crs/img1.png" />
     </div>
 
@@ -9,9 +9,9 @@
         <div class="text1 title">Social Responsibility</div>
         <div class="text2 title">Welfare to employees</div>
         <div class="text">
-          <p>Employee- centric corporate culture, making welfare</p>
-          <p>for employees’ material and spirit.</p>
-          <p>Everyone can live out the meaning of life in their work.</p>
+          Employee- centric corporate culture, making welfare
+          for employees’ material and spirit.
+          Everyone can live out the meaning of life in their work.
         </div>
       </div>
       <div class="area2">
@@ -19,12 +19,9 @@
           Contribution to society
         </div>
         <div class="text">
-          <p>Through systematic reforms and keeping the step of</p>
-          <p>social progress. Accurately grasp the application of en-</p>
-          <p>ergy-saving, environment protection and safety intelli-</p>
-          <p>gent technology.</p>
-          <p>To realize the common progress of the whole value</p>
-          <p>chain.</p>
+          Through systematic reforms and keeping the step of
+          social progress. Accurately grasp the application of energy-saving, environment protection and safety
+          intelligent technology. To realize the common progress of the whole value chain.
         </div>
       </div>
       <div class="clearfix"></div>
@@ -33,30 +30,26 @@
         “Hand-in-Hand·Refine Action- Let Children Not be Alone”
       </div>
     </div>
-    <div class="anitmate-container animate-img">
+    <div class="anitmate-container">
       <img src="@assets/img/crs/img2.png" />
     </div>
 
     <div class="text3-container clearfix anitmate-container">
       <div class="area1 pull-left">
-        <p>Since 2013, Anhui Radio and TELEVISION Station and JAC</p>
-        <p>have jointly launched a public benefit activity named</p>
-        <p>"Hand-in-Hand,Refine Action--Let Children Not be Alone",</p>
-        <p>focusing on the healthy growth of left-behind children.Until</p>
-        <p>now, the public benefit activity of JAC "Hand-in-Hand,Re-</p>
-        <p>fine Action -- Let Children Not be Alone" has been held for</p>
-        <p>seven seasons, providing warmth and care to more than</p>
-        <p>5,000 left-behind children.</p>
+        Since 2013, Anhui Radio and TELEVISION Station and JAC
+        have jointly launched a public benefit activity named
+        "Hand-in-Hand,Refine Action--Let Children Not be Alone",
+        focusing on the healthy growth of left-behind children.Until
+        now, the public benefit activity of JAC "Hand-in-Hand,Refine Action -- Let Children Not be Alone" has been held for
+        seven seasons, providing warmth and care to more than
+        5,000 left-behind children.
       </div>
-      <div class="area2 pull-left">
-        <p>For seven consecutive seasons,"Hand-in-Hand,Refine Ac-</p>
-        <p>tion--Let Children Not be Alone"shows JAC's care for the</p>
-        <p>young generation, and is the best portrayal of JAC's posi-</p>
-        <p>tive return to the society and fulfillment of its social respon-</p>
-        <p>sibilities.,"Hand-in-Hand,Refine Action--Let Children Not be</p>
-        <p>Alone" is like a bright light, which not only satisfies the chil-</p>
-        <p>dren's desire for companionship, but also lights up the heart</p>
-        <p>of every left-behind child and illuminates their way forward.</p>
+      <div class="area2 pull-right">
+        For seven consecutive seasons,"Hand-in-Hand,Refine Action--Let Children Not be Alone"shows JAC's care for the
+        young generation, and is the best portrayal of JAC's positive return to the society and fulfillment of its social
+        responsibilities.,"Hand-in-Hand,Refine Action--Let Children Not be
+        Alone" is like a bright light, which not only satisfies the children's desire for companionship, but also lights up the heart
+        of every left-behind child and illuminates their way forward.
       </div>
     </div>
     <div class="img4-container anitmate-container">
@@ -64,7 +57,7 @@
         <img src="@assets/img/crs/img4-1.png" />
       </div>
       <div class="mid animate-img">
-        <img src="@assets/img/crs/img4-1.png" />
+        <img src="@assets/img/crs/img4-2.png" />
       </div>
       <div class="right animate-img">
         <img src="@assets/img/crs/img4-3.png" />
@@ -75,25 +68,21 @@
         JAC Makes Contribution by Offering Assistance Proactively
       </div>
       <div class="text pull-left">
-        <p>On January 29,2020, JAC Motors donated 10 mil-</p>
-        <p>lion RMB through the Wuhan Red Cross to sup-</p>
-        <p>port the epidemic prevention and control in</p>
-        <p>Wuhan; on February 9, JAC Motors donated an-</p>
-        <p>other 5 million RMB in cash to the Epidemic Pre-</p>
-        <p>vention and Control Emergency Command of</p>
-        <p>Anhui Province as a helping hand for the fight</p>
-        <p>against epidemic prevention and control. So far,</p>
-        <p>15 million RMB in total has been donated and</p>
-        <p>continuous support for epidemic prevention and</p>
-        <p>control has been offered by JAC Motors.</p>
-        <p>In order to solve the shortage of medical materi-</p>
-        <p>als, JAC actively coordinated and purchased</p>
-        <p>masks to provide assistance to overseas distribu-</p>
-        <p>tors, and made its best efforts to support over-</p>
-        <p>seas epidemic prevention and control. Up to</p>
-        <p>now, JAC has support a total of 50,000 masks to</p>
-        <p>Europe, Latin America, Africa and Asia to assist</p>
-        <p>overseas distributors in joint anti-epidemic.</p>
+        On January 29,2020, JAC Motors donated 10 million RMB through the Wuhan Red Cross to
+        support the epidemic prevention and control in
+        Wuhan; on February 9, JAC Motors donated another 5 million RMB in cash to the Epidemic
+        Prevention and Control Emergency Command of
+        Anhui Province as a helping hand for the fight
+        against epidemic prevention and control. So far,
+        15 million RMB in total has been donated and
+        continuous support for epidemic prevention and
+        control has been offered by JAC Motors.
+        In order to solve the shortage of medical materials, JAC actively coordinated and purchased
+        masks to provide assistance to overseas distributors, and made its best efforts to support
+        overseas epidemic prevention and control. Up to
+        now, JAC has support a total of 50,000 masks to
+        Europe, Latin America, Africa and Asia to assist
+        overseas distributors in joint anti-epidemic.
       </div>
       <div class="img pull-right animate-img">
         <img src="@assets/img/crs/img5.png" />
@@ -107,61 +96,49 @@
         <img src="@assets/img/crs/img6.png" />
       </div>
       <div class="text pull-right">
-        <p>
-          On January 30, in a response to the requisition of Hefei Emergency
-        </p>
-        <p>Command, JAC dispatched a professional emergency fleet to trans-</p>
-        <p>port 300 tons of donated vegetables to support Wuhan;</p>
-        <p>
-          At the same time, a "Caring Vanguard" charity fleet was established to
-        </p>
-        <p>
-          provide free rescue services for anti-epidemic vehicles as well other
-        </p>
-        <p>
-          vehicles during the epidemic. Simultaneously, JAC Charity Fleet ac-
-        </p>
-        <p>
-          tively coordinated with the government to deliver KN95 masks, infra-
-        </p>
-        <p>
-          red thermometers, disinfectant, etc. for the prevention of epidemic in
-        </p>
-        <p>the field of education.</p>
+        On January 30, in a response to the requisition of Hefei Emergency
+        Command, JAC dispatched a professional emergency fleet to transport
+        300 tons of donated vegetables to support Wuhan;
+        At the same time, a "Caring Vanguard" charity fleet was established to
+        provide free rescue services for anti-epidemic vehicles as well other
+        vehicles during the epidemic. Simultaneously, JAC Charity Fleet actively
+        coordinated with the government to deliver KN95 masks, infrared
+        thermometers, disinfectant, etc. for the prevention of epidemic in
+        the field of education.
       </div>
     </div>
     <div class="img7-container anitmate-container clearfix">
       <div class="title-common">
-        <p>JAC and its’ Global Distributors Joint Together</p>
-        <p>Strongly to Fight the Pandemic</p>
+        JAC and its’ Global Distributors Joint Together
+        Strongly to Fight the Pandemic
       </div>
       <div class="img pull-left animate-img">
         <img src="@assets/img/crs/img7.png" alt="" />
       </div>
       <div class="text pull-right">
         <div class="text-title">JAC moves in Bolivia</div>
-        <p>We are very proud that at this moment we could</p>
-        <p>provide convenience transportation for those</p>
-        <p>people who are still fighting on the front line of</p>
-        <p>public safety day and night. Therefore, we have</p>
-        <p>undertaken our own social responsibilities and</p>
-        <p>provided a fleet of cars and trucks to our govern-</p>
-        <p>ment. This fleet will run in Santa Cruz, La Paz, and</p>
-        <p>Cochabamba areas for transportation of medical</p>
-        <p>materials.</p>
-        <p>In addition, we built some small bases on the</p>
-        <p>main roads of each city to accept patrol govern-</p>
-        <p>ment vehicles that need maintenance and other</p>
-        <p>services during quarantine. We cherish those</p>
-        <p>people who fight for us at this moment. We are</p>
-        <p>very glad that we can provide those help to our</p>
-        <p>city. Great thanks for your contribution and we</p>
-        <p>are together.</p>
+        <div class="text1">
+          We are very proud that at this moment we could
+          provide convenience transportation for those
+          people who are still fighting on the front line of
+          public safety day and night. Therefore, we have
+          undertaken our own social responsibilities and
+          provided a fleet of cars and trucks to our government. This fleet will run in Santa Cruz, La Paz, and
+          Cochabamba areas for transportation of medical materials.
+        </div>
+        <div class="text2">
+          In addition, we built some small bases on the
+          main roads of each city to accept patrol government vehicles that need maintenance and other
+          services during quarantine. We cherish those
+          people who fight for us at this moment. We are
+          very glad that we can provide those help to our
+          city. Great thanks for your contribution and we are together.
+        </div>
       </div>
     </div>
     <div class="img8-container anitmate-container text-center">
       <div class="img1 animate-img">
-        <img src="@assets/img/crs/img8-2.png" />
+        <img src="@assets/img/crs/img8-1.png" />
       </div>
       <div class="img2 animate-img">
         <img src="@assets/img/crs/img8-2.png" />
@@ -173,96 +150,86 @@
     <div class="img9-container anitmate-container clearfix">
       <div class="text text1 pull-left">
         <div class="text-title">JAC moves in Columbia</div>
-        <p>I am one of you! We thank for those JAC trucks</p>
-        <p>who are committed to carittng for and supporting</p>
-        <p>the country.</p>
+        I am one of you! We thank for those JAC trucks
+        who are committed to carittng for and supporting
+        the country.
       </div>
-      <div class="img1 pull-right por animate-img">
+      <div class="img1 pull-right por">
         <img src="@assets/img/crs/img9-1.png" alt="" />
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
       </div>
-      <div class="img2 pull-left por animate-img">
+      <div class="img2 pull-left por">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-2.png" alt="" />
       </div>
       <div class="text text2 pull-right">
         <div class="text-title">JAC moves in Pure</div>
-        <p>
-          At this difficult moment, we should stay at home and keep confidence.
-        </p>
-        <p>
-          This world has hope and surprise anywhere. JAC Peru truck club will
-        </p>
-        <p>take the responsibility for our country and our people.</p>
+        At this difficult moment, we should stay at home and keep confidence.
+        This world has hope and surprise anywhere. JAC Peru truck club will
+        take the responsibility for our country and our people.
       </div>
-      <div class="img3 pull-right por animate-img">
+      <div class="img3 pull-right por">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-3.png" alt="" />
       </div>
       <div class="text text3 pull-left">
         <div class="text-title">JAC moves in Chile</div>
-        <p>We continue to bring hope to Chile</p>
-        <p>We thank all truck drivers who are still working</p>
-        <p>during the outbreak.</p>
+        We continue to bring hope to Chile
+        We thank all truck drivers who are still working
+        during the outbreak.
       </div>
-      <div class="img4 pull-left por animate-img">
+      <div class="img4 pull-left por">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-4.png" alt="" />
       </div>
-      <div class="img5 pull-right por animate-img">
-        <img class="img-player" src="@assets/img/company/play.png" alt="" />
+      <div class="img5 pull-right animate-img">
         <img src="@assets/img/crs/img9-5.png" alt="" />
       </div>
       <div class="text text4 pull-left">
         <div class="text-title">JAC moves in Mexico</div>
-        <p>We are always ready here. Ready to join our</p>
-        <p>hands. Fight to overcome any adversity that fate</p>
-        <p>may present us. We are proud of being the name</p>
-        <p>of JAC.</p>
+        We are always ready here. Ready to join our
+        hands. Fight to overcome any adversity that fate
+        may present us. We are proud of being the name
+        of JAC.
       </div>
-      <div class="img6 pull-right por animate-img">
+      <div class="img6 pull-right por">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-6.png" alt="" />
       </div>
-      <div class="img7 pull-left por animate-img">
+      <div class="img7 pull-left por">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-7.png" alt="" />
       </div>
       <div class="text text5 pull-right">
         <div class="text-title">
-          <p>JAC launched an event on FB to</p>
-          <p>honor our heroes as a public good</p>
+          JAC launched an event on FB to honor our heroes as a public good
         </div>
-        <p>In support of the truckers who are still on the front lines</p>
-        <p>during the epidemic, JAC teamed up with dealers around</p>
-        <p>the world to launch a "Salute to Heroes" campaign to send</p>
-        <p>warm gifts and cheer on for their actions.</p>
+        In support of the truckers who are still on the front lines
+        during the epidemic, JAC teamed up with dealers around
+        the world to launch a "Salute to Heroes" campaign to send
+        warm gifts and cheer on for their actions.
       </div>
-      <div class="img8 pull-left por animate-img">
+      <div class="img8 pull-left por">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-8.png" alt="" />
       </div>
-      <div class="img9 pull-right por animate-img">
+      <div class="img9 pull-right por">
         <img class="img-player" src="@assets/img/company/play.png" alt="" />
         <img src="@assets/img/crs/img9-9.png" alt="" />
       </div>
       <div class="text text6 pull-left">
         <div class="text-title">
-          <p>JAC launched a“Cherish and Join”</p>
-          <p>event on FB as a public good</p>
+          JAC launched a“Cherish and Join” event on FB as a public good
         </div>
-        <p>The sudden outbreak of the epidemic in 2020 has made us</p>
-        <p>more united and cherish the love, friendship and family around</p>
-        <p>
-          us.JAC initiates the activity of 'Cherish and Join' on social plat-
-        </p>
-        <p>form, collecting heart-warming stories around us and sending</p>
-        <p>encouragement to JAC fans.We call on all of us to cherish our</p>
-        <p>lives, pull ourselves together and move forward bravely after</p>
-        <p>the epidemic.</p>
+        The sudden outbreak of the epidemic in 2020 has made us
+        more united and cherish the love, friendship and family around
+        us.JAC initiates the activity of 'Cherish and Join' on social platform, collecting heart-warming stories around us and sending
+        encouragement to JAC fans.We call on all of us to cherish our
+        lives, pull ourselves together and move forward bravely after
+        the epidemic.
       </div>
     </div>
-    <div class="img10-container anitmate-container animate-img">
+    <div class="img10-container anitmate-container">
       <img src="@assets/img/crs/img10.png" />
     </div>
   </div>
@@ -284,7 +251,7 @@ export default {
   .text {
     font-family: Aileron-Regular;
     font-size: vw(30);
-    line-height: 1;
+    line-height: vw(52);
 
     p {
       margin-bottom: vw(22);
@@ -329,6 +296,7 @@ export default {
       }
 
       .text {
+        line-height: vw(48);
         height: vw(135);
       }
     }
@@ -338,6 +306,9 @@ export default {
       width: vw(730);
       margin-left: vw(119);
       margin-top: vw(192);
+      .text {
+        line-height: vw(48);
+      }
     }
 
     .area3 {
@@ -352,8 +323,9 @@ export default {
     }
   }
   .text3-container {
+    width: vw(1700);
+    margin: auto;
     padding-top: vw(101);
-    padding-left: vw(113);
     padding-bottom: vw(123);
     font-family: Aileron-Regular;
     font-size: vw(30);
@@ -363,13 +335,12 @@ export default {
       height: vw(394);
     }
     .area2 {
-      width: vw(799);
+      width: vw(830);
       height: vw(397);
-      margin-left: vw(106);
     }
   }
   .img4-container {
-    padding-left: vw(112);
+    padding-left: vw(110);
     padding-right: vw(110);
     margin-bottom: vw(141);
     height: vw(595);
@@ -395,9 +366,7 @@ export default {
       height: vw(974);
       margin-left: vw(113);
       margin-top: vw(58);
-      p {
-        margin-bottom: vw(23);
-      }
+      line-height: vw(52);
     }
     .img {
       width: vw(1049);
@@ -418,15 +387,16 @@ export default {
       height: vw(444);
       margin-top: vw(43);
       margin-right: vw(113);
+      line-height: vw(51);
     }
   }
   .img7-container {
     margin-bottom: vw(167);
     .title-common {
       height: vw(167);
-      p:first-child {
-        margin-bottom: vw(50);
-      }
+      width: vw(1210);
+      margin: 0 auto;
+      line-height: vw(87);
       margin-bottom: vw(52);
     }
     .img {
@@ -437,6 +407,7 @@ export default {
       width: vw(657);
       height: vw(972);
       margin-right: vw(120);
+      line-height: vw(51);
     }
   }
   .img8-container {
@@ -463,6 +434,7 @@ export default {
       width: vw(661);
       height: vw(238);
       margin-top: vw(223);
+      line-height: vw(43);
     }
     .img1 {
       width: vw(939);
@@ -478,6 +450,7 @@ export default {
       width: vw(937);
       height: vw(233);
       margin-top: vw(134);
+      line-height: vw(43);
     }
     .img3 {
       width: vw(939);
@@ -489,6 +462,7 @@ export default {
       width: vw(621);
       height: vw(237);
       margin-top: vw(126);
+      line-height: vw(43);
     }
     .img4 {
       width: vw(940);
@@ -504,6 +478,7 @@ export default {
       width: vw(648);
       height: vw(281);
       margin-top: vw(185);
+      line-height: vw(43);
     }
     .img6 {
       width: vw(939);
@@ -514,6 +489,14 @@ export default {
       width: vw(799);
       height: vw(442);
       margin-top: vw(170);
+    }
+    .text5,
+    .text6 {
+      .text-title {
+        line-height: vw(85);
+        height: vw(166);
+      }
+      line-height: vw(43);
     }
     .text5 {
       width: vw(794);

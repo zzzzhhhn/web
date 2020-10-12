@@ -1,55 +1,75 @@
 <template>
   <div class="footer-bar">
-    <div class="img-logo">
-      <img src="@assets/img/layout/logo.png" />
+    <div class="hidden-xs">
+      <div class="img-logo">
+        <img src="@assets/img/layout/logo.png" />
+      </div>
+      <div class="links">
+        <div :class="['col' + (index + 1)]" v-for="(tab, index) in tabs">
+          <div class="title">{{tab}}</div>
+          <div class="text" v-for="t in secTabs[tab]">{{t}}</div>
+        </div>
+        <div class="imgs">
+          <div>
+            <img src="@assets/img/layout/facebook.svg" />
+            <img src="@assets/img/layout/facebook.svg" />
+          </div>
+          <div>
+            <img src="@assets/img/layout/youtube.svg"/>
+            <img src="@assets/img/layout/youtube.svg" />
+          </div>
+          <div>
+            <img src="@assets/img/layout/instagram.svg" />
+            <img src="@assets/img/layout/instagram.svg" />
+          </div>
+          <div>
+            <img src="@assets/img/layout/twitter.svg"/>
+            <img src="@assets/img/layout/twitter.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <span class="text1">© 2020 JAC</span>
+        <span class="text2"> All Rights Reserved</span>
+      </div>
     </div>
-    <div class="links">
-      <div class="col1">
-        <div class="title">Showroom</div>
-        <div class="text">Passenger Cars</div>
-        <div class="text">Commercial Vehicles</div>
-        <div class="text">EV</div>
-        <div class="text">SPV</div>
-      </div>
-      <div class="col2">
-        <div class="title">Brand</div>
-        <div class="text">Company</div>
-        <div class="text">History</div>
-        <div class="text">Philosophy</div>
-        <div class="text">R&D</div>
-        <div class="text">CRS</div>
-        <div class="text">Service</div>
-      </div>
-      <div class="col3">
-        <div class="title">News&Events</div>
-        <div class="text">News</div>
-        <div class="text">Events</div>
-      </div>
-      <div class="col4">
-        <div class="title">Lifestyle</div>
-      </div>
-      <div class="col5">
-        <div class="title">Worldwide</div>
-        <div class="text">Find A Dealer</div>
-        <div class="text">Book A Car</div>
-      </div>
+    <div class="visible-xs-block">
       <div class="imgs">
-        <img src="@assets/img/layout/facebook.svg" class="facebook" />
-        <img src="@assets/img/layout/youtube.svg" class="youtube" />
-        <img src="@assets/img/layout/instagram.svg" class="instagram" />
-        <img src="@assets/img/layout/twitter.svg" class="twitter" />
+        <div class="facebook" >
+          <img src="@assets/img/layout/facebook.svg" />
+        </div>
+      <div class="youtube">
+        <img src="@assets/img/layout/youtube.svg" />
       </div>
-    </div>
-    <div class="copyright">
-      <span class="text1">© 2020 JAC</span>
-      <span class="text2"> All Rights Reserved</span>
+       <div class="instagram">
+         <img src="@assets/img/layout/instagram.svg" />
+       </div>
+     <div class="twitter">
+       <img src="@assets/img/layout/twitter.svg" />
+     </div>
+
+      </div>
+      <tabs :type="2"/>
+      <div class="text-center logo">
+        <img src="@assets/img/layout/logo.png" />
+      </div>
+      <div class="copyright">
+        <span class="text1">© 2020 JAC</span>
+        <span class="text2"> All Rights Reserved</span>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import tabs from "@mixins/tabs";
+
 export default {
-  name: "FooterBar"
+  name: "FooterBar",
+	mixins: [tabs],
+	components: {
+		tabs: () => import('./Tabs')
+	}
 };
 </script>
 
@@ -104,24 +124,16 @@ export default {
       height: vw(50);
       right: vw(129);
       bottom: vw(83);
-      .facebook {
-        width: vw(42);
-        height: vw(57);
-        margin-right: vw(39);
-      }
-      .youtube {
-        width: vw(54);
-        height: vw(50);
-        margin-right: vw(38);
-      }
-      .instagram {
-        width: vw(51);
-        height: vw(50);
-        margin-right: vw(42);
-      }
-      .twitter {
-        width: vw(49);
-        height: vw(48);
+      overflow: hidden;
+      > div {
+        width: vw(50);
+        display: inline-block;
+        transition: all .5s ease-in-out;
+        margin-left: vw(40);
+        cursor: pointer;
+        &:hover {
+          transform: translateY(vw(-50));
+        }
       }
     }
   }
@@ -136,6 +148,37 @@ export default {
     }
     .text2 {
       font-family: ArialMT, Arial;
+    }
+  }
+  .visible-xs-block {
+    .imgs {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: wp(63);
+      width: wp(689);
+      margin: auto;
+      border-bottom: 1px solid #E8E8E8;
+      img {
+        width: wp(60);
+      }
+      /*.facebookm,*/
+      /*.twitter,*/
+      /*.youtube,*/
+      /*.instagram {*/
+      /*  width: wp(65);*/
+      /*  height: wp(75);*/
+      /*}*/
+      .youtube,.instagram,.twitter {
+        margin-left: wp(77);
+      }
+    }
+    .logo {
+      padding: wp(50) wp(252) wp(69);
+    }
+    .copyright {
+      font-size: wp(20);
+      padding: 0 0 wp(47);
     }
   }
 }

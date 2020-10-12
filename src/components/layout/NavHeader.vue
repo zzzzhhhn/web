@@ -32,52 +32,46 @@
       </div>
     </div>
 
-    <div class="right-container" :class="{expand: showNav}">
-      <div class="nav">
+    <div class="right-container flex flex-column" :class="{expand: showNav}">
+      <div class="nav flex-none">
         <img src="@assets/img/layout/logo-nav.png" class="logo">
-        <div class="right-wap" @click="showNav = !showNav"></div>
-      </div>
-      <div class="tabs">
-        <div class="tab" v-for="tab in tabs">
-          <div class="title" @click="onChangeTab(tab)" :class="{active: currenTab === tab}">
-            <span>{{tab}}</span>
-            <div class="arrow">
-              <img src="@assets/img/layout/down.png" alt="">
-            </div>
-          </div>
-          <div class="sec-container" v-if="currenTab === tab">
-            <div class="sec" v-for="sec in secTabs[tab]">{{sec}}</div>
-          </div>
+        <div class="right-wap" @click="showNav = !showNav">
+          <div class="icon-line1"></div>
+          <div class="icon-line2"></div>
+          <div class="icon-line3"></div>
         </div>
       </div>
-      <div class="input-group">
+      <div class="over-auto flex-auto">
+        <tabs/>
+        <div class="input-group">
         <span class="input-group-addon" id="basic-addon1">
           <img src="@assets/img/layout/search.png" alt="" />
           <span class="text">Search</span>
         </span>
-        <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-      </div>
-      <div class="lang-container">
-        <div class="lang" :class="{active: showLangList}">
-          <img class="icon-lang flex-none" src="@assets/img/layout/lang1.png" alt="" />
-          <div class="lang-select flex-auto">
-            <div class="row1">
-              Choose your language
-            </div>
-            <div class="row2">
-              Chinese
-            </div>
-          </div>
-          <div class="flex-auto"></div>
-          <div class="arrow flex-none" @click="showLangList = !showLangList">
-            <img src="@assets/img/layout/down.png" alt="">
-          </div>
+          <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
         </div>
-        <div class="lang-list clearfix" v-if="showLangList">
-          <div class="item mb" v-for="(item, index) in langList" :class="{active: currentLang === index, mb: index < 7}"
-           @click="currentLang = index">
-            <img class="icon-lang flex-none" :src="langIcons[index]" alt="" />
-            <span>{{item}}</span>
+        <div class="lang-container">
+          <div class="lang" :class="{active: showLangList}" @click="showLangList = !showLangList">
+            <img class="icon-lang flex-none" src="@assets/img/layout/lang1.png" alt="" />
+            <div class="lang-select flex-auto">
+              <div class="row1">
+                Choose your language
+              </div>
+              <div class="row2">
+                Chinese
+              </div>
+            </div>
+            <div class="flex-auto"></div>
+            <div class="arrow flex-none">
+              <img src="@assets/img/layout/down.png" alt="">
+            </div>
+          </div>
+          <div class="lang-list clearfix" :class="{expand: showLangList}">
+            <div class="item mb" v-for="(item, index) in langList" :class="{active: currentLang === index, mb: index < 7}"
+                 @click="currentLang = index">
+              <img class="icon-lang flex-none" :src="langIcons[index]" alt="" />
+              <span>{{item}}</span>
+            </div>
           </div>
         </div>
       </div>
@@ -86,19 +80,14 @@
 </template>
 
 <script>
+  import tabs from '@mixins/tabs';
 export default {
   name: "NavHeader",
+  mixins: [tabs],
+  components: {
+  	tabs: () => import('./Tabs')
+  },
   data: () => ({
-    tabs: ["Showroom", "Brand", "News&Events", "Lifestyle", "Worldwide"],
-    secTabs: {
-			Showroom: [],
-			Brand: ['Company', 'History', 'Philosophy', 'R&D', 'CRS', 'Service'],
-			'News&Events': [],
-			Lifestyle: [],
-			Worldwide: []
-    },
-    currenTab: "Brand",
-    currentSec: "",
 		showNav: false,
 		langList: ['China', 'العربي', 'English', 'Русский', 'Español', 'Português', 'French', 'Việt'],
     langIcons: [
@@ -116,7 +105,11 @@ export default {
   }),
   methods: {
     onChangeTab(tab) {
-      this.currenTab = tab;
+    	if (this.currenTab !== tab) {
+				this.currenTab = tab;
+			} else {
+				this.currenTab = "";
+      }
       this.$router.push({name: tab});
     }
   }
@@ -130,7 +123,6 @@ $skewW: $h / 452 * 273 / 2;
 .app-header {
   position: fixed;
   top: 0;
-  left: $pa;
   width: $W;
   font-size: vw(24);
   height: 1px;
@@ -165,7 +157,7 @@ $skewW: $h / 452 * 273 / 2;
       transform: skewX(-30deg);
     }
   }
-  .right-wap {
+  .right-container {
     display: none;
   }
   .tab-container {
@@ -194,6 +186,7 @@ $skewW: $h / 452 * 273 / 2;
         background: #000000;
         transition: all 0.6s;
       }
+      &:hover,
       &.active {
         font-weight: bold;
 
@@ -269,9 +262,35 @@ $skewW: $h / 452 * 273 / 2;
     top: 0;
     right: 0;
     background: linear-gradient(120deg, transparent wp(45), red 0);
-    display: block;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: wp(27);
+    transition: all .5s ease-in-out;
+    .icon-line1 {
+      width: wp(26);
+      height: wp(3);
+      background: #fff;
+      margin-bottom: wp(10);
+      transition: all .5s ease-in-out;
+    }
+    .icon-line2 {
+      width: wp(52);
+      height: wp(3);
+      background: #fff;
+      margin-bottom: wp(10);
+      transition: all .5s ease-in-out;
+    }
+    .icon-line3 {
+      width: wp(52);
+      height: wp(3);
+      background: #fff;
+      transition: all .5s ease-in-out;
+    }
   }
   .right-container {
+    display: flex;
     width: wp(140);
     height: wp(84);
     background: transparent;
@@ -283,8 +302,7 @@ $skewW: $h / 452 * 273 / 2;
     transition: all .5s ease-in-out;
     &.expand {
       width: 100vw;
-      height: auto;
-      overflow: auto;
+      height: 100vh;
       background: #f1f1f1;
       .nav {
         width: 100vw;
@@ -297,6 +315,19 @@ $skewW: $h / 452 * 273 / 2;
           height: wp(69);
           width: wp(128);
           top: wp(7);
+          .icon-line1 {
+            width: wp(35);
+            transform-origin: 0 wp(2);
+            transform: rotate(45deg);
+          }
+          .icon-line2 {
+            width: 0;
+          }
+          .icon-line3 {
+            width: wp(35);
+            transform-origin: 0 wp(2);
+            transform: rotate(-45deg);
+          }
         }
       }
     }
@@ -312,47 +343,7 @@ $skewW: $h / 452 * 273 / 2;
         float: left;
       }
     }
-    .tabs {
-      padding: 0 wp(50);
-      .tab {
 
-        .sec,
-        .title {
-          height: wp(110);
-          line-height: wp(110);
-          font-family: ArialMT;
-          font-size: wp(28);
-          padding-left: wp(6);
-          padding-right: wp(9);
-          &.active {
-            span {
-              padding-bottom: wp(10);
-              border-bottom: 1px solid #000000;
-            }
-            .arrow {
-              img {
-                transform: rotate(180deg);
-              }
-            }
-          }
-        }
-        .sec {
-          padding-left: wp(50);
-        }
-
-
-        border-bottom: 1px solid #A8A8A8;
-      }
-    }
-    .arrow {
-      width: wp(26);
-      height: wp(14);
-      display: inline-block;
-      float: right;
-      img {
-        transition: all .5s ease-in-out;
-      }
-    }
     .input-group-addon {
       img {
         width: wp(37);
@@ -372,7 +363,7 @@ $skewW: $h / 452 * 273 / 2;
       border-bottom: 1px solid #535353;
       border-top: none;
       input {
-        height: wp(45);
+        height: 8vw;
         border: none;
         background: transparent;
         box-shadow: none;
@@ -387,7 +378,16 @@ $skewW: $h / 452 * 273 / 2;
       .lang {
         padding: wp(34) wp(8);
         height: wp(126);
-
+        .arrow {
+          width: wp(26);
+          height: wp(14);
+          display: inline-block;
+          float: right;
+          img {
+            transition: all .5s ease-in-out;
+          }
+          line-height: 1;
+        }
         .lang-select {
           width: auto;
           height: wp(58);
@@ -410,7 +410,10 @@ $skewW: $h / 452 * 273 / 2;
         margin-right: wp(16);
       }
       .lang-list {
-        padding: wp(33) wp(17) 0;
+        height: 0;
+        padding: 0;
+        transition: all .5s ease-in-out;
+        overflow: hidden;
         .item {
           width: 50%;
           float: left;
@@ -422,6 +425,10 @@ $skewW: $h / 452 * 273 / 2;
         }
         .mb {
           margin-bottom: wp(73);
+        }
+        &.expand {
+          padding: wp(33) wp(17) 0;
+          height: wp(490);
         }
       }
     }

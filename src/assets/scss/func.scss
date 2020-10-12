@@ -1,14 +1,8 @@
 @function vw($w) {
-  @return $w * 1700 / 1920 / 1920 * 100 + vw;
+  @return $w / 1920 * 100 + vw;
 }
-@function vh($h) {
-  @return $h / 1080 * 100 + vh;
-}
-@function vwp($w) {
-@return $w / 1920 * 100 + vw;
-}
-$W: vw(1920);
-$pa: (100vw - $W) / 2;
+$W: 100vw;
+
 @function wp($w) {
   @return $w / 750 * 100 + vw;
 }
