@@ -1,5 +1,6 @@
 <template>
   <div class="history-container">
+    <img src="@assets/img/history/car.png" class="poa car" />
     <div class="img1-container">
       <img src="@assets/img/history/img1.png" alt="" />
     </div>
@@ -224,8 +225,6 @@
         </div>
       </div>
       <div class="img2 pull-left">
-        <img src="@assets/img/history/img2.png" class="img-history" />
-        <img src="@assets/img/history/car.png" class="poa car" />
       </div>
       <div class="right pull-left">
         <div class="right1 anitmate-container">
@@ -495,6 +494,7 @@ export default {
     ],
     currentTop: 0,
     maxTop: 0,
+    originTop: 0,
     timer: "",
     left1: false,
     left2: false,
@@ -532,26 +532,20 @@ export default {
   }),
   mounted() {
     this.maxTop = parseInt($(".left16 .line").offset().top);
-    $("body").scroll(e => {
+    this.originTop = parseInt($(".right1 .line").offset().top);
+    $(window).scroll(e => {
       clearTimeout(this.timer);
       this.timer = setTimeout(() => {
         this.omMove($(e.target).scrollTop());
-      }, 500);
+      }, 100);
     });
   },
   methods: {
     omMove(top) {
-      let diff = top - this.currentTop;
-      this.currentTop = top;
-			if (top < 300) {
-				diff = 0;
-			} else if (top < 500) {
-				diff = diff / 3;
-      }
-     let targetTop = parseInt($(".car").css("top").replace("px", "")) + diff;
-      if (targetTop < 0) targetTop = 0;
-      if (targetTop > this.maxTop) targetTop = this.maxTop;
-      $(".car").css("top", targetTop + "px");
+      var offsetTop = top + $(window).height() / 2.0;
+      if (offsetTop < this.originTop) offsetTop = this.originTop;
+      if (offsetTop > this.maxTop) offsetTop = this.maxTop;
+      $(".car").css("top", offsetTop + "px");
     }
   }
 };
@@ -562,6 +556,14 @@ export default {
 .history-container {
   line-height: 1;
   margin-bottom: vw(244);
+  .car {
+    width: vw(119);
+    height: vw(280);
+    left: vw(886);
+    top: vw(879);
+    transition: all 0.5s ease;
+    z-index: 9;
+  }
   .img1-container {
     width: vw(1920);
     height: vw(738);
@@ -767,18 +769,9 @@ export default {
 
     .img2 {
       width: vw(179);
-
-      .img-history {
-        z-index: -1;
-      }
-      .car {
-        width: vw(119);
-        height: vw(280);
-        left: vw(886);
-        top: 0;
-        transition: all 0.5s ease-in-out;
-        z-index: 9;
-      }
+      height: vw(12387);
+      background-image: linear-gradient(to bottom, transparent 98%, #fff 100%),url("~@assets/img/history/img2.png");
+      background-size: contain;
     }
 
     .right {

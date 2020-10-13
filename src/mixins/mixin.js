@@ -15,7 +15,7 @@ export default {
       });
       this.checkShow(0);
     }, 800);
-    $("body").scroll(e => {
+    $(window).scroll(e => {
       this.checkShow($(e.target).scrollTop());
     });
   },

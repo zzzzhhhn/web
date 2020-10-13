@@ -1,7 +1,8 @@
 <template>
   <div class="crs-container">
     <div class="img1-container">
-      <img src="@assets/img/crs/img1.png" />
+      <img src="@assets/img/crs/img1.png" class="hidden-xs"/>
+      <img src="@assets/img/crs/img1-wap.png" class="visible-xs-inline" />
     </div>
 
     <div class="text2-container">

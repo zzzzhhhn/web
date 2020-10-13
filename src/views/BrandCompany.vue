@@ -301,7 +301,7 @@ export default {
     margin-bottom: vw(242);
     p {
       font-family: Helvetica-Light;
-      line-height: 1;
+      line-height: vw(52);
       margin-bottom: vw(20);
       color: #fff;
     }
@@ -326,11 +326,11 @@ export default {
       p.title2 {
         margin-bottom: vw(25);
       }
-      p:nth-child(4) {
+      p:nth-child(3) {
         margin-bottom: vw(70);
       }
-      p:nth-child(7) {
-        margin-bottom: vw(110);
+      p:nth-child(5) {
+        margin-bottom: vw(90);
       }
     }
     .text2 {

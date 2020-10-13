@@ -1,7 +1,8 @@
 <template>
   <div class="rnd-container">
     <div class="img1-container">
-      <img src="@assets/img/rnd/img1.png" />
+      <img src="@assets/img/rnd/img1.png" class="hidden-xs"/>
+      <img src="@assets/img/rnd/img1-wap.png" class="visible-xs-inline"/>
     </div>
     <div class="img2-container anitmate-container clearfix">
       <div class="pull-left text1">

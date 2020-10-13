@@ -1,12 +1,14 @@
 <template>
   <div class="service-container">
     <div class="img1-container">
-      <img src="@assets/img/service/img1.png" />
+      <img src="@assets/img/service/img1.png" class="hidden-xs" />
+      <img src="@assets/img/service/img1-wap.png" class="visible-xs-inline" />
     </div>
 
     <div class="img2-container anitmate-container text-center por">
       <div class="poa l0 t0" style="z-index: -1">
-        <img src="@assets/img/service/img2.png" alt="" />
+        <img src="@assets/img/service/img2.png" class="hidden-xs" />
+        <img src="@assets/img/service/img2-wap.png" class="visible-xs-inline" />
       </div>
       <div class="title">Overseas Spare Parts Dealer Recruit</div>
       <img src="@assets/img/service/logo.png" alt="" class="logo" />
@@ -140,11 +142,13 @@
     <div class="img7-container anitmate-container">
       <div class="title1">Our Products</div>
       <div class="title2">Genuine Spare parts</div>
-      <img src="@assets/img/service/img6.png" alt="" />
+      <img src="@assets/img/service/img6.png" class="hidden-xs" />
+      <img src="@assets/img/service/img6-wap.png" class="visible-xs-inline" />
     </div>
     <div class="img8-container anitmate-container">
       <div class="title2">Genuine Accessories</div>
-      <img src="@assets/img/service/img7.png" alt="" />
+      <img src="@assets/img/service/img7.png" class="hidden-xs" />
+      <img src="@assets/img/service/img7-wap.png" class="visible-xs-inline" />
     </div>
     <div class="img9-container anitmate-container">
       <div class="title1">Our Products</div>
