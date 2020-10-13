@@ -31,7 +31,7 @@
         “Hand-in-Hand·Refine Action- Let Children Not be Alone”
       </div>
     </div>
-    <div class="anitmate-container">
+    <div class="anitmate-container paddingwap">
       <img src="@assets/img/crs/img2.png" />
     </div>
 
@@ -45,7 +45,7 @@
         seven seasons, providing warmth and care to more than
         5,000 left-behind children.
       </div>
-      <div class="area2 pull-right">
+      <div class="area2 pull-right hidden-xs">
         For seven consecutive seasons,"Hand-in-Hand,Refine Action--Let Children Not be Alone"shows JAC's care for the
         young generation, and is the best portrayal of JAC's positive return to the society and fulfillment of its social
         responsibilities.,"Hand-in-Hand,Refine Action--Let Children Not be
@@ -78,15 +78,25 @@
         15 million RMB in total has been donated and
         continuous support for epidemic prevention and
         control has been offered by JAC Motors.
+        <div class="hidden-xs">
+          In order to solve the shortage of medical materials, JAC actively coordinated and purchased
+          masks to provide assistance to overseas distributors, and made its best efforts to support
+          overseas epidemic prevention and control. Up to
+          now, JAC has support a total of 50,000 masks to
+          Europe, Latin America, Africa and Asia to assist
+          overseas distributors in joint anti-epidemic.
+        </div>
+      </div>
+      <div class="img pull-right animate-img">
+        <img src="@assets/img/crs/img5.png" />
+      </div>
+      <div class="text visible-xs-block">
         In order to solve the shortage of medical materials, JAC actively coordinated and purchased
         masks to provide assistance to overseas distributors, and made its best efforts to support
         overseas epidemic prevention and control. Up to
         now, JAC has support a total of 50,000 masks to
         Europe, Latin America, Africa and Asia to assist
         overseas distributors in joint anti-epidemic.
-      </div>
-      <div class="img pull-right animate-img">
-        <img src="@assets/img/crs/img5.png" />
       </div>
     </div>
     <div class="img6-container anitmate-container clearfix">
@@ -113,11 +123,12 @@
         JAC and its’ Global Distributors Joint Together
         Strongly to Fight the Pandemic
       </div>
+      <div class="text-title visible-xs-block">JAC moves in Bolivia</div>
       <div class="img pull-left animate-img">
         <img src="@assets/img/crs/img7.png" alt="" />
       </div>
       <div class="text pull-right">
-        <div class="text-title">JAC moves in Bolivia</div>
+        <div class="text-title hidden-x">JAC moves in Bolivia</div>
         <div class="text1">
           We are very proud that at this moment we could
           provide convenience transportation for those
@@ -126,6 +137,9 @@
           undertaken our own social responsibilities and
           provided a fleet of cars and trucks to our government. This fleet will run in Santa Cruz, La Paz, and
           Cochabamba areas for transportation of medical materials.
+        </div>
+        <div class="img3 animate-img visible-xs-block">
+          <img src="@assets/img/crs/img8-3.png" />
         </div>
         <div class="text2">
           In addition, we built some small bases on the
@@ -144,7 +158,7 @@
       <div class="img2 animate-img">
         <img src="@assets/img/crs/img8-2.png" />
       </div>
-      <div class="img3 animate-img">
+      <div class="img3 animate-img hidden-xs">
         <img src="@assets/img/crs/img8-3.png" />
       </div>
     </div>
@@ -520,6 +534,297 @@ export default {
   }
   .img10-container {
     margin-bottom: vw(242);
+  }
+}
+@media screen and (max-width: 767px) {
+  .crs-container {
+    .text {
+      font-size: wp(28);
+      line-height: wp(48);
+    }
+    .title-common {
+      text-align: left;
+      font-size: wp(60);
+      line-height: wp(70);
+    }
+    .text-title {
+      font-size: wp(48);
+      line-height: wp(56);
+      margin-bottom: wp(50);
+    }
+    .img1-container {
+      margin-bottom: wp(48);
+    }
+    .text2-container,
+    .text3-container,
+    .img4-container,
+    .img5-container,
+    .img6-container,
+    .img7-container,
+    .img8-container,
+    .img9-container,
+    .img10-container,
+    .paddingwap {
+      padding: 0 wp(40);
+    }
+    .text2-container {
+
+      .title {
+        font-size: wp(60);
+        margin-bottom: wp(46);
+      }
+
+      .text2 {
+        font-size: wp(48);
+        margin-bottom: wp(17);
+      }
+
+      .area1 {
+        float: none;
+        width: 100%;
+        margin-top: 0;
+
+        .text1 {
+          font-size: wp(60);
+          margin-bottom: wp(46);
+        }
+
+        .text {
+          line-height: wp(60);
+          height: wp(169);
+        }
+      }
+
+      .area2 {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-top: wp(47);
+        .text {
+          line-height: wp(60);
+        }
+      }
+
+      .area3 {
+        text-align: left;
+        font-size: wp(60);
+        margin-top: wp(67);
+        margin-bottom: wp(47);
+      }
+
+      .area4 {
+        text-align: left;
+        font-family: Cormorant-Regular;
+        font-size: wp(48);
+        line-height: wp(60);
+        margin-bottom: wp(47);
+      }
+    }
+    .text3-container {
+      width: 100%;
+      margin: auto;
+      padding-top: wp(48);
+      padding-bottom: wp(45);
+      font-size: wp(28);
+      line-height: wp(48);
+      .area1 {
+        width: 100%;
+        height: wp(417);
+      }
+
+    }
+    .img4-container {
+      margin-bottom: wp(69);
+      height: auto;
+      .left {
+        width: 100%;
+        height: wp(595);
+        margin-right: 0;
+      }
+      .mid {
+        width: wp(240);
+        height: wp(372);
+        margin-right: wp(10);
+      }
+      .right {
+        height: wp(372);
+        width: wp(420);
+      }
+    }
+    .img5-container {
+      margin-bottom: wp(67);
+
+      .title-common {
+        margin-bottom: wp(30);
+      }
+
+      .text {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+        line-height: wp(48);
+      }
+
+      .img {
+        width: 100%;
+        height: auto;
+        margin-top: wp(45);
+        margin-bottom: wp(45);
+      }
+    }
+    .img6-container {
+      margin-bottom: wp(47);
+      .img {
+        width: 100%;
+        height: auto;
+        margin-top: wp(47);
+        margin-left: 0;
+      }
+      .text {
+        width: 100%;
+        height: 100%;
+        margin-top: wp(47);
+        margin-right: 0;
+        line-height: wp(48);
+      }
+    }
+    .img7-container {
+      margin-bottom: wp(48);
+      .title-common {
+        height: auto;
+        width: 100%;
+        margin: 0 0 wp(47);
+        line-height: wp(70);
+      }
+      .img {
+        width: 100%;
+        height: auto;
+      }
+      .text {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-top: wp(37);
+        line-height: wp(48);
+      }
+      .text-title {
+        font-family: Cormorant-Medium;
+        font-size: wp(48);
+        margin-bottom: wp(47);
+      }
+      .img3 {
+        margin-top: wp(48);
+        margin-bottom: wp(48);
+      }
+    }
+    .img8-container {
+      img {
+        height: wp(363);
+      }
+      .img1 {
+        width: wp(255);
+        margin-right: wp(16);
+      }
+      .img2 {
+        width: wp(399);
+        margin-right: 0;
+      }
+    }
+    .img9-container {
+      padding: 0 vw(110);
+      margin-bottom: vw(169);
+
+      .text1 {
+        width: vw(661);
+        height: vw(238);
+        margin-top: vw(223);
+        line-height: vw(43);
+      }
+      .img1 {
+        width: vw(939);
+        height: vw(539);
+        margin-top: vw(169);
+      }
+      .img2 {
+        width: vw(662);
+        height: vw(817);
+        margin-top: vw(135);
+      }
+      .text2 {
+        width: vw(937);
+        height: vw(233);
+        margin-top: vw(134);
+        line-height: vw(43);
+      }
+      .img3 {
+        width: vw(939);
+        height: vw(534);
+        margin-top: vw(66);
+        margin-bottom: vw(101);
+      }
+      .text3 {
+        width: vw(621);
+        height: vw(237);
+        margin-top: vw(126);
+        line-height: vw(43);
+      }
+      .img4 {
+        width: vw(940);
+        height: vw(529);
+        margin-top: vw(65);
+      }
+      .img5 {
+        width: vw(659);
+        height: vw(529);
+        margin-top: vw(65);
+      }
+      .text4 {
+        width: vw(648);
+        height: vw(281);
+        margin-top: vw(185);
+        line-height: vw(43);
+      }
+      .img6 {
+        width: vw(939);
+        height: vw(532);
+        margin-top: vw(49);
+      }
+      .img7 {
+        width: vw(799);
+        height: vw(442);
+        margin-top: vw(170);
+      }
+      .text5,
+      .text6 {
+        .text-title {
+          line-height: vw(85);
+          height: vw(166);
+        }
+        line-height: vw(43);
+      }
+      .text5 {
+        width: vw(794);
+        margin-top: vw(336);
+      }
+      .img8 {
+        width: vw(799);
+        height: vw(442);
+        margin-top: vw(45);
+      }
+      .img9 {
+        width: vw(803);
+        height: vw(916);
+        margin-top: vw(169);
+      }
+      .text6 {
+        width: vw(837);
+        margin-top: vw(66);
+      }
+    }
+    .img10-container {
+      margin-bottom: vw(242);
+    }
   }
 }
 </style>

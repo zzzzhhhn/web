@@ -155,6 +155,7 @@ $skewW: $h / 452 * 273 / 2;
       z-index: -1;
       background: #fff;
       transform: skewX(-30deg);
+      box-shadow: 0 0 8px 0 rgba(0,0,0,.5);
     }
   }
   .right-container {
