@@ -29,16 +29,11 @@
         Provide customers with the optimal transportation solutions and driving
         experience to promote continuous progress of the world.
       </div>
-      <div class="img">
-        <div class="img1 animate-img">
-          <img src="@assets/img/phi/img4-1.png" />
-        </div>
-        <div class="img2 animate-img">
-          <img src="@assets/img/phi/img4-2.png" />
-        </div>
-      </div>
       <div class="clearfix">
         <div class="text1 pull-left">
+          <div class="img1 animate-img">
+            <img src="@assets/img/phi/img4-1.png" />
+          </div>
           <div class="title">Brand Values</div>
           <div class="text">
             Be practical and moderate, Keep learning and innovating,
@@ -47,6 +42,9 @@
           </div>
         </div>
         <div class="text2 pull-left">
+          <div class="img2 animate-img">
+            <img src="@assets/img/phi/img4-2.png" />
+          </div>
           <div class="title">Brand Core</div>
          <div class="text">
            "Think & Create" is the grand layout of JAC to "create a
@@ -64,14 +62,16 @@
       <div class="img1">
         <img src="@assets/img/phi/img6-1.png" />
       </div>
-      <div class="img2 animate-img">
-        <img src="@assets/img/phi/img6-2.png" />
-      </div>
-      <div class="img3 animate-img">
-        <img src="@assets/img/phi/img6-3.png" />
-      </div>
-      <div class="img4 animate-img">
-        <img src="@assets/img/phi/img6-4.png" />
+      <div class="wap">
+        <div class="img2 animate-img">
+          <img src="@assets/img/phi/img6-2.png" />
+        </div>
+        <div class="img3 animate-img">
+          <img src="@assets/img/phi/img6-3.png" />
+        </div>
+        <div class="img4 animate-img">
+          <img src="@assets/img/phi/img6-4.png" />
+        </div>
       </div>
     </div>
     <div class="img7-container clearfix anitmate-container">
@@ -90,6 +90,9 @@
             continuous improvement; lead the industry progress with
             new perspectives and new concepts.
           </div>
+          <div class="img1 animate-img">
+            <img src="@assets/img/phi/img7-1.png" />
+          </div>
           <div class="title2">Enthusiasm</div>
           <div class="text">
             With reliable, trustworthy and down-to-earth research, relying on leading technology and long manufacturing history,
@@ -102,9 +105,12 @@
             the initiative to meet various challenges instead of waiting
             for opportunities to come.
           </div>
+          <div class="img2 animate-img">
+            <img src="@assets/img/phi/img7-2.png" />
+          </div>
         </div>
       </div>
-      <div class="img pull-left">
+      <div class="img pull-left hidden-xs">
         <div class="img1 animate-img">
           <img src="@assets/img/phi/img7-1.png" />
         </div>
@@ -180,7 +186,7 @@ export default {
       line-height: vw(40);
     }
 
-    .img {
+    .img1,.img2 {
       margin-top: vw(113);
       margin-bottom: vw(54);
       img {
@@ -193,7 +199,6 @@ export default {
     }
     .text1 {
       width: vw(807);
-      height: vw(282);
       .text {
         width: 100%;
       }
@@ -260,6 +265,114 @@ export default {
       .img2 {
         height: vw(755);
       }
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .philosohy-container {
+    .img1-container {
+      margin-bottom: wp(69);
+    }
+    .text2-container,
+    .img3-container,
+    .img4-container,
+    .img6-container,
+    .img7-container {
+      padding: 0 wp(40);
+    }
+    .text2-container {
+      margin-bottom: wp(52);
+
+      .title1 {
+        font-size: wp(60);
+        margin-bottom: wp(28);
+      }
+
+      .title2 {
+        font-size: wp(48);
+        margin-bottom: wp(30);
+      }
+
+      .text {
+        font-size: wp(28);
+        height: wp(566);
+        width: 100%;
+        line-height: wp(48);
+      }
+    }
+    .img3-container {
+      margin-bottom: wp(69);
+    }
+    .img4-container {
+      margin-bottom: wp(48);
+      .title {
+        font-size: wp(60);
+        margin-bottom: wp(30);
+      }
+      .text {
+        font-size: wp(28);
+        width: 100%;
+        height: auto;
+        line-height: wp(43);
+      }
+
+      .img1, .img2 {
+        margin-top: wp(48);
+        margin-bottom: wp(68);
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .img2 {
+          margin-left: 0;
+        }
+      }
+      .text1 {
+        float: none;
+        width: 100%;
+        height: auto;
+        .text {
+          width: 100%;
+        }
+      }
+      .text2 {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+    .img6-container {
+      .wap {
+        display: flex;
+      }
+    }
+    .img7-container {
+      margin-bottom: wp(247);
+      .title1 {
+        font-size: wp(60);
+        margin-bottom: wp(57);
+      }
+      .title2 {
+        font-family: Cormorant-Regular;
+        font-size: wp(48);
+        margin-bottom: wp(48);
+      }
+      .text {
+        font-size: wp(28);
+        line-height: wp(48);
+        margin-bottom: wp(60);
+      }
+      .text-area {
+        width: 100%;
+        margin-top: wp(55);
+        .content {
+          height: auto;
+        }
+      }
+      .img1, img2 {
+          height: auto;
+          margin-bottom: wp(50);
+        }
     }
   }
 }
