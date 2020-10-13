@@ -31,14 +31,13 @@
       </div>
 
       <div class="text">
-        <p class="title pl5">-Asia and Gulf sales Section</p>
+        <p class="title pl5">Asia and Gulf sales Section</p>
         <p>Contact:jacparts3@jac.com.cn</p>
-        <p class="title pl5">-Africa Sales Section</p>
+        <p class="title pl5">Africa Sales Section</p>
         <p>Contact:jacparts5@jac.com.cn</p>
-        <p class="title pl5">-Europe and America Sales</p>
-        <p class="title">Section</p>
+        <p class="title pl5">Europe and America Sales Section</p>
         <p>Contact:jacparts4@jac.com.cn</p>
-        <p class="title pl5">-PDC Sales Section</p>
+        <p class="title pl5">PDC Sales Section</p>
         <p>Contact:jacparts1@jac.com.cn</p>
       </div>
     </div>
@@ -54,7 +53,7 @@
           <img src="@assets/img/service/line.png" alt="">
         </div>
         <div class="area1 pull-left">
-          <div class="text-center num-content">
+          <div class="text-center num-content wap-flex">
             <div class="num">1</div>
             <div class="num-text">First level</div>
           </div>
@@ -64,7 +63,7 @@
           </div>
         </div>
         <div class="area2 pull-left">
-          <div class="text-center num-content">
+          <div class="text-center num-content wap-flex">
             <div class="num">2</div>
             <div class="num-text">Second level</div>
           </div>
@@ -82,7 +81,7 @@
           </div>
         </div>
         <div class="area3 pull-left">
-          <div class="text-center num-content">
+          <div class="text-center num-content wap-flex">
             <div class="num">3</div>
             <div class="num-text">Third level</div>
           </div>
@@ -151,8 +150,8 @@
       <img src="@assets/img/service/img7-wap.png" class="visible-xs-inline" />
     </div>
     <div class="img9-container anitmate-container">
-      <div class="title1">Our Products</div>
-      <div class="title2">Genuine Spare parts</div>
+      <div class="title1">JAC Special Use Oils: Different Grade of Lubricant Oils.  </div>
+      <div class="title2">Genuine parts package</div>
       <div class="img-content clearfix">
         <div class="item animate-img">
           <img src="@assets/img/service/img8-1.png" />
@@ -296,6 +295,7 @@ export default {
       color: #cc000d;
       font-family: Aileron-Heavy;
       font-size: vw(36);
+      font-weight: bold;
     }
   }
   .img3-container {
@@ -330,6 +330,10 @@ export default {
       p:not(.title) {
         margin-bottom: vw(70);
       }
+      .title:before {
+        content: '-';
+        display: inline-block;
+      }
     }
   }
   .img5-container {
@@ -350,6 +354,7 @@ export default {
     }
     .title2 {
       font-family: Aileron-Bold;
+      font-weight: bold;
       font-size: vw(30);
       height: vw(82);
       width: vw(1580);
@@ -580,10 +585,345 @@ export default {
       span {
         font-family: Aileron-Heavy;
         color: #cc000d;
+        font-weight: bold;
       }
       .text {
         line-height: vw(36);
         margin-bottom: vw(32);
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .service-container {
+    .img1-container {
+      margin-bottom: wp(48);
+    }
+    > .anitmate-container {
+      padding: 0 wp(40);
+      width: 100%;
+    }
+    .img2-container {
+      width: wp(670);
+      height: wp(765);
+      margin: 0 auto wp(48);
+      padding-top: wp(30);
+
+      .title {
+        font-size: wp(60);
+        line-height: wp(60);
+        margin-bottom: wp(80);
+      }
+
+      .logo {
+        width: wp(221);
+        height: wp(87);
+        margin-bottom: wp(70);
+      }
+
+      .text {
+        font-size: wp(28);
+        line-height: wp(38);
+        width: wp(615);
+        margin: auto;
+      }
+
+      .red {
+        font-size: wp(48);
+        line-height: wp(60);
+        word-break: break-word;
+      }
+    }
+
+    .img3-container {
+      width: 100%;
+      margin: 0 0 wp(48);
+    }
+
+    .img4-container {
+      font-size: wp(28);
+      margin-bottom: wp(68);
+
+      .title {
+        width: 100%;
+        font-size: wp(48);
+        font-weight: bold;
+        line-height: wp(60);
+      }
+
+      .img {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: 0;
+        margin-left: 0;
+      }
+
+      .text {
+        float: left;
+        margin-top: 0;
+        width: 100%;
+        height: wp(434);
+        margin-left: 0;
+        .title {
+          font-size: wp(36);
+          line-height: wp(40);
+          &:before {
+            content: '';
+            display: inline-block;
+            width: wp(68);
+            height: wp(16);
+            margin-right: wp(25);
+            background: #B8D000;
+            transform: translateY(wp(-3));
+          }
+        }
+        .pl5 {
+          padding-left: 0;
+        }
+
+        p:not(.title) {
+          margin-bottom: vw(70);
+        }
+      }
+    }
+
+    .img5-container {
+      margin-bottom: wp(81);
+
+      .line1 {
+       display: none;
+      }
+
+      .title1 {
+        font-size: wp(60);
+        margin-bottom: wp(39);
+        padding-left: 0;
+      }
+
+      .title2 {
+        font-size: wp(28);
+        height: auto;
+        width: 100%;
+        padding-left: 0;
+        line-height: wp(43);
+      }
+
+      .text-container {
+        .num {
+          flex: none;
+          font-size: wp(180);
+        }
+
+        .num-text {
+          font-size: wp(36);
+          flex: auto;
+          text-align: left;
+        }
+
+        .area1,
+        .area2,
+        .area3 {
+          .text-area {
+            font-size: wp(28);
+            border-top: none;
+            line-height: wp(52);
+
+            .bold {
+              font-size: wp(28);
+            }
+          }
+          margin-left: 0;
+          margin-top: 0;
+
+          .num-content {
+            width: 100%;
+            margin-left: 0;
+
+            .num {
+              margin-bottom: 0;
+            }
+
+            .num-text {
+              margin-bottom: 0;
+            }
+          }
+
+          .text-area {
+            width: 100%;
+            height: auto;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+
+    .img6-container,
+    .img7-container,
+    .img8-container,
+    .img9-container {
+      .title1 {
+        font-size: wp(60);
+        margin-bottom: 0;
+        padding-left: 0;
+      }
+
+      .title2 {
+        font-size: wp(28);
+        line-height: wp(43);
+        margin-bottom: wp(48);
+        padding-left: 0;
+      }
+    }
+
+    .img6-container {
+      margin-bottom: 0;
+      .img-content {
+        padding-left: 0;
+
+        .item {
+          width: 100%;
+          float: left;
+          margin-bottom: wp(48);
+          .img {
+            margin-bottom: wp(48);
+          }
+
+          .text {
+            font-size: wp(28);
+            line-height: wp(43);
+
+          }
+
+          &:nth-child(2),
+          &:nth-child(4) {
+            margin-left: 0;
+          }
+
+          &:nth-child(1),
+          &:nth-child(2) {
+            margin-bottom: wp(48);
+          }
+        }
+      }
+    }
+
+    .img7-container,
+    .img8-container {
+      margin-bottom: wp(48);
+
+      img {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+
+    .img8-container {
+      margin-bottom: wp(68);
+    }
+
+    .img9-container {
+      margin-bottom: wp(50);
+
+      .title2 {
+        margin-bottom: wp(66);
+      }
+
+      .img-content {
+        padding-left: 0;
+
+        .item {
+          float: left;
+          width: 100%;
+          img {
+            transform: translateX(wp(80));
+          }
+          &:last-child {
+            margin-left: 0;
+          }
+          &:first-of-type .text {
+            margin-bottom: wp(76);
+          }
+          .text {
+            text-align: center;
+            font-size: wp(28);
+            line-height: wp(43);
+            margin-top: wp(10);
+
+          }
+        }
+      }
+    }
+
+    .img10-container,
+    .img11-container {
+      font-size: wp(28);
+      line-height: wp(43);
+      padding-left: wp(40);
+      margin-bottom: wp(48);
+
+      .title {
+        font-size: wp(28);
+        margin-bottom: vw(32);
+      }
+
+    }
+
+    .img10-container {
+      img {
+        margin-top: vw(46);
+        margin-bottom: vw(63);
+      }
+
+      .text1,
+      .text2,
+      .text3 {
+        line-height: vw(35);
+      }
+
+      .text1 {
+        width: vw(552);
+        height: vw(102);
+      }
+
+      .text2 {
+        width: vw(537);
+        margin-left: vw(149);
+      }
+
+      .text3 {
+        width: vw(290);
+        height: vw(60);
+        margin-left: vw(128);
+      }
+    }
+
+    .img11-container {
+      margin-bottom: wp(250);
+      .title:first-child {
+        margin-bottom: wp(30);
+      }
+
+      .text {
+        margin-bottom: wp(47);
+        line-height: wp(43);
+        max-width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .text-area {
+        margin-left: 0;
+        margin-top: wp(48);
+        height: auto;
+        width: 100%;
+
+        .text {
+          line-height: wp(43);
+          margin-bottom: wp(32);
+        }
       }
     }
   }

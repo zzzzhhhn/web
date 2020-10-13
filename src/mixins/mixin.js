@@ -1,6 +1,16 @@
 export default {
   data: () => ({
-    classTops: []
+    classTops: [],
+    showVideo1: false,
+    showVideo2: false,
+    showVideo3: false,
+    showVideo4: false,
+    showVideo5: false,
+    showVideo6: false,
+    showVideo7: false,
+    showVideo8: false,
+    showVideo9: false,
+    showVideo10: false
   }),
   mounted() {
     const vm = this;
@@ -20,6 +30,10 @@ export default {
     });
   },
   methods: {
+    /**
+     * 滚动出现
+     * @param top
+     */
     checkShow(top) {
       if (top < $(window).height()) top = $(window).height();
       this.classTops.forEach(item => {
@@ -30,9 +44,25 @@ export default {
           $("." + item.class).removeClass("show");
         }
       });
+    },
+    /**
+     * 播放视频
+     * @param v
+     */
+    onPlayVideo(v) {
+      this['showVideo' + v] = true;
+      document.getElementById('video' + v).play();
+    },
+    onPause(v) {
+      const media = document.getElementById('video' + v);
+      if (media.paused) {
+        media.play();
+      } else {
+        media.pause();
+      }
     }
   },
   beforeDestroy() {
-    $("body").unbind("scroll");
+    $(window).unbind("scroll");
   }
 };

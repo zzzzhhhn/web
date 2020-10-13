@@ -2,8 +2,8 @@
   <div class="philosohy-container">
     <div class="img1-container por">
       <img src="@assets/img/phi/img1.png" v-show="!showVideo1" />
-      <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo" v-show="!showVideo1" />
-      <video src="@assets/video/band5.mp4" id="video" preload controls v-show="showVideo1"></video>
+      <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(1)" v-show="!showVideo1" />
+      <video src="@assets/video/band5.mp4" id="video1" preload controls @touchend="onPause(1)" v-show="showVideo1"></video>
     </div>
     <div class="text2-container anitmate-container">
       <div class="title1">Brand Vision</div>
@@ -127,16 +127,7 @@ import mix from "@mixins/mixin";
 
 export default {
   name: "BrandPhilosohy",
-  mixins: [mix],
-	data: () => ({
-		showVideo1: false
-	}),
-	methods: {
-		onPlayVideo() {
-			this.showVideo1 = true;
-			document.getElementById('video').play();
-		}
-	}
+  mixins: [mix]
 };
 </script>
 

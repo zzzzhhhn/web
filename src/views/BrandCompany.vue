@@ -2,8 +2,8 @@
   <div class="company-container">
     <div class="redio-container anitmate-container">
       <img src="@assets/img/company/vdieo1-bg.png" class="img" v-show="!showVideo1" />
-      <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo" v-show="!showVideo1" />
-      <video src="@assets/video/band1.mp4" id="video" preload controls v-show="showVideo1"></video>
+      <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(1)" v-show="!showVideo1" />
+      <video src="@assets/video/band1.mp4" id="video1" preload controls @touchend="onPause(1)" v-show="showVideo1"></video>
     </div>
     <div class="img1-container anitmate-container por">
       <div class="img1">
@@ -149,16 +149,7 @@ import mix from "@mixins/mixin";
 
 export default {
   name: "BrandCompany",
-  mixins: [mix],
-  data: () => ({
-		showVideo1: false
-  }),
-  methods: {
-		onPlayVideo() {
-			this.showVideo1 = true;
-			document.getElementById('video').play();
-    }
-  }
+  mixins: [mix]
 };
 </script>
 <style lang="scss">

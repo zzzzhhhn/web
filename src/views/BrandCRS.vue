@@ -165,83 +165,106 @@
     <div class="img9-container anitmate-container clearfix">
       <div class="text text1 pull-left">
         <div class="text-title">JAC moves in Columbia</div>
-        I am one of you! We thank for those JAC trucks
-        who are committed to carittng for and supporting
-        the country.
+        <div class="text">
+          I am one of you! We thank for those JAC trucks
+          who are committed to carittng for and supporting
+          the country.
+        </div>
       </div>
       <div class="img1 pull-right por">
-        <img src="@assets/img/crs/img9-1.png" alt="" />
-        <img class="img-player" src="@assets/img/company/play.png" alt="" />
+        <img src="@assets/img/crs/img9-1.png" v-show="!showVideo1" />
+        <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(1)" v-show="!showVideo1" />
+        <video src="@assets/video/crs-1.mp4" id="video1" preload controls @touchend="onPause(1)" v-show="showVideo1"></video>
+
       </div>
       <div class="img2 pull-left por">
-        <img class="img-player" src="@assets/img/company/play.png" alt="" />
-        <img src="@assets/img/crs/img9-2.png" alt="" />
+        <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(2)"  v-show="!showVideo2"/>
+        <img src="@assets/img/crs/img9-2.png" v-show="!showVideo2"/>
+        <video src="@assets/video/crs-2.mp4" id="video2" preload controls @touchend="onPause(2)" v-show="showVideo2"></video>
       </div>
       <div class="text text2 pull-right">
         <div class="text-title">JAC moves in Pure</div>
-        At this difficult moment, we should stay at home and keep confidence.
-        This world has hope and surprise anywhere. JAC Peru truck club will
-        take the responsibility for our country and our people.
+        <div class="text">
+          At this difficult moment, we should stay at home and keep confidence.
+          This world has hope and surprise anywhere. JAC Peru truck club will
+          take the responsibility for our country and our people.
+        </div>
       </div>
       <div class="img3 pull-right por">
-        <img class="img-player" src="@assets/img/company/play.png" alt="" />
-        <img src="@assets/img/crs/img9-3.png" alt="" />
+        <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(3)"  v-show="!showVideo3" />
+        <img src="@assets/img/crs/img9-3.png" v-show="!showVideo3" />
+        <video src="@assets/video/crs-3.mp4" id="video3" preload controls @touchend="onPause(3)" v-show="showVideo3"></video>
       </div>
       <div class="text text3 pull-left">
         <div class="text-title">JAC moves in Chile</div>
-        We continue to bring hope to Chile
-        We thank all truck drivers who are still working
-        during the outbreak.
+        <div class="text">
+          We continue to bring hope to Chile
+          We thank all truck drivers who are still working
+          during the outbreak.
+        </div>
       </div>
       <div class="img4 pull-left por">
-        <img class="img-player" src="@assets/img/company/play.png" alt="" />
-        <img src="@assets/img/crs/img9-4.png" alt="" />
+        <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(4)"  v-show="!showVideo4" />
+        <img src="@assets/img/crs/img9-4.png" v-show="!showVideo4" />
+        <video src="@assets/video/crs-4.mp4" id="video4" preload controls @touchend="onPause(4)" v-show="showVideo4"></video>
       </div>
       <div class="img5 pull-right animate-img">
         <img src="@assets/img/crs/img9-5.png" alt="" />
       </div>
       <div class="text text4 pull-left">
         <div class="text-title">JAC moves in Mexico</div>
-        We are always ready here. Ready to join our
-        hands. Fight to overcome any adversity that fate
-        may present us. We are proud of being the name
-        of JAC.
+        <div class="text">
+          We are always ready here. Ready to join our
+          hands. Fight to overcome any adversity that fate
+          may present us. We are proud of being the name
+          of JAC.
+        </div>
       </div>
       <div class="img6 pull-right por">
-        <img class="img-player" src="@assets/img/company/play.png" alt="" />
-        <img src="@assets/img/crs/img9-6.png" alt="" />
-      </div>
-      <div class="img7 pull-left por">
-        <img class="img-player" src="@assets/img/company/play.png" alt="" />
-        <img src="@assets/img/crs/img9-7.png" alt="" />
+        <img class="img-player" src="@assets/img/company/play.png"  @click="onPlayVideo(5)" v-show="!showVideo5" />
+        <img src="@assets/img/crs/img9-6.png"  v-show="!showVideo5" />
+        <video src="@assets/video/crs-5.mp4" id="video5" preload controls @touchend="onPause(5)" v-show="showVideo5"></video>
       </div>
       <div class="text text5 pull-right">
         <div class="text-title">
           JAC launched an event on FB to honor our heroes as a public good
         </div>
-        In support of the truckers who are still on the front lines
-        during the epidemic, JAC teamed up with dealers around
-        the world to launch a "Salute to Heroes" campaign to send
-        warm gifts and cheer on for their actions.
+        <div class="text">
+          In support of the truckers who are still on the front lines
+          during the epidemic, JAC teamed up with dealers around
+          the world to launch a "Salute to Heroes" campaign to send
+          warm gifts and cheer on for their actions.
+        </div>
       </div>
+      <div class="img7 pull-left por">
+        <img class="img-player" src="@assets/img/company/play.png"  @click="onPlayVideo(6)" v-show="!showVideo6" />
+        <img src="@assets/img/crs/img9-7.png" v-show="!showVideo6" />
+        <video src="@assets/video/crs-6.mp4" id="video6" preload controls @touchend="onPause(6)" v-show="showVideo6"></video>
+      </div>
+
       <div class="img8 pull-left por">
-        <img class="img-player" src="@assets/img/company/play.png" alt="" />
-        <img src="@assets/img/crs/img9-8.png" alt="" />
+        <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(7)"  v-show="!showVideo7" />
+        <img src="@assets/img/crs/img9-8.png"  v-show="!showVideo7" />
+        <video src="@assets/video/crs-7.mp4" id="video7" preload controls @touchend="onPause(7)" v-show="showVideo7"></video>
       </div>
-      <div class="img9 pull-right por">
-        <img class="img-player" src="@assets/img/company/play.png" alt="" />
-        <img src="@assets/img/crs/img9-9.png" alt="" />
-      </div>
+
       <div class="text text6 pull-left">
         <div class="text-title">
           JAC launched a“Cherish and Join” event on FB as a public good
         </div>
-        The sudden outbreak of the epidemic in 2020 has made us
-        more united and cherish the love, friendship and family around
-        us.JAC initiates the activity of 'Cherish and Join' on social platform, collecting heart-warming stories around us and sending
-        encouragement to JAC fans.We call on all of us to cherish our
-        lives, pull ourselves together and move forward bravely after
-        the epidemic.
+        <div class="text">
+          The sudden outbreak of the epidemic in 2020 has made us
+          more united and cherish the love, friendship and family around
+          us.JAC initiates the activity of 'Cherish and Join' on social platform, collecting heart-warming stories around us and sending
+          encouragement to JAC fans.We call on all of us to cherish our
+          lives, pull ourselves together and move forward bravely after
+          the epidemic.
+        </div>
+      </div>
+      <div class="img9 pull-right por">
+        <img class="img-player" src="@assets/img/company/play.png"  @click="onPlayVideo(8)" v-show="!showVideo8" />
+        <img src="@assets/img/crs/img9-9.png" v-show="!showVideo8" />
+        <video src="@assets/video/crs-8.mp4" id="video8" preload controls @touchend="onPause(8)" v-show="showVideo8"></video>
       </div>
     </div>
     <div class="img10-container anitmate-container">
@@ -516,6 +539,7 @@ export default {
     .text5 {
       width: vw(794);
       margin-top: vw(336);
+      margin-bottom: vw(447);
     }
     .img8 {
       width: vw(799);
@@ -525,7 +549,7 @@ export default {
     .img9 {
       width: vw(803);
       height: vw(916);
-      margin-top: vw(169);
+      margin-top: vw(-381);
     }
     .text6 {
       width: vw(837);
@@ -732,98 +756,44 @@ export default {
       }
     }
     .img9-container {
-      padding: 0 vw(110);
-      margin-bottom: vw(169);
+      margin-bottom: wp(48);
 
       .text1 {
-        width: vw(661);
-        height: vw(238);
-        margin-top: vw(223);
-        line-height: vw(43);
+        width: 100%;
+        height: auto;
+        margin-top: wp(50);
       }
-      .img1 {
-        width: vw(939);
-        height: vw(539);
-        margin-top: vw(169);
-      }
-      .img2 {
-        width: vw(662);
-        height: vw(817);
-        margin-top: vw(135);
-      }
-      .text2 {
-        width: vw(937);
-        height: vw(233);
-        margin-top: vw(134);
-        line-height: vw(43);
-      }
-      .img3 {
-        width: vw(939);
-        height: vw(534);
-        margin-top: vw(66);
-        margin-bottom: vw(101);
-      }
-      .text3 {
-        width: vw(621);
-        height: vw(237);
-        margin-top: vw(126);
-        line-height: vw(43);
-      }
-      .img4 {
-        width: vw(940);
-        height: vw(529);
-        margin-top: vw(65);
-      }
-      .img5 {
-        width: vw(659);
-        height: vw(529);
-        margin-top: vw(65);
-      }
-      .text4 {
-        width: vw(648);
-        height: vw(281);
-        margin-top: vw(185);
-        line-height: vw(43);
-      }
-      .img6 {
-        width: vw(939);
-        height: vw(532);
-        margin-top: vw(49);
-      }
-      .img7 {
-        width: vw(799);
-        height: vw(442);
-        margin-top: vw(170);
-      }
+
+      .img1,
+      .img2,
+      .text2,
+      .img3,
+      .text3,
+      .img4,
+      .img5,
+      .text4,
+      .img6,
+      .img7,
       .text5,
-      .text6 {
-        .text-title {
-          line-height: vw(85);
-          height: vw(166);
-        }
-        line-height: vw(43);
-      }
-      .text5 {
-        width: vw(794);
-        margin-top: vw(336);
-      }
-      .img8 {
-        width: vw(799);
-        height: vw(442);
-        margin-top: vw(45);
-      }
+      .text6,
+      .img8,
       .img9 {
-        width: vw(803);
-        height: vw(916);
-        margin-top: vw(169);
+        width: 100%;
+        height: auto;
+        margin-top: wp(48);
+        margin-bottom: 0;
+        .text-title {
+          line-height: wp(70);
+          height: auto;
+          margin-bottom: wp(47);
+        }
       }
-      .text6 {
-        width: vw(837);
-        margin-top: vw(66);
-      }
+
+
+
     }
     .img10-container {
-      margin-bottom: vw(242);
+      margin-bottom: wp(248);
     }
   }
 }
