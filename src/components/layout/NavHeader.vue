@@ -100,7 +100,7 @@ export default {
 			require('@assets/img/layout/lang7.png'),
 			require('@assets/img/layout/lang8.png'),
     ],
-		currentLang: 0,
+		currentLang: 2,
     showLangList: false
   }),
   methods: {

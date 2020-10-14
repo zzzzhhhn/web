@@ -6,8 +6,8 @@
     </div>
 
     <div class="clearfix flu-container por">
-      <div class="left por pull-left">
-        <div class="left1 anitmate-container">
+      <div class="left por pull-left hidden-xs">
+        <div class="left1 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left1" red :num="2"></number>
             <number :show="left1" red :num="0"></number>
@@ -25,8 +25,8 @@
             <img src="@assets/img/history/left1.png" />
           </div>
         </div>
-        <div class="left2 anitmate-container">
-          <div class="title">December,2019</div>
+        <div class="left2 hidden-xs anitmate-container">
+          <div class="title">December,2018</div>
           <div class="text">
             Anhui Cummins Power Co.,Ltd was founded
           </div>
@@ -34,7 +34,7 @@
             <img src="@assets/img/history/left2.png" />
           </div>
         </div>
-        <div class="left3 anitmate-container">
+        <div class="left3 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left1" red :num="2"></number>
             <number :show="left1" red :num="0"></number>
@@ -47,7 +47,7 @@
             JAC World-class Truck launched into the market,defining the new standard for world-class truck
           </div>
         </div>
-        <div class="left4 anitmate-container">
+        <div class="left4 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left4" red :num="2"></number>
             <number :show="left4" red :num="0"></number>
@@ -60,7 +60,7 @@
             JAC and NIO signed a strategic cooperation framework agreement
           </div>
         </div>
-        <div class="left5 anitmate-container">
+        <div class="left5 hidden-xs anitmate-container">
           <div class="title">August,27,2014</div>
           <div class="text">
             Refine S3 launched into the market,with orders up to 70,000 units within 4 months
@@ -69,7 +69,7 @@
             <img src="@assets/img/history/left3.png" />
           </div>
         </div>
-        <div class="left6 anitmate-container">
+        <div class="left6 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left6" red :num="2"></number>
             <number :show="left6" red :num="0"></number>
@@ -85,7 +85,7 @@
             <img src="@assets/img/history/left4.png" />
           </div>
         </div>
-        <div class="left7 anitmate-container">
+        <div class="left7 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left7" red :num="2"></number>
             <number :show="left7" red :num="0"></number>
@@ -97,7 +97,7 @@
             Russian subsidiary,the first wholly-owned subsidiary,was established
           </div>
         </div>
-        <div class="left8 anitmate-container">
+        <div class="left8 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left8" red :num="2"></number>
             <number :show="left8" red :num="0"></number>
@@ -113,13 +113,13 @@
             <img src="@assets/img/history/left5.png" />
           </div>
         </div>
-        <div class="left9 anitmate-container">
+        <div class="left9 hidden-xs anitmate-container">
           <div class="title">October,2010</div>
           <div class="text">
             The cumulative sales of JAC light trucks exceeded 1 million units
           </div>
         </div>
-        <div class="left10 anitmate-container">
+        <div class="left10 hidden-xs anitmate-container">
           <div class="title">October,21,2010</div>
           <div class="text">
             JAC won the National Quality Award,the
@@ -129,7 +129,7 @@
             <img src="@assets/img/history/left6.png" />
           </div>
         </div>
-        <div class="left11 anitmate-container">
+        <div class="left11 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left11" red :num="2"></number>
             <number :show="left11" red :num="0"></number>
@@ -145,7 +145,7 @@
             <img src="@assets/img/history/left7.png" />
           </div>
         </div>
-        <div class="left12 anitmate-container">
+        <div class="left12 hidden-xs anitmate-container">
           <div class="title">May,18,2006</div>
           <div class="text">
             The first off-road SUV Reying off the line
@@ -154,7 +154,7 @@
             <img src="@assets/img/history/left8.png" />
           </div>
         </div>
-        <div class="left13 anitmate-container">
+        <div class="left13 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left13" red :num="2"></number>
             <number :show="left13" red :num="0"></number>
@@ -173,7 +173,7 @@
             <img src="@assets/img/history/left9.png" />
           </div>
         </div>
-        <div class="left14 anitmate-container">
+        <div class="left14 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left14" red :num="2"></number>
             <number :show="left14" red :num="0"></number>
@@ -190,7 +190,7 @@
             <img src="@assets/img/history/left10.png" />
           </div>
         </div>
-        <div class="left15 anitmate-container">
+        <div class="left15 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left15" red :num="1"></number>
             <number :show="left15" red :num="9"></number>
@@ -207,7 +207,7 @@
             <img src="@assets/img/history/left11.png" />
           </div>
         </div>
-        <div class="left16 anitmate-container">
+        <div class="left16 hidden-xs anitmate-container">
           <div class="year">
             <number :show="left16" red :num="1"></number>
             <number :show="left16" red :num="9"></number>
@@ -224,8 +224,10 @@
           </div>
         </div>
       </div>
+
       <div class="img2 pull-left">
       </div>
+
       <div class="right pull-left">
         <div class="right1 anitmate-container">
           <div class="year">
@@ -243,6 +245,24 @@
           </div>
           <div class="right-img1 animate-img">
             <img src="@assets/img/history/right1.png" />
+          </div>
+        </div>
+        <div class="left1 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left1" :num="2"></number>
+            <number :show="left1" :num="0"></number>
+            <number :show="left1" red :num="1"></number>
+            <number :show="left1" red :num="9"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">May,21,2019</div>
+          <div class="text">
+            JAC successfully participated in the acquisition on Kazakhstan Allur
+            Automobile Industry Group,marking the co-construction of “One
+            Belt and One Road”entered a new stage
+          </div>
+          <div class="left-img1 animate-img">
+            <img src="@assets/img/history/left1.png" />
           </div>
         </div>
         <div class="right2 anitmate-container por">
@@ -263,6 +283,15 @@
             <img src="@assets/img/history/cup.png" />
           </div>
         </div>
+        <div class="left2 visible-xs-block anitmate-container">
+          <div class="title">December,2018</div>
+          <div class="text">
+            Anhui Cummins Power Co.,Ltd was founded
+          </div>
+          <div class="left-img2 animate-img">
+            <img src="@assets/img/history/left2.png" />
+          </div>
+        </div>
         <div class="right3 anitmate-container">
           <div class="title">July,9,2018</div>
           <div class="text">
@@ -275,6 +304,19 @@
             JAC Volkswagen released a new brand-SOL
           </div>
         </div>
+        <div class="left3 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left1" :num="2"></number>
+            <number :show="left1" :num="0"></number>
+            <number :show="left1" red :num="1"></number>
+            <number :show="left1" red :num="7"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">April,19,2017</div>
+          <div class="text">
+            JAC World-class Truck launched into the market,defining the new standard for world-class truck
+          </div>
+        </div>
         <div class="right5 anitmate-container">
           <div class="title">December,22,2017</div>
           <div class="text">
@@ -283,6 +325,19 @@
           </div>
           <div class="right-img2 animate-img">
             <img src="@assets/img/history/right2.png" />
+          </div>
+        </div>
+        <div class="left4 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left4" :num="2"></number>
+            <number :show="left4" :num="0"></number>
+            <number :show="left4" red :num="1"></number>
+            <number :show="left4" red :num="6"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">April,8,2016</div>
+          <div class="text">
+            JAC and NIO signed a strategic cooperation framework agreement
           </div>
         </div>
         <div class="right6 anitmate-container">
@@ -309,6 +364,15 @@
             <img src="@assets/img/history/right3.png" />
           </div>
         </div>
+        <div class="left5 visible-xs-block anitmate-container">
+          <div class="title">August,27,2014</div>
+          <div class="text">
+            Refine S3 launched into the market,with orders up to 70,000 units within 4 months
+          </div>
+          <div class="left-img3 animate-img">
+            <img src="@assets/img/history/left3.png" />
+          </div>
+        </div>
         <div class="right8 anitmate-container">
           <div class="title">December,28,2014</div>
           <div class="text">
@@ -320,6 +384,22 @@
             <img src="@assets/img/history/right4.png" />
           </div>
         </div>
+        <div class="left6 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left6" :num="2"></number>
+            <number :show="left6" :num="0"></number>
+            <number :show="left6" red :num="1"></number>
+            <number :show="left6" red :num="3"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">November,27,2013</div>
+          <div class="text">
+            The 1 millionth
+          </div>
+          <div class="left-img4 animate-img">
+            <img src="@assets/img/history/left4.png" />
+          </div>
+        </div>
         <div class="right9 anitmate-container">
           <div class="title">October,15,2013</div>
           <div class="text">
@@ -329,11 +409,39 @@
             <img src="@assets/img/history/right5.png" />
           </div>
         </div>
+        <div class="left7 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left7" :num="2"></number>
+            <number :show="left7" :num="0"></number>
+            <number :show="left7" red :num="1"></number>
+            <number :show="left7" red :num="2"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="text">
+            Russian subsidiary,the first wholly-owned subsidiary,was established
+          </div>
+        </div>
         <div class="right10 anitmate-container">
           <div class="title">June,29,2012</div>
           <div class="text">
             Joint venture between JAC and Navistar to
             produce diesel engines was approved
+          </div>
+        </div>
+        <div class="left8 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left8" :num="2"></number>
+            <number :show="left8" :num="0"></number>
+            <number :show="left8" red :num="1"></number>
+            <number :show="left8" red :num="1"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">March,18,2011</div>
+          <div class="text">
+            JAC motors launched into Brazil,with great export performance
+          </div>
+          <div class="left-img5 animate-img">
+            <img src="@assets/img/history/left5.png" />
           </div>
         </div>
         <div class="right11 anitmate-container">
@@ -358,6 +466,22 @@
             joint-stock company,was founded
           </div>
         </div>
+        <div class="left9 visible-xs-block anitmate-container">
+          <div class="title">October,2010</div>
+          <div class="text">
+            The cumulative sales of JAC light trucks exceeded 1 million units
+          </div>
+        </div>
+        <div class="left10 visible-xs-block anitmate-container">
+          <div class="title">October,21,2010</div>
+          <div class="text">
+            JAC won the National Quality Award,the
+            highest award of quality management in China
+          </div>
+          <div class="left-img6 animate-img">
+            <img src="@assets/img/history/left6.png" />
+          </div>
+        </div>
         <div class="right12 anitmate-container">
           <div class="year">
             <number :show="right12" :num="2"></number>
@@ -373,6 +497,22 @@
           </div>
           <div class="right-img7 animate-img">
             <img src="@assets/img/history/right7.png" />
+          </div>
+        </div>
+        <div class="left11 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left11" :num="2"></number>
+            <number :show="left11" :num="0"></number>
+            <number :show="left11" red :num="0"></number>
+            <number :show="left11" red :num="8"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">January,17,2008</div>
+          <div class="text">
+            JAC first sedan-Bingyue off the line,marking JAC’s full entering into passenger car field
+          </div>
+          <div class="left-img7 animate-img">
+            <img src="@assets/img/history/left7.png" />
           </div>
         </div>
         <div class="right13 anitmate-container">
@@ -391,6 +531,15 @@
             <img src="@assets/img/history/right8.png" />
           </div>
         </div>
+        <div class="left12 visible-xs-block anitmate-container">
+          <div class="title">May,18,2006</div>
+          <div class="text">
+            The first off-road SUV Reying off the line
+          </div>
+          <div class="left-img8 animate-img">
+            <img src="@assets/img/history/left8.png" />
+          </div>
+        </div>
         <div class="right14 anitmate-container">
           <div class="year">
             <number :show="right14" :num="2"></number>
@@ -405,6 +554,25 @@
           </div>
           <div class="right-img9 animate-img">
             <img src="@assets/img/history/right9.png" />
+          </div>
+        </div>
+        <div class="left13 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left13" :num="2"></number>
+            <number :show="left13" :num="0"></number>
+            <number :show="left13" red :num="0"></number>
+            <number :show="left13" red :num="3"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">October,28,2003</div>
+          <div class="text">
+            JAC heavy truck successfully rolled off the
+            line,marking that JAC has formed a full series
+            of commercial vehicle product line including
+            heavy, medium and light truck
+          </div>
+          <div class="left-img9 animate-img">
+            <img src="@assets/img/history/left9.png" />
           </div>
         </div>
         <div class="right15 anitmate-container">
@@ -424,6 +592,23 @@
             <img src="@assets/img/history/right10.png" />
           </div>
         </div>
+        <div class="left14 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left14" :num="2"></number>
+            <number :show="left14" :num="0"></number>
+            <number :show="left14" red :num="0"></number>
+            <number :show="left14" red :num="1"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">August,24,2001</div>
+          <div class="text">
+            “JAC Motors”listed on the Shanghai Stock
+            Exchange, stock code “600418”
+          </div>
+          <div class="left-img10 animate-img">
+            <img src="@assets/img/history/left10.png" />
+          </div>
+        </div>
         <div class="right16 anitmate-container">
           <div class="year">
             <number :show="right16" :num="1"></number>
@@ -439,6 +624,23 @@
           </div>
           <div class="right-img11 animate-img">
             <img src="@assets/img/history/right11.png" />
+          </div>
+        </div>
+        <div class="left15 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left15" :num="1"></number>
+            <number :show="left15" :num="9"></number>
+            <number :show="left15" red :num="9"></number>
+            <number :show="left15" red :num="0"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">June,1990</div>
+          <div class="text">
+            China's first truly special chassis for bus was
+            born in JAC Automobile Company
+          </div>
+          <div class="left-img11 animate-img">
+            <img src="@assets/img/history/left11.png" />
           </div>
         </div>
         <div class="right17 anitmate-container">
@@ -457,6 +659,22 @@
             <img src="@assets/img/history/right12.png" />
           </div>
         </div>
+        <div class="left16 visible-xs-block anitmate-container">
+          <div class="year">
+            <number :show="left16" :num="1"></number>
+            <number :show="left16" :num="9"></number>
+            <number :show="left16" red :num="6"></number>
+            <number :show="left16" red :num="4"></number>
+          </div>
+          <div class="line-right line"></div>
+          <div class="title">May,20,1964</div>
+          <div class="text">
+            Hefei JAC automobile factory was founded
+          </div>
+          <div class="left-img12 animate-img">
+            <img src="@assets/img/history/left12.png" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -469,29 +687,6 @@ export default {
   name: "BrandHistory",
   mixins: [mix],
   data: () => ({
-    tops: [
-      128,
-      538,
-      1089,
-      2132,
-      2752,
-      3267,
-      4436,
-      5209,
-      5596,
-      6053,
-      7254,
-      7650,
-      8151,
-      8871,
-      9281,
-      9761,
-      10171,
-      10601,
-      11011,
-      11401,
-      11811
-    ],
     currentTop: 0,
     maxTop: 0,
     originTop: 0,
@@ -531,8 +726,11 @@ export default {
     right17: false
   }),
   mounted() {
-    this.maxTop = parseInt($(".left16 .line").offset().top);
-    this.originTop = parseInt($(".right1 .line").offset().top);
+  	setTimeout(() => {
+			this.maxTop = parseInt($(".left16 .line-left").offset().top) || parseInt($(".left16 .line-right").offset().top);
+			this.originTop = parseInt($(".right1 .line").offset().top);
+    }, 500);
+
     $(window).scroll(e => {
       clearTimeout(this.timer);
       this.timer = setTimeout(() => {
@@ -542,7 +740,7 @@ export default {
   },
   methods: {
     omMove(top) {
-      var offsetTop = top + $(window).height() / 2.0;
+      let offsetTop = top + $(window).height() / 2.0;
       if (offsetTop < this.originTop) offsetTop = this.originTop;
       if (offsetTop > this.maxTop) offsetTop = this.maxTop;
       $(".car").css("top", offsetTop + "px");
@@ -958,6 +1156,88 @@ export default {
           width: vw(475);
           height: vw(317);
         }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .history-container {
+    margin-bottom: wp(190);
+    .car {
+      width: wp(77);
+      height: wp(181);
+      left: wp(64);
+      top: wp(1075);
+    }
+    .img1-container {
+      width: 100%;
+      height: auto;
+      margin-bottom: wp(48);
+    }
+    .flu-container {
+      padding: 0 wp(40);
+      .img2 {
+        width: wp(122);
+        height: wp(22300);
+      }
+
+      .right {
+        width: wp(530);
+        padding-left: wp(17);
+
+        .year {
+          transform: translateX(wp(-110));
+
+          &:before {
+            top: wp(-30);
+            left: wp(38);
+            width: wp(18);
+            height: wp(19);
+          }
+        }
+
+        .line-right {
+          width: wp(460) !important;
+          transform: translateX(wp(-96));
+          margin-bottom: wp(30);
+
+          &:after {
+            width: wp(18);
+            height: wp(18);
+            border-radius: wp(9);
+            background: #bacd00;
+            transform: translateY(wp(-9));
+          }
+        }
+
+        div.anitmate-container {
+          margin-bottom: wp(48);
+          .year {
+            margin-bottom: wp(22);
+          }
+          .title {
+            font-size: wp(60);
+            margin-bottom: wp(48);
+          }
+          .text {
+            width: 100%;
+            font-size: wp(28);
+            line-height: wp(48);
+            margin-bottom: wp(36);
+          }
+          .animate-img {
+            width: wp(532);
+            height: auto;
+          }
+          &.right2 {
+            .right-img-cup {
+              position: unset;
+              width: wp(170);
+              height: wp(306);
+            }
+          }
+        }
+
       }
     }
   }

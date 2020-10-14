@@ -15,7 +15,7 @@ export default {
   mounted() {
     const vm = this;
     setTimeout(() => {
-      $(".anitmate-container").each(function() {
+      $(".anitmate-container:not(.hidden-xs)").each(function() {
         vm.classTops.push({
           top: $(this).offset().top,
           class: $(this)

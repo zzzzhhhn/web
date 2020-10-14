@@ -59,7 +59,7 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
-    transition: top 0.5s ease-in-out;
+    transition: top .8s ease-in-out;
     &.show1 {
       top: vw(-72);
     }
@@ -94,6 +94,45 @@ export default {
     text-align: center;
     font-family: Aileron-Bold;
     font-size: vw(72);
+  }
+}
+@media screen and (max-width: 767px) {
+  .number-container {
+    width: wp(45);
+    height: wp(72);
+    .num-content {
+      &.show1 {
+        top: wp(-72);
+      }
+      &.show2 {
+        top: wp(-72 * 2);
+      }
+      &.show3 {
+        top: wp(-72 * 3);
+      }
+      &.show4 {
+        top: wp(-72 * 4);
+      }
+      &.show5 {
+        top: wp(-72 * 5);
+      }
+      &.show6 {
+        top: wp(-72 * 6);
+      }
+      &.show7 {
+        top: wp(-72 * 7);
+      }
+      &.show8 {
+        top: wp(-72 * 8);
+      }
+      &.show9 {
+        top: wp(-72 * 9);
+      }
+    }
+    .num {
+      height: wp(72);
+      font-size: wp(72);
+    }
   }
 }
 </style>
