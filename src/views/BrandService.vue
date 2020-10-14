@@ -153,13 +153,13 @@
       <div class="title1">JAC Special Use Oils: Different Grade of Lubricant Oils.  </div>
       <div class="title2">Genuine parts package</div>
       <div class="img-content clearfix">
-        <div class="item animate-img">
+        <div class="item">
           <img src="@assets/img/service/img8-1.png" />
           <div class="text">
             Passenger Vehicle spare parts package
           </div>
         </div>
-        <div class="item animate-img">
+        <div class="item">
           <img src="@assets/img/service/img8-2.png" />
           <div class="text">
             Commercial vehicle spare parts package
@@ -175,17 +175,20 @@
         JAC genuine spare parts can be verified through following three ways
         (support any mobile phone QR code scanner).
       </div>
-      <img src="@assets/img/service/img9.png" alt="" />
+      <img src="@assets/img/service/img9.png" class="hidden-xs" />
       <div class="clearfix">
+        <img src="@assets/img/service/img9-1.png" class="visible-xs-inline" />
         <div class="text1 pull-left">
           Verifying by scanning the QR code on anti-counterfeit label, it will lead you to the enquiring result.
         </div>
+        <img src="@assets/img/service/img9-2.png" class="visible-xs-inline" />
         <div class="text2 pull-left">
           Uncover the QR code on anti-counterfeit
           label and you will see another QR code
           and digital code. Scanning the bottom
           QR code, it will lead you to the same enquiring result as your first enquiry.
         </div>
+        <img src="@assets/img/service/img9-3.png" class="visible-xs-inline" />
         <div class="text3 pull-left">
           Please type in the 16 bit verification code.
         </div>
@@ -205,7 +208,7 @@
         will get you result with slight difference.
       </div>
       <div class="clearfix">
-        <div class="animate-img pull-left">
+        <div class="pull-left">
           <img src="@assets/img/service/img10.png" />
         </div>
         <div class="text-area pull-left">
@@ -543,6 +546,7 @@ export default {
   }
   .img10-container {
     img {
+      width: vw(1611);
       margin-top: vw(46);
       margin-bottom: vw(63);
     }
@@ -878,23 +882,11 @@ export default {
       .text1,
       .text2,
       .text3 {
-        line-height: vw(35);
-      }
-
-      .text1 {
-        width: vw(552);
-        height: vw(102);
-      }
-
-      .text2 {
-        width: vw(537);
-        margin-left: vw(149);
-      }
-
-      .text3 {
-        width: vw(290);
-        height: vw(60);
-        margin-left: vw(128);
+        line-height: wp(43);
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        text-align: center;
       }
     }
 

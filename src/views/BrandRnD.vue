@@ -29,10 +29,24 @@
       <div class="pull-right img1 animate-img">
         <img src="@assets/img/rnd/img2-1.png" />
       </div>
+      <div class="title2 visible-xs-block">JAC Italy R&D Center</div>
+      <div class="d-text visible-xs-block">
+      In2005,JAC established its first overseas R&D center in Italy.
+      Through dozens of years’development, it owns more than 100
+      senior technical talents from 15 different countries and regions.
+    </div>
       <div class="pull-left img2 animate-img">
         <img src="@assets/img/rnd/img2-2.png" />
       </div>
-      <div class="img3 pull-right">
+      <div class="d-text visible-xs-block">
+        With an office area of more than 7,000<span>m<sup>2</sup></span
+      >, it has an international first-class independent design and R&D base, and
+        undertakes 80% of the R&D and design tasks of JAC new models.
+      </div>
+      <div class="animate-img img3 visible-xs-block">
+        <img src="@assets/img/rnd/img2-3.png" />
+      </div>
+      <div class="img3 pull-right hidden-xs">
         <div class="title2">JAC Italy R&D Center</div>
         <div class="d-text">
           In2005,JAC established its first overseas R&D center in Italy.
@@ -50,8 +64,9 @@
       </div>
     </div>
     <div class="img3-container anitmate-container por">
-      <img src="@assets/img/rnd/img3.png" />
-      <img class="img-player" src="@assets/img/company/play.png" />
+      <img src="@assets/img/rnd/img3.png" v-show="!showVideo1" />
+      <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(1)" v-show="!showVideo1" />
+      <video src="@assets/video/rnd-1.mp4" id="video1" preload controls @touchend="onPause(1)" v-show="showVideo1"></video>
     </div>
     <div class="img4-container anitmate-container clearfix">
       <div class="text pull-left">
@@ -79,8 +94,9 @@
     <div class="img5-container anitmate-container">
       <div class="title2">JAC Japan R&D Center</div>
       <div class="por">
-        <img src="@assets/img/rnd/img5.png" />
-        <img class="img-player" src="@assets/img/company/play.png" />
+        <img src="@assets/img/rnd/img5.png" v-show="!showVideo2" />
+        <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(2)" v-show="!showVideo2" />
+        <video src="@assets/video/rnd-2.mp4" id="video2" preload controls @touchend="onPause(2)" v-show="showVideo2"></video>
       </div>
     </div>
     <div class="img6-container anitmate-container">
@@ -108,6 +124,9 @@
         JAC Smart Factory - Passenger Car Production Base
       </div>
       <div class="clearfix area">
+        <div class="img pull-right animate-img">
+          <img src="@assets/img/rnd/img8.png" />
+        </div>
         <div class="text d-text pull-left">
             JAC Japan Design Center, established on November 5th,2006,is an
             independent design center invested by JAC in Tokyo.Japan Design Center is
@@ -122,14 +141,13 @@
             Japanese car design advantages to build up vehicles with JAC DNA that make
             people proud in our country.
         </div>
-        <div class="img pull-right animate-img">
-          <img src="@assets/img/rnd/img8.png" />
-        </div>
       </div>
     </div>
     <div class="img9-container anitmate-container por">
-      <img src="@assets/img/rnd/img9.png" />
-      <img class="img-player" src="@assets/img/company/play.png" />
+      <img src="@assets/img/rnd/img9.png" v-show="!showVideo3" />
+      <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(3)" v-show="!showVideo3" />
+      <video src="@assets/video/rnd-3.mp4" id="video3" preload controls @touchend="onPause(3)" v-show="showVideo3"></video>
+
     </div>
     <div class="img10-container anitmate-container">
       <div class="title">JAC Xingang Factory - Light Truck Production Base</div>
@@ -153,8 +171,10 @@
       </div>
     </div>
     <div class="img11-container anitmate-container por">
-      <img src="@assets/img/rnd/img11.png" />
-      <img class="img-player" src="@assets/img/company/play.png" />
+      <img src="@assets/img/rnd/img11.png" v-show="!showVideo4" />
+      <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(4)" v-show="!showVideo4" />
+      <video src="@assets/video/rnd-4.mp4" id="video4" preload controls @touchend="onPause(4)" v-show="showVideo4"></video>
+
     </div>
     <div class="img12-container anitmate-container">
       <div class="title1">Technical Achievements</div>
@@ -198,12 +218,24 @@
     </div>
     <div class="img15-container anitmate-container">
       <div class="title2">Test verification</div>
+      <div class="text1 d-text visible-xs-block">
+        Test is the only standard for testing vehicle quality. JAC has
+        formed a complete set of extreme environmental adaptability
+        test system covering "high humidity, mountainous area, high
+        temperature, plateau and high cold", which can test the
+        product reliability of spare parts and the whole vehicle under
+        various working conditions.As a necessary facility for automobile product development and quality control,automobile
+        testing ground is the key for automobile enterprises to build
+        mature R&D system and improve their independent R&D ability.
+      </div>
       <div class="img por">
-        <img src="@assets/img/rnd/img15.png" />
-        <img class="img-player" src="@assets/img/company/play.png" />
+        <img src="@assets/img/rnd/img15.png" v-show="!showVideo5" />
+        <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(5)" v-show="!showVideo5" />
+        <video src="@assets/video/rnd-5.mp4" id="video5" preload controls @touchend="onPause(5)" v-show="showVideo5"></video>
+
       </div>
       <div class="text clearfix">
-        <div class="text1 pull-left d-text">
+        <div class="text1 pull-left d-text hidden-xs">
           Test is the only standard for testing vehicle quality. JAC has
           formed a complete set of extreme environmental adaptability
           test system covering "high humidity, mountainous area, high
@@ -235,6 +267,7 @@
         </div>
 
       </div>
+      <div class="title2 visible-xs-block">JAC Electric technology platform</div>
       <img src="@assets/img/rnd/img16.png" />
       <div class="text-area2">
         <div class="title3">New Energy Vehicles</div>
@@ -532,6 +565,240 @@ export default {
       width: vw(1682);
       height: vw(450);
       margin-top: vw(192);
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .rnd-container {
+    .img1-container {
+      margin-bottom: wp(69);
+    }
+    > .anitmate-container {
+      padding: 0 wp(40);
+      width: 100%;
+      margin-bottom: wp(48);
+    }
+    .img2-container,
+    .img5-container,
+    .text7-container,
+    .img12-container,
+    .text14-container,
+    .img15-container,
+    .img16-container,
+    .img8-container {
+      .title1 {
+        font-size: wp(60);
+      }
+      .title2 {
+        font-size: wp(48);
+      }
+      .title3 {
+        font-size: wp(28);
+        line-height: wp(48);
+      }
+      .d-text {
+        font-size: wp(28);
+        line-height: wp(48);
+      }
+    }
+    .img2-container {
+      margin-bottom: 0;
+      .title1 {
+        margin-bottom: wp(69);
+      }
+      .title2 {
+        margin-bottom: wp(30);
+      }
+      .text1 {
+        width: 100%;
+        .text-area {
+          height: auto;
+        }
+      }
+      .img1,
+      .img2,
+      .img3 {
+        width: 100%;
+        height: auto;
+        margin-top: wp(48);
+        margin-bottom: wp(48);
+      }
+
+      .img3 {
+        .title2 {
+          margin-bottom: vw(46);
+        }
+        .img {
+          width: 100%;
+          margin-top: vw(87);
+          margin-bottom: vw(50);
+        }
+      }
+    }
+
+    .img4-container {
+      .text {
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        font-size: wp(28);
+        line-height: wp(48);
+        margin-bottom: wp(46);
+      }
+      .imgs {
+        width: 100%;
+        .img1 {
+          margin-bottom: wp(44);
+        }
+        .img2 {
+          width: wp(324);
+          margin-right: wp(20);
+        }
+        .img3 {
+          width: wp(324);
+        }
+      }
+    }
+    .img5-container {
+      .title2 {
+        padding-left: 0;
+        margin-bottom: wp(46);
+      }
+    }
+
+    .img8-container {
+
+      .title1 {
+        margin-bottom: wp(65);
+        padding-left: 0;
+      }
+      .title2 {
+        margin-bottom: wp(47);
+        padding-left: 0;
+      }
+      .area {
+        padding-left: 0;
+        .text {
+          width: 100%;
+          height: auto;
+          line-height: wp(48);
+        }
+        .img {
+          width: 100%;
+          margin-bottom: wp(48);
+        }
+      }
+    }
+
+    .img10-container {
+      font-size: wp(28);
+      line-height: wp(48);
+
+      .title {
+        font-size: wp(48);
+        padding-left: 0;
+        margin-bottom: wp(30);
+      }
+      .text1,
+      .text2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+      }
+      .text1 {
+        margin-bottom: wp(48);
+      }
+    }
+
+    .img12-container {
+      margin-left: 0;
+      .text {
+        width: vw(652);
+        margin-top: vw(82);
+        .area {
+          height: vw(601);
+          font-family: Helvetica;
+          font-size: vw(30);
+          p {
+            margin-bottom: vw(10);
+            white-space: nowrap;
+          }
+        }
+        .title2 {
+          margin-bottom: vw(52);
+        }
+        .title3 {
+          font-family: Helvetica-Bold;
+          font-size: vw(30);
+          height: vw(83);
+          margin-bottom: vw(46);
+          p {
+            margin-bottom: vw(15);
+          }
+        }
+      }
+      .img {
+        margin-top: vw(55);
+        width: vw(1008);
+        margin-left: vw(37);
+      }
+    }
+
+    .text14-container {
+
+      .title2 {
+        margin-bottom: wp(30);
+        padding-left: 0;
+      }
+      .text {
+        padding-left: 0;
+        height: auto;
+        width: 100%;
+        line-height: wp(48);
+      }
+    }
+    .img15-container {
+      .title2 {
+        padding-left: 0;
+        margin-bottom: wp(43);
+      }
+      .text1 {
+        margin-bottom: wp(48);
+      }
+      .text {
+        padding-top: wp(48);
+        padding-left: 0;
+        .text2 {
+          margin-left: 0;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .img16-container {
+      margin-bottom: wp(250);
+      .title1 {
+        margin-bottom: wp(48);
+      }
+      .title2 {
+        margin-bottom: wp(44);
+      }
+      .text-area1,
+      .text-area2 {
+        .title3 {
+          margin-bottom: wp(10);
+        }
+      }
+      .text-area1 {
+        height: auto;
+        width: 100%;
+        margin-bottom: wp(48);
+      }
+      .text-area2 {
+        width: 100%;
+        height: auto;
+        margin-top: wp(80);
+      }
     }
   }
 }
