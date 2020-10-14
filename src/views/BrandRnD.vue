@@ -181,6 +181,7 @@
       <div class="clearfix">
         <div class="text pull-left">
           <div class="title2">Intelligent network</div>
+          <img class="img" src="@assets/img/rnd/img12-1.png" />
           <div class="title3">
             Covers all amodels and forms a unified service platform for users
           </div>
@@ -196,8 +197,10 @@
             network functions. The great improvement of intelligentization brings users a colorful travel life
             that connects to the world.
           </div>
+          <img class="img" src="@assets/img/rnd/img12-2.png" />
+          <img class="img" src="@assets/img/rnd/img12-3.png" />
         </div>
-        <div class="img pull-left animate-img">
+        <div class="img pull-left animate-img hidden-xs">
           <img src="@assets/img/rnd/img12.png" />
         </div>
       </div>
@@ -268,7 +271,8 @@
 
       </div>
       <div class="title2 visible-xs-block">JAC Electric technology platform</div>
-      <img src="@assets/img/rnd/img16.png" />
+      <img src="@assets/img/rnd/img16.png" class="hidden-xs" />
+      <img src="@assets/img/rnd/img16-wap.png" class="visible-xs-inline" />
       <div class="text-area2">
         <div class="title3">New Energy Vehicles</div>
         <div class="d-text">
@@ -542,7 +546,7 @@ export default {
     }
   }
   .img16-container {
-    padding-left: vw(112);
+    padding: 0 vw(112);
     margin-bottom: vw(282);
     .title1 {
       margin-bottom: vw(48);
@@ -712,35 +716,29 @@ export default {
 
     .img12-container {
       margin-left: 0;
+      margin-bottom: 0;
       .text {
-        width: vw(652);
-        margin-top: vw(82);
+        width: 100%;
+        margin-top: wp(48);
         .area {
-          height: vw(601);
-          font-family: Helvetica;
-          font-size: vw(30);
-          p {
-            margin-bottom: vw(10);
-            white-space: nowrap;
-          }
+          height: auto;
+          font-size: wp(28);
+          margin-bottom: wp(48);
         }
         .title2 {
-          margin-bottom: vw(52);
+          margin-bottom: wp(30);
         }
         .title3 {
-          font-family: Helvetica-Bold;
-          font-size: vw(30);
-          height: vw(83);
-          margin-bottom: vw(46);
-          p {
-            margin-bottom: vw(15);
-          }
+          font-size: wp(28);
+          height: auto;
+          margin-bottom: 0;
         }
       }
       .img {
-        margin-top: vw(55);
-        width: vw(1008);
-        margin-left: vw(37);
+        margin-top: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: wp(48);
       }
     }
 
