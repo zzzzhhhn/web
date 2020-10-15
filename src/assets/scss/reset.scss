@@ -1,7 +1,8 @@
 @import "common";
 
-
-
+html {
+  overflow-x: hidden;
+}
 
 .container.container--fluid.over-hide {
   >div:not(.single-layout) {

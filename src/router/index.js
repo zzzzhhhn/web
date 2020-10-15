@@ -38,6 +38,11 @@ const routes = [
     path: "/brand6",
     name: "brand6",
     component: () => import("@views/BrandHistory.vue")
+  },
+  {
+    path: "/lifestyle",
+    name: "LifeStyle",
+    component: () => import("@views/LifeStyle.vue")
   }
 ];
 
