@@ -7,7 +7,7 @@
           class="tab-item"
           v-for="(item, index) in tabs"
           :key="index"
-          :class="{ active: item === currenTab }"
+          :class="{ active: item === currentTab }"
           @click="onChangeTab(item)"
         >
           {{ item }}
@@ -105,10 +105,10 @@ export default {
   }),
   methods: {
     onChangeTab(tab) {
-    	if (this.currenTab !== tab) {
-				this.currenTab = tab;
+    	if (this.currentTab !== tab) {
+				this.currentTab = tab;
 			} else {
-				this.currenTab = "";
+				this.currentTab = "";
       }
       this.$router.push({name: tab});
     }
@@ -170,6 +170,8 @@ $skewW: $h / 452 * 273 / 2;
     align-items: center;
     justify-content: space-between;
     .tab-item {
+      width: 9vw;
+      text-align: center;
       height: vw(24);
       display: inline-block;
       line-height: 1;

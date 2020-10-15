@@ -50,6 +50,7 @@ export default {
      * @param v
      */
     onPlayVideo(v) {
+      $('video').trigger('pause');
       this['showVideo' + v] = true;
       document.getElementById('video' + v).play();
     },

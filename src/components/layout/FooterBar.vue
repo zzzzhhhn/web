@@ -49,7 +49,7 @@
      </div>
 
       </div>
-      <tabs :type="2"/>
+      <tabs type="footerbar"/>
       <div class="text-center logo">
         <img src="@assets/img/layout/logo.png" />
       </div>

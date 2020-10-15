@@ -268,7 +268,8 @@
       </div>
     </div>
     <div class="img10-container anitmate-container">
-      <img src="@assets/img/crs/img10.png" />
+      <img src="@assets/img/crs/img10.png" class="hidden-xs" />
+      <img src="@assets/img/crs/img10-wap.png"   class="visible-xs-inline" />
     </div>
   </div>
 </template>

@@ -2,7 +2,8 @@
   <div class="history-container">
     <img src="@assets/img/history/car.png" class="poa car" />
     <div class="img1-container">
-      <img src="@assets/img/history/img1.png" alt="" />
+      <img src="@assets/img/history/img1.png" class="hidden-xs" />
+      <img src="@assets/img/history/img1-wap.png" class="visible-xs-inline" />
     </div>
 
     <div class="clearfix flu-container por">

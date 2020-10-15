@@ -16,7 +16,19 @@ export default {
 				'Book A Car'
 			]
 		},
-		currenTab: "",
+		thirdTabs: {
+			'Passenger Cars': [
+				'J7',
+				'S7',
+				'S7pro',
+				'S5',
+				'S4',
+				'JS4',
+				'S3',
+				'M4'
+			]
+		},
+		currentTab: "",
 		currentSec: "",
 	})
 }
