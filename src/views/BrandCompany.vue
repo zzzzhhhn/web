@@ -1,13 +1,13 @@
 <template>
   <div class="company-container">
     <div class="redio-container anitmate-container">
-      <img src="@assets/img/company/vdieo1-bg.png" class="img" v-show="!showVideo1" />
+      <img src="@assets/img/company/vdieo1-bg.jpg" class="img" v-show="!showVideo1" />
       <img class="img-player" src="@assets/img/company/play.png" @click="onPlayVideo(1)" v-show="!showVideo1" />
       <video src="@assets/video/band1.mp4" id="video1" preload controls @touchend="onPause(1)" v-show="showVideo1"></video>
     </div>
     <div class="img1-container anitmate-container por">
       <div class="img1">
-        <img src="@assets/img/company/img1.png" alt="" />
+        <img src="@assets/img/company/img1.jpg" alt="" />
       </div>
       <div class="text">
         Anhui Jianghuai Automobile Group Co., Ltd. (abbreviated as
@@ -31,10 +31,10 @@
         Kangling, Gallop, Heyue, Sunray and GreenJet.
       </div>
       <div class="img1 animate-img">
-        <img src="@assets/img/company/img2-1.png" alt="" />
+        <img src="@assets/img/company/img2-1.jpg" alt="" />
       </div>
       <div class="img2 animate-img">
-        <img src="@assets/img/company/img2-2.png" alt="" />
+        <img src="@assets/img/company/img2-2.jpg" alt="" />
       </div>
       <div class="text2">
         JAC is equipped with a high-level R&D team of nearly 5,000 people, adheres
@@ -51,10 +51,10 @@
     </div>
     <div class="img3-container anitmate-container clearfix">
       <div class="img1 animate-img">
-        <img src="@assets/img/company/img3-1.png" />
+        <img src="@assets/img/company/img3-1.jpg" />
       </div>
       <div class="img2 animate-img">
-        <img src="@assets/img/company/img3-2.png" />
+        <img src="@assets/img/company/img3-2.jpg" />
       </div>
       <div class="text">
         As of 2020, JAC has accumulated a total of 14,456 patents, becoming the first domestic auto company with
@@ -65,11 +65,11 @@
       </div>
     </div>
     <div class="img4-container anitmate-container">
-      <img src="@assets/img/company/img4.png" />
+      <img src="@assets/img/company/img4.jpg" />
     </div>
     <div class="img5-container anitmate-container clearfix">
       <div class="img5">
-        <img src="@assets/img/company/img5.png" />
+        <img src="@assets/img/company/img5.jpg" />
       </div>
       <div class="text">
         Until March 2020, as a pioneer in China new energy vehicle industry, JAC has demonstrated and promoted more
@@ -81,7 +81,7 @@
       </div>
     </div>
     <div class="img6-container anitmate-container">
-      <img src="@assets/img/company/img6.png" />
+      <img src="@assets/img/company/img6.jpg" />
     </div>
 
     <div class="text7-container anitmate-container clearfix">
@@ -107,7 +107,7 @@
       </div>
     </div>
     <div class="img8-container anitmate-container">
-      <img src="@assets/img/company/img8.png" />
+      <img src="@assets/img/company/img8.jpg" />
     </div>
 
     <div class="text9-container anitmate-container">
@@ -118,7 +118,8 @@
     </div>
     <div class="img10-container anitmate-container por">
       <div class="img10">
-        <img src="@assets/img/company/img10.png" alt="" />
+        <img src="@assets/img/company/img10.jpg" class="hidden-xs" />
+        <img src="@assets/img/company/img10-wap.jpg" class="visible-xs-inline" />
       </div>
 
       <div class="text1">
@@ -466,9 +467,10 @@ export default {
         height: wp(1305);
         width: wp(670);
         margin: 0 auto wp(216);
-        .img10, .img10 img {
+        .img10 {
           height: 100%;
           width: 100%;
+          background-color: #000;
         }
         p {
           font-family: Aileron-Regular;

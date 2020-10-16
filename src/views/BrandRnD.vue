@@ -181,7 +181,7 @@
       <div class="clearfix">
         <div class="text pull-left">
           <div class="title2">Intelligent network</div>
-          <img class="img" src="@assets/img/rnd/img12-1.png" />
+          <img class="img visible-xs-inline" src="@assets/img/rnd/img12-1.png" />
           <div class="title3">
             Covers all amodels and forms a unified service platform for users
           </div>
@@ -197,8 +197,8 @@
             network functions. The great improvement of intelligentization brings users a colorful travel life
             that connects to the world.
           </div>
-          <img class="img" src="@assets/img/rnd/img12-2.png" />
-          <img class="img" src="@assets/img/rnd/img12-3.png" />
+          <img class="img visible-xs-inline" src="@assets/img/rnd/img12-2.png" />
+          <img class="img visible-xs-inline" src="@assets/img/rnd/img12-3.png" />
         </div>
         <div class="img pull-left animate-img hidden-xs">
           <img src="@assets/img/rnd/img12.png" />
