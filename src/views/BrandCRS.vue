@@ -5,7 +5,7 @@
       <img src="@assets/img/crs/img1-wap.png" class="visible-xs-inline" />
     </div>
 
-    <div class="text2-container">
+    <div class="text2-container anitmate-container">
       <div class="area1">
         <div class="text1 title">Social Responsibility</div>
         <div class="text2 title">Welfare to employees</div>
@@ -31,7 +31,7 @@
         “Hand-in-Hand·Refine Action- Let Children Not be Alone”
       </div>
     </div>
-    <div class="anitmate-container paddingwap">
+    <div class="paddingwap anitmate-container">
       <img src="@assets/img/crs/img2.png" />
     </div>
 

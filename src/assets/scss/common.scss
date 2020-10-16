@@ -685,18 +685,17 @@ $red: #FE4D62;
   width: 100%;
   opacity: 0;
   transform: translateY(vw(50));
-  transition: all 0.5s ease-in-out;
+  transition: all .3s cubic-bezier(.215,.61,.355,1),transform .3s cubic-bezier(.215,.61,.355,1);
   &.show {
     transform: translateY(0);
     opacity: 1;
   }
 }
-
 .animate-img {
   overflow: hidden;
   display: inline-block;
   img {
-    transition: all .5s ease-in-out;
+    transition: all .3s cubic-bezier(.215,.61,.355,1),transform .3s cubic-bezier(.215,.61,.355,1);
     &:hover {
       transform: scale(1.2, 1.2);
     }
